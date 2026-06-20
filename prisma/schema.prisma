@@ -1,0 +1,348 @@
+// RUDN Business School platform — database schema.
+// PostgreSQL + Prisma. See README for migration & seed instructions.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ---------------------------------------------------------------------------
+// Auth / admin
+// ---------------------------------------------------------------------------
+
+enum Role {
+  ADMIN
+  EDITOR
+}
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  name         String
+  passwordHash String
+  role         Role     @default(EDITOR)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  posts        Post[]
+  publications Publication[]
+  activity     ActivityLog[]
+}
+
+// ---------------------------------------------------------------------------
+// Public members (site visitors who register an account / subscribe)
+// Kept separate from admin `User` so site accounts can never access the CMS.
+// ---------------------------------------------------------------------------
+
+model Member {
+  id            String   @id @default(cuid())
+  email         String   @unique
+  name          String
+  passwordHash  String
+  subscribed    Boolean  @default(false) // opted in to email updates
+  consentData   Boolean  @default(false)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}
+
+// ---------------------------------------------------------------------------
+// Content model: posts (news / articles / events / expert comments)
+// ---------------------------------------------------------------------------
+
+enum Locale {
+  RU
+  EN
+}
+
+enum PostType {
+  NEWS
+  ARTICLE
+  EVENT
+  EXPERT_COMMENT
+}
+
+enum PostStatus {
+  DRAFT
+  PUBLISHED
+}
+
+// Which brand/section a piece of content belongs to.
+enum Brand {
+  MBA
+  ACCELERATOR
+  ICEMR
+}
+
+model Category {
+  id    String  @id @default(cuid())
+  slug  String  @unique
+  nameRu String
+  nameEn String
+  posts Post[]
+}
+
+model Tag {
+  id     String  @id @default(cuid())
+  slug   String  @unique
+  nameRu String
+  nameEn String
+  posts  Post[]  @relation("PostTags")
+}
+
+model Post {
+  id          String     @id @default(cuid())
+  slug        String     @unique
+  locale      Locale     @default(RU)
+  type        PostType   @default(NEWS)
+  brand       Brand      @default(MBA)
+  status      PostStatus @default(DRAFT)
+  featured    Boolean    @default(false)
+
+  title       String
+  excerpt     String     @db.Text
+  content     String     @db.Text // markdown
+  coverImage  String?
+
+  author      User?      @relation(fields: [authorId], references: [id])
+  authorId    String?
+  authorName  String?    // free-text fallback / external author
+
+  category    Category?  @relation(fields: [categoryId], references: [id])
+  categoryId  String?
+  tags        Tag[]      @relation("PostTags")
+
+  // Events
+  eventStart  DateTime?
+  eventEnd    DateTime?
+  eventLocation String?
+
+  // SEO
+  seoTitle       String?
+  seoDescription String?
+  ogImage        String?
+
+  publishedAt DateTime?
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  @@index([status, publishedAt])
+  @@index([type, brand])
+  @@index([locale])
+}
+
+// ---------------------------------------------------------------------------
+// Publications catalogue (working papers, journal articles, books)
+// ---------------------------------------------------------------------------
+
+enum PublicationType {
+  WORKING_PAPER
+  JOURNAL_ARTICLE
+  BOOK
+  REPORT
+  CONFERENCE_PAPER
+}
+
+model Publication {
+  id          String          @id @default(cuid())
+  slug        String          @unique
+  locale      Locale          @default(EN)
+  type        PublicationType @default(JOURNAL_ARTICLE)
+  brand       Brand           @default(ICEMR)
+  status      PostStatus      @default(PUBLISHED)
+  featured    Boolean         @default(false)
+
+  title       String
+  abstract    String          @db.Text
+  authorsText String          // "Ivanov A., Smith J."
+  year        Int
+  venue       String?         // journal / conference / series
+  field       String?         // research direction
+  doi         String?
+  fileUrl     String?         // attached PDF
+  externalUrl String?         // link to publisher
+
+  addedBy     User?           @relation(fields: [addedById], references: [id])
+  addedById   String?
+
+  seoTitle       String?
+  seoDescription String?
+
+  createdAt   DateTime        @default(now())
+  updatedAt   DateTime        @updatedAt
+
+  @@index([year])
+  @@index([type, field])
+}
+
+// ---------------------------------------------------------------------------
+// Academic programs
+// ---------------------------------------------------------------------------
+
+model Program {
+  id          String  @id @default(cuid())
+  slug        String  @unique
+  brand       Brand   @default(MBA)
+  order       Int     @default(0)
+  published   Boolean @default(true)
+
+  titleRu     String
+  titleEn     String
+  summaryRu   String  @db.Text
+  summaryEn   String  @db.Text
+  // Rich detail stored as markdown per locale
+  bodyRu      String  @db.Text
+  bodyEn      String  @db.Text
+
+  format      String? // "Очно / онлайн"
+  durationRu  String?
+  durationEn  String?
+  audienceRu  String?
+  audienceEn  String?
+  coverImage  String?
+
+  seoTitle       String?
+  seoDescription String?
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+// ---------------------------------------------------------------------------
+// Faculty / experts
+// ---------------------------------------------------------------------------
+
+model Faculty {
+  id        String  @id @default(cuid())
+  slug      String  @unique
+  brand     Brand   @default(MBA)
+  order     Int     @default(0)
+  published Boolean @default(true)
+
+  nameRu    String
+  nameEn    String
+  titleRu   String  // role / position
+  titleEn   String
+  bioRu     String  @db.Text
+  bioEn     String  @db.Text
+  field     String? // specialization
+  photo     String?
+  links     String? // JSON array of {label,url}
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// ---------------------------------------------------------------------------
+// Partners
+// ---------------------------------------------------------------------------
+
+model Partner {
+  id        String  @id @default(cuid())
+  slug      String  @unique
+  order     Int     @default(0)
+  published Boolean @default(true)
+
+  name      String
+  logo      String?
+  url       String?
+  descRu    String? @db.Text
+  descEn    String? @db.Text
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// ---------------------------------------------------------------------------
+// Media library
+// ---------------------------------------------------------------------------
+
+model Media {
+  id         String   @id @default(cuid())
+  url        String
+  filename   String
+  mimeType   String
+  size       Int
+  altRu      String?
+  altEn      String?
+  createdAt  DateTime @default(now())
+}
+
+// ---------------------------------------------------------------------------
+// Form submissions (program application, accelerator, contact, subscribe)
+// ---------------------------------------------------------------------------
+
+enum SubmissionKind {
+  PROGRAM_APPLICATION
+  ACCELERATOR_APPLICATION
+  CONTACT
+  SUBSCRIPTION
+}
+
+enum SubmissionStatus {
+  NEW
+  IN_PROGRESS
+  CONTACTED
+  CLOSED
+  SPAM
+}
+
+model Submission {
+  id            String           @id @default(cuid())
+  kind          SubmissionKind
+  status        SubmissionStatus @default(NEW)
+
+  name          String
+  email         String
+  phone         String?
+  organization  String?
+  interest      String?          // program / section of interest
+  message       String?          @db.Text
+
+  consentData   Boolean          @default(false) // personal data processing — REQUIRED
+  consentMarketing Boolean       @default(false)
+
+  locale        Locale           @default(RU)
+  sourcePath    String?
+  ipHash        String?          // hashed, for rate limiting / abuse only
+
+  createdAt     DateTime         @default(now())
+  updatedAt     DateTime         @updatedAt
+
+  @@index([kind, status])
+  @@index([createdAt])
+}
+
+// ---------------------------------------------------------------------------
+// Legal pages (editable templates: privacy, consent, cookie, terms)
+// ---------------------------------------------------------------------------
+
+model LegalPage {
+  id        String   @id @default(cuid())
+  slug      String   @unique
+  titleRu   String
+  titleEn   String
+  bodyRu    String   @db.Text
+  bodyEn    String   @db.Text
+  updatedAt DateTime @updatedAt
+}
+
+// ---------------------------------------------------------------------------
+// Activity log (publish / update audit trail)
+// ---------------------------------------------------------------------------
+
+model ActivityLog {
+  id        String   @id @default(cuid())
+  user      User?    @relation(fields: [userId], references: [id])
+  userId    String?
+  action    String   // "post.published", "publication.created", ...
+  entity    String   // "Post", "Publication"
+  entityId  String?
+  meta      String?  @db.Text
+  createdAt DateTime @default(now())
+
+  @@index([createdAt])
+}

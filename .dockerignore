@@ -1,0 +1,13 @@
+node_modules
+.next
+.git
+.env
+.env*.local
+.pgdata
+npm-debug.log*
+/public/uploads/*
+!/public/uploads/.gitkeep
+.DS_Store
+*.tsbuildinfo
+docs
+"Website redesign for RUDN.pdf"

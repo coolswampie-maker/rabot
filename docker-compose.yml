@@ -1,0 +1,28 @@
+# Local development services.
+# Starts a PostgreSQL database matching the DATABASE_URL in .env.example.
+#
+#   docker compose up -d        # start Postgres
+#   npm run db:migrate          # apply schema
+#   npm run db:seed             # seed content + first admin
+#
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: rudn_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: rudn
+      POSTGRES_PASSWORD: rudn
+      POSTGRES_DB: rudn
+    ports:
+      - "5432:5432"
+    volumes:
+      - rudn_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U rudn -d rudn"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  rudn_pgdata:

@@ -1,0 +1,89 @@
+import type { Metadata } from 'next';
+import type { Locale } from '@/i18n/config';
+import { getDictionary } from '@/i18n';
+import { buildMetadata } from '@/lib/seo';
+import { localePath } from '@/lib/routing';
+import Breadcrumbs from '@/components/Breadcrumbs';
+import FormWithConsent from '@/components/FormWithConsent';
+
+export async function generateMetadata({ params }: { params: { locale: Locale } }): Promise<Metadata> {
+  const dict = await getDictionary(params.locale);
+  return buildMetadata({
+    title: dict.nav.contacts,
+    description: dict.home.ctaText,
+    locale: params.locale,
+    path: '/contacts',
+  });
+}
+
+export default async function ContactsPage({ params }: { params: { locale: Locale } }) {
+  const locale = params.locale;
+  const dict = await getDictionary(locale);
+  const lp = (p: string) => localePath(locale, p);
+
+  return (
+    <>
+      <Breadcrumbs locale={locale} homeLabel={dict.common.home} items={[{ label: dict.nav.contacts }]} />
+      <section className="section">
+        <div className="container">
+          <header className="mb-8 max-w-2xl">
+            <p className="eyebrow mb-2">{dict.brandShort}</p>
+            <h1 className="text-4xl sm:text-5xl">{dict.nav.contacts}</h1>
+            <p className="mt-3 text-lg text-muted">
+              {locale === 'ru'
+                ? 'Расскажем о программах, форматах и поступлении. Ответим на письмо или перезвоним.'
+                : 'We will tell you about programs, formats and admission. We reply by email or call you back.'}
+            </p>
+          </header>
+
+          <div className="grid items-start gap-10 lg:grid-cols-2">
+            {/* Application form */}
+            <div id="apply" className="card p-7">
+              <h2 className="text-2xl">{dict.nav.apply}</h2>
+              <p className="mb-6 mt-1 text-sm text-muted">{dict.home.ctaText}</p>
+              <FormWithConsent locale={locale} dict={dict} kind="CONTACT" consentHref={lp('/legal/consent')} />
+            </div>
+
+            {/* Contact details + map */}
+            <div>
+              <dl className="grid gap-6 sm:grid-cols-2">
+                <div>
+                  <dt className="text-xs font-semibold uppercase tracking-wide text-muted">{dict.footer.address}</dt>
+                  <dd className="mt-1 text-navy-700">{locale === 'ru' ? 'Москва, ул. Миклухо-Маклая, 6, каб. 11' : 'Moscow, Miklukho-Maklaya St. 6, room 11'}</dd>
+                </div>
+                <div>
+                  <dt className="text-xs font-semibold uppercase tracking-wide text-muted">Email</dt>
+                  <dd className="mt-1">
+                    <a href="mailto:iweb.mba@pfur.ru" className="text-brand-600 hover:text-brand-700">iweb.mba@pfur.ru</a>
+                  </dd>
+                </div>
+                <div>
+                  <dt className="text-xs font-semibold uppercase tracking-wide text-muted">{dict.form.phone}</dt>
+                  <dd className="mt-1">
+                    <a href="tel:+74957873803" className="text-brand-600 hover:text-brand-700">+7 (495) 787-38-03</a>
+                    <span className="text-muted"> · доб. 2466</span>
+                  </dd>
+                </div>
+                <div>
+                  <dt className="text-xs font-semibold uppercase tracking-wide text-muted">Telegram</dt>
+                  <dd className="mt-1">
+                    <a href="https://t.me/MBAaccelerator" target="_blank" rel="noopener noreferrer" className="text-brand-600 hover:text-brand-700">@MBAaccelerator</a>
+                  </dd>
+                </div>
+              </dl>
+
+              <div className="mt-8 overflow-hidden rounded-2xl border border-line">
+                <iframe
+                  title="RUDN map"
+                  src="https://yandex.ru/map-widget/v1/?ll=37.504%2C55.652&z=15&pt=37.504,55.652"
+                  className="h-[420px] w-full"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}

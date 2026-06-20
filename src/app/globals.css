@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Font variables (--font-sans, --font-serif) are provided by next/font on the
+   <html> element. Do NOT hardcode them here or the heading serif is overridden. */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white text-ink antialiased;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  }
+  /* All headings in the solid slab serif — applied site-wide. */
+  h1, h2, h3, h4 {
+    @apply font-serif font-bold text-navy-700;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+  ::selection {
+    @apply bg-brand-200 text-navy-900;
+  }
+  a {
+    @apply transition-colors;
+  }
+  :focus-visible {
+    @apply outline-none ring-2 ring-brand-400 ring-offset-2 rounded;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply container;
+  }
+
+  /* Buttons — solid, restrained, corporate. No gradients. */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-[0.45rem] px-7 py-3.5 text-sm font-semibold transition-colors duration-200 focus-visible:ring-2 focus-visible:ring-offset-2;
+    letter-spacing: 0.01em;
+  }
+  .btn-primary {
+    @apply btn bg-brand-500 text-white hover:bg-brand-600;
+    box-shadow: 0 1px 2px rgba(65, 125, 183, 0.25), 0 4px 14px rgba(65, 125, 183, 0.18);
+  }
+  .btn-secondary {
+    @apply btn border border-brand-300 bg-white text-brand-600 hover:border-brand-500 hover:bg-brand-50;
+  }
+  .btn-ghost {
+    @apply btn text-brand-600 hover:bg-brand-50;
+  }
+  /* On photographic / coloured backgrounds */
+  .btn-light {
+    @apply btn border border-white/60 text-white hover:bg-white hover:text-brand-700;
+  }
+  .btn-on-dark {
+    @apply btn bg-white text-brand-700 hover:bg-brand-50;
+    box-shadow: 0 8px 24px rgba(20, 23, 29, 0.18);
+  }
+
+  /* Cards */
+  .card {
+    @apply rounded-2xl border border-line bg-white shadow-card transition;
+  }
+  .card-hover {
+    @apply card hover:-translate-y-0.5 hover:shadow-card-hover;
+  }
+
+  .eyebrow {
+    @apply text-xs font-semibold uppercase tracking-[0.18em] text-brand-600;
+  }
+
+  .lead {
+    @apply text-lg leading-relaxed text-muted sm:text-xl;
+  }
+
+  .section {
+    @apply py-14 sm:py-16 lg:py-20;
+  }
+
+  .section-tight {
+    @apply py-10 sm:py-12;
+  }
+
+  /* Image-topped content card. Add the `group` class at the usage site for
+     hover effects (Tailwind @apply cannot include `group`). */
+  .card-media {
+    @apply relative flex flex-col overflow-hidden rounded-2xl border border-line bg-white shadow-card transition hover:-translate-y-0.5 hover:shadow-card-hover;
+  }
+  .media-overlay {
+    @apply absolute inset-0 bg-gradient-to-t from-navy-900/85 via-navy-900/25 to-transparent;
+  }
+
+  .chip {
+    @apply inline-flex items-center rounded-full border border-line bg-paper px-3 py-1 text-xs font-medium text-muted;
+  }
+
+  /* Rich text rendered from markdown */
+  .prose-rudn {
+    @apply max-w-prose text-[1.0625rem] leading-relaxed text-ink;
+  }
+  .prose-rudn h2 {
+    @apply mt-10 mb-3 text-2xl;
+  }
+  .prose-rudn h3 {
+    @apply mt-8 mb-2 text-xl;
+  }
+  .prose-rudn p {
+    @apply my-4;
+  }
+  .prose-rudn ul {
+    @apply my-4 list-disc space-y-1.5 pl-6;
+  }
+  .prose-rudn ol {
+    @apply my-4 list-decimal space-y-1.5 pl-6;
+  }
+  .prose-rudn a {
+    @apply font-medium text-brand-600 underline decoration-brand-200 underline-offset-2 hover:text-brand-700;
+  }
+  .prose-rudn blockquote {
+    @apply my-6 border-l-4 border-brand-300 bg-paper py-1 pl-5 italic text-muted;
+  }
+  .prose-rudn img {
+    @apply my-6 rounded-xl;
+  }
+  .prose-rudn table {
+    @apply my-6 w-full border-collapse text-sm;
+  }
+  .prose-rudn th,
+  .prose-rudn td {
+    @apply border border-line px-3 py-2 text-left;
+  }
+}
+
+/* Decorative hero gradient mesh — no external imagery required */
+.hero-mesh {
+  background-color: #0e1830;
+  background-image:
+    radial-gradient(60% 70% at 15% 10%, rgba(65, 125, 183, 0.55) 0%, transparent 60%),
+    radial-gradient(50% 60% at 90% 20%, rgba(44, 80, 120, 0.5) 0%, transparent 55%),
+    radial-gradient(70% 80% at 70% 100%, rgba(200, 164, 90, 0.18) 0%, transparent 60%);
+}
