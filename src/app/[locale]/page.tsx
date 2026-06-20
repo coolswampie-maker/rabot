@@ -8,7 +8,6 @@ import { localePath } from '@/lib/routing';
 import Hero from '@/components/Hero';
 import { SectionHeading } from '@/components/Section';
 import CTASection from '@/components/CTASection';
-import Testimonials from '@/components/Testimonials';
 import FAQ from '@/components/FAQ';
 import { advantages } from '@/content/home';
 
@@ -41,6 +40,16 @@ export default async function HomePage({ params }: { params: { locale: Locale } 
     { title: 'QS Stars', note: ru ? '«5 звёзд» — наивысшая оценка международного рейтинга' : '“5 stars” — the top rating in the international ranking' },
     { title: 'QS World University Rankings', note: ru ? '342 место в мировом рейтинге лучших университетов' : 'Ranked 342nd among the world’s best universities' },
     { title: 'UI GreenMetric', note: ru ? 'Самый «зелёный» университет России, 26 место в мире' : 'The “greenest” university in Russia, 26th worldwide' },
+  ];
+
+  // ИМЭБ / RUDN in numbers (per the RUDN Global Expansion deck).
+  const imebNumbers: { value: string; label: string }[] = [
+    { value: '15', label: ru ? 'программ высшего образования' : 'higher-education programmes' },
+    { value: '7', label: ru ? 'программ бизнес-образования' : 'business-education programmes' },
+    { value: '6', label: ru ? 'программ двойного диплома' : 'double-degree programmes' },
+    { value: '1500', label: ru ? 'студентов ИМЭБ' : 'students at IWEB' },
+    { value: '8', label: ru ? 'баз зарубежных стажировок' : 'foreign internship bases' },
+    { value: '160+', label: ru ? 'стран, откуда выпускники РУДН' : 'countries RUDN alumni come from' },
   ];
 
   const pillars = [
@@ -104,6 +113,26 @@ export default async function HomePage({ params }: { params: { locale: Locale } 
         </div>
       </section>
 
+      {/* IWEB / RUDN in numbers */}
+      <section className="section-tight bg-paper">
+        <div className="container">
+          <SectionHeading
+            eyebrow={dict.brandShort}
+            title={ru ? 'РУДН и ИМЭБ в цифрах' : 'RUDN and IWEB in numbers'}
+            subtitle={ru ? 'Институт мировой экономики и бизнеса (ИМЭБ) Экономического факультета РУДН.' : 'The Institute of World Economy and Business (IWEB), Faculty of Economics, RUDN.'}
+            align="center"
+          />
+          <div className="mx-auto grid max-w-4xl grid-cols-2 gap-y-8 text-center sm:grid-cols-3">
+            {imebNumbers.map((n) => (
+              <div key={n.label}>
+                <div className="font-serif text-3xl text-brand-600 sm:text-4xl">{n.value}</div>
+                <div className="mx-auto mt-1.5 max-w-[12rem] text-sm leading-snug text-muted">{n.label}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Gateway: three directions */}
       <section className="section">
         <div className="container">
@@ -145,7 +174,28 @@ export default async function HomePage({ params }: { params: { locale: Locale } 
         </div>
       </section>
 
-      <Testimonials locale={locale} dict={dict} />
+      {/* Subsidy banner */}
+      <section className="section-tight">
+        <div className="container">
+          <Link
+            href={lp('/subsidy')}
+            className="flex flex-col items-start justify-between gap-5 rounded-2xl bg-navy-700 p-8 text-white sm:flex-row sm:items-center"
+          >
+            <div className="max-w-2xl">
+              <p className="text-xs font-semibold uppercase tracking-wide text-white/70">{ru ? 'Финансирование обучения' : 'Financing your studies'}</p>
+              <p className="mt-2 text-xl font-semibold leading-snug sm:text-2xl">
+                {ru
+                  ? 'Московские работодатели могут вернуть до 95% стоимости обучения сотрудников — включая программы MBA'
+                  : 'Moscow employers can recover up to 95% of employee tuition — including MBA programmes'}
+              </p>
+              <p className="mt-2 text-sm text-white/75">
+                {ru ? 'Субсидия из бюджета города Москвы — до 10 млн ₽ на компанию.' : 'A subsidy from the Moscow city budget — up to ₽10M per company.'}
+              </p>
+            </div>
+            <span className="shrink-0 rounded-full bg-white px-6 py-3 text-sm font-semibold text-navy-700">{dict.nav.subsidy} →</span>
+          </Link>
+        </div>
+      </section>
 
       <FAQ locale={locale} dict={dict} />
 

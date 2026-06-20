@@ -20,6 +20,33 @@ export default async function ContactsPage({ params }: { params: { locale: Local
   const locale = params.locale;
   const dict = await getDictionary(locale);
   const lp = (p: string) => localePath(locale, p);
+  const ru = locale === 'ru';
+
+  // Programme leadership (from the official RUDN programme decks).
+  const team: { name: string; role: string; email: string; extra?: string }[] = [
+    {
+      name: ru ? 'Андронова Инна Витальевна' : 'Inna Andronova',
+      role: ru
+        ? 'д.э.н., профессор, декан Экономического факультета РУДН, заведующая кафедрой международных экономических отношений'
+        : 'D.Sc. (Economics), professor, Dean of the Faculty of Economics, RUDN; Head of the Department of International Economic Relations',
+      email: 'andronova-iv@rudn.ru',
+    },
+    {
+      name: ru ? 'Пинчук Виктор Николаевич' : 'Viktor Pinchuk',
+      role: ru
+        ? 'д.э.н., директор Института мировой экономики и бизнеса (ИМЭБ)'
+        : 'D.Sc. (Economics), Director of the Institute of World Economy and Business (IWEB)',
+      email: 'pinchuk-vn@rudn.ru',
+    },
+    {
+      name: ru ? 'Оганесян Ани Ашотовна' : 'Ani Oganesyan',
+      role: ru
+        ? 'к.э.н., Ph.D., доцент, руководитель программ MBA'
+        : 'PhD (Economics), associate professor, Head of MBA programmes',
+      email: 'oganesyan-aa@rudn.ru',
+      extra: '+7 (925) 881-25-94 · Telegram @anihov',
+    },
+  ];
 
   return (
     <>
@@ -80,6 +107,23 @@ export default async function ContactsPage({ params }: { params: { locale: Local
                   loading="lazy"
                 />
               </div>
+            </div>
+          </div>
+
+          {/* Programme leadership */}
+          <div className="mt-14">
+            <h2 className="text-2xl font-bold text-navy-700">{ru ? 'Руководство программ' : 'Programme leadership'}</h2>
+            <div className="mt-6 grid gap-5 md:grid-cols-3">
+              {team.map((m) => (
+                <div key={m.email} className="card p-6">
+                  <h3 className="text-base leading-tight text-navy-700">{m.name}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-muted">{m.role}</p>
+                  <p className="mt-3 text-sm">
+                    <a href={`mailto:${m.email}`} className="text-brand-600 hover:text-brand-700">{m.email}</a>
+                  </p>
+                  {m.extra && <p className="mt-1 text-sm text-muted">{m.extra}</p>}
+                </div>
+              ))}
             </div>
           </div>
         </div>

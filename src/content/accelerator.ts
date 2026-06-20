@@ -161,8 +161,8 @@ export const acceleratorAdvantages: Bi[] = [
 ];
 
 // Partners specific to the accelerator (from the deck).
-export const acceleratorPartners: { name: string; role: Bi }[] = [
-  { name: 'Hop.Agency', role: { ru: 'Партнёр по отбору и трекерскому сопровождению', en: 'Partner for selection and tracker support' } },
-  { name: 'Sber Unity', role: { ru: 'Корпоративный партнёр', en: 'Corporate partner' } },
-  { name: 'Cyberstage', role: { ru: 'Корпоративный партнёр', en: 'Corporate partner' } },
+export const acceleratorPartners: { name: string; logo: string; role: Bi }[] = [
+  { name: 'Hop.Agency', logo: '/images/partners/hop-agency.png', role: { ru: 'Партнёр по отбору и трекерскому сопровождению', en: 'Partner for selection and tracker support' } },
+  { name: 'Sber Unity', logo: '/images/partners/sber-unity.png', role: { ru: 'Корпоративный партнёр', en: 'Corporate partner' } },
+  { name: 'Cyberstage', logo: '/images/partners/cyberstage.png', role: { ru: 'Корпоративный партнёр', en: 'Corporate partner' } },
 ];

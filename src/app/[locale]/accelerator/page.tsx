@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import type { Locale } from '@/i18n/config';
 import { getDictionary } from '@/i18n';
 import { buildMetadata } from '@/lib/seo';
@@ -278,9 +279,11 @@ export default async function AcceleratorPage({ params }: { params: { locale: Lo
           <SectionHeading eyebrow={dict.nav.partners} title={dict.home.partnersTitle} align="center" />
           <div className="mx-auto grid max-w-3xl gap-4 sm:grid-cols-3">
             {acceleratorPartners.map((p) => (
-              <div key={p.name} className="rounded-2xl border border-line bg-white p-6 text-center shadow-card">
-                <div className="font-bold text-navy-700">{p.name}</div>
-                <div className="mt-1.5 text-sm leading-snug text-muted">{p.role[locale]}</div>
+              <div key={p.name} className="flex flex-col items-center rounded-2xl border border-line bg-white p-6 text-center shadow-card">
+                <div className="flex h-14 items-center justify-center">
+                  <Image src={p.logo} alt={p.name} width={180} height={48} className="h-auto max-h-12 w-auto object-contain" />
+                </div>
+                <div className="mt-3 text-sm leading-snug text-muted">{p.role[locale]}</div>
               </div>
             ))}
           </div>

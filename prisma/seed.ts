@@ -683,10 +683,13 @@ On campus or online, on a modular schedule. On completion you receive a RUDN pro
   ]
 
   for (const f of facultyData) {
+    // Lecturers and trackers (order < 200) have portrait photos extracted from
+    // the programme deck; international experts (order >= 200) do not.
+    const withPhoto = { ...f, photo: f.order < 200 ? `/images/faculty/${f.slug}.png` : null }
     await prisma.faculty.upsert({
       where: { slug: f.slug },
-      update: f,
-      create: f,
+      update: withPhoto,
+      create: withPhoto,
     })
   }
 
