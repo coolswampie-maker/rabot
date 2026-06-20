@@ -36,11 +36,11 @@ export default async function HomePage({ params }: { params: { locale: Locale } 
     { value: '170+', label: ru ? 'стран, где работают выпускники' : 'countries where alumni work' },
   ];
 
-  // Real RUDN University recognitions (verifiable — university-level).
+  // RUDN University recognitions (per the RUDN Global Expansion deck).
   const recognition: { title: string; note: string }[] = [
-    { title: 'QS World University Rankings', note: ru ? 'Топ-400 университетов мира (2026)' : 'Top-400 universities worldwide (2026)' },
-    { title: 'RUR World University Ranking', note: ru ? 'Топ-100 мира по качеству преподавания' : 'Top-100 worldwide for teaching quality' },
-    { title: ru ? '«Приоритет-2030»' : 'Priority 2030', note: ru ? 'Участник программы развития вузов' : 'University development programme member' },
+    { title: 'QS Stars', note: ru ? '«5 звёзд» — наивысшая оценка международного рейтинга' : '“5 stars” — the top rating in the international ranking' },
+    { title: 'QS World University Rankings', note: ru ? '342 место в мировом рейтинге лучших университетов' : 'Ranked 342nd among the world’s best universities' },
+    { title: 'UI GreenMetric', note: ru ? 'Самый «зелёный» университет России, 26 место в мире' : 'The “greenest” university in Russia, 26th worldwide' },
   ];
 
   const pillars = [

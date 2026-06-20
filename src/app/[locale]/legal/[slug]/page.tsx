@@ -9,6 +9,13 @@ import Prose from '@/components/Prose';
 
 const KNOWN = ['privacy', 'consent', 'cookie', 'terms'];
 
+export function generateStaticParams() {
+  return KNOWN.flatMap((slug) => [
+    { locale: 'ru', slug },
+    { locale: 'en', slug },
+  ]);
+}
+
 export async function generateMetadata({
   params,
 }: {

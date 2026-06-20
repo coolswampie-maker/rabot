@@ -169,46 +169,149 @@ Three days a month on the RUDN campus, with online tracking and work on your own
       titleRu: 'RUDN Global Expansion',
       titleEn: 'RUDN Global Expansion',
       summaryRu:
-        'Программа для компаний, которые выходят на зарубежные рынки и хотят сделать это без дорогих ошибок. Содержание собирается под конкретную задачу заказчика, занятия проходят очно и онлайн.',
+        'Корпоративная программа бизнес-образования для команд компаний, которые выводят продукт и бизнес на международные рынки. Содержание собирается под запрос заказчика, программа длится от 6 месяцев и сочетает корпоративный трекинг команды с выездными модулями в фокусные страны.',
       summaryEn:
-        'A programme for companies entering foreign markets that want to do it without expensive mistakes. The content is assembled around the client\'s specific task, and classes are held both on campus and online.',
+        'A corporate business-education programme for company teams taking their product and business into international markets. The content is assembled around the client\'s request, the programme runs from 6 months and combines corporate team tracking with on-site modules in focus countries.',
       bodyRu: `## О программе
 
-RUDN Global Expansion помогает компаниям спланировать выход за рубеж так, чтобы решения опирались на данные, а не на оптимизм. Мы разбираем, какие рынки действительно подходят вашему продукту, как адаптировать модель под местные правила и культуру и где обычно теряются деньги при международной экспансии.
+RUDN Global Expansion — это корпоративная программа для компаний, которые выходят на международные рынки и хотят сделать это с работающей стратегией, а не на оптимизме. Программа состоит из четырёх образовательно-практических блоков, корпоративного трекинга команды для выстраивания управляемого роста и выездного модуля в фокусную страну. Формат и расписание адаптируются под цели и запрос компании и состав участников.
 
-## Как устроено обучение
+## Для кого
 
-Программа разрабатывается под запрос: мы отталкиваемся от вашей отрасли, географии и стадии. В работу включены преподаватели и эксперты с реальным опытом сделок в СНГ, Европе, на Ближнем Востоке и в Латинской Америке.
+- Руководители, нацеленные на вывод компании на международные рынки
+- Руководители направлений развития и создания новых продуктов в корпорациях
+- Менеджеры, отвечающие за развитие бизнеса
 
+## Цели программы
 
-## Формат
+- Получить системные знания для международного развития компании и выхода на новые рынки
+- Создать и внедрить работающую стратегию международного развития
+- Освоить лучшие практики ведения внешнеэкономической деятельности
+- Развить сеть B2B- и B2G-контактов в фокусных странах
 
-Очно и онлайн, в удобном для команды графике. На выходе — проработанный план выхода на выбранный рынок с оценкой рисков и бюджета.
+## Преимущества
 
-## Документ
+- Преподаватели-практики международного уровня и современные практические инструменты
+- Менторская и экспертная поддержка от практиков-профессионалов
+- Выездные модули в странах Азии, Ближнего Востока, Латинской Америки и Африки
+- Доступ к бизнес-сообществам и лицам, принимающим решения, в фокусных странах
 
-По итогам обучения выдаётся диплом о профессиональной переподготовке РУДН.`,
+## Как мы разрабатываем и ведём программу
+
+1. Встреча с компанией для выявления запроса и определения состава участников
+2. Подготовка и утверждение программы, её ключевых блоков, формата и сроков
+3. Стратегическая сессия с ключевыми участниками: цели, задачи, сроки и зоны ответственности по выводу продукта на рынок
+4. Подбор и согласование экспертов, бизнес-трекера и практиков
+5. Реализация модулей в соответствии с утверждённой программой
+6. Стратегическая сессия для защиты проектов и определения следующих шагов
+
+## Что получают выпускники
+
+Инструменты для выполнения функций директора зарубежного филиала или сети, директора по международному развитию, директора по маркетингу и директора по развитию продуктов.
+
+## Формат и документ
+
+Продолжительность — от 6 месяцев. Очно, онлайн и выездные модули, график подстраивается под команду. По итогам обучения выдаётся диплом РУДН о профессиональной переподготовке.`,
       bodyEn: `## About the programme
 
-RUDN Global Expansion helps companies plan their move abroad so that decisions rest on data rather than on optimism. We work through which markets genuinely fit your product, how to adapt your model to local rules and culture, and where money is usually lost during international expansion.
+RUDN Global Expansion is a corporate programme for companies entering international markets that want to do it with a working strategy rather than on optimism. It consists of four educational-and-practical blocks, corporate tracking of the team to build managed growth, and an on-site module in a focus country. The format and schedule are adapted to the company's goals, request and participants.
 
-## How the training works
+## Who it is for
 
-The programme is developed on request: we start from your industry, geography and stage. The work involves lecturers and experts with real deal experience in the CIS, Europe, the Middle East and Latin America.
+- Executives focused on taking the company into international markets
+- Heads of development and new-product directions in corporations
+- Managers responsible for business development
 
+## Programme goals
 
-## Format
+- Gain systematic knowledge for the company's international development and market entry
+- Create and implement a working international-development strategy
+- Master best practices in foreign trade
+- Build a network of B2B and B2G contacts in focus countries
 
-On campus and online, on a schedule that suits the team. You finish with a worked-out market-entry plan including an assessment of risks and budget.
+## Advantages
 
-## Qualification
+- International-level practitioner lecturers and modern, hands-on tools
+- Mentoring and expert support from professional practitioners
+- On-site modules in Asia, the Middle East, Latin America and Africa
+- Access to business communities and decision-makers in focus countries
 
-On completion you receive a RUDN professional retraining diploma.`,
+## How we design and run the programme
+
+1. A meeting with the company to clarify the request and define the participants
+2. Preparation and approval of the programme, its key blocks, format and timeline
+3. A strategy session with key participants: goals, tasks, timelines and areas of responsibility for market entry
+4. Selecting and agreeing experts, a business tracker and practitioners
+5. Delivering the modules according to the approved programme
+6. A strategy session to defend the projects and define the next steps
+
+## What graduates gain
+
+The tools to perform the roles of director of a foreign branch or network, international-development director, marketing director and product-development director.
+
+## Format and qualification
+
+Duration is from 6 months. On campus, online and on-site modules, with a schedule that fits the team. On completion you receive a RUDN professional retraining diploma.`,
+      format: 'Очно / онлайн / выездные модули',
+      durationRu: 'От 6 месяцев',
+      durationEn: 'From 6 months',
+      audienceRu: 'Команды компаний, выходящих на международные рынки',
+      audienceEn: 'Teams of companies entering international markets',
+    },
+    {
+      slug: 'mba-global-expansion',
+      brand: 'MBA',
+      order: 4,
+      published: true,
+      titleRu: 'MBA «Global Expansion. Выход на новые рынки»',
+      titleEn: 'MBA “Global Expansion. Entering new markets”',
+      summaryRu:
+        'Классическая модульная MBA-специализация по международному развитию бизнеса: 22 модуля и 1800 академических часов (680 аудиторных). Программа завершается защитой итогового проекта — дорожной карты развития компании.',
+      summaryEn:
+        'A classic modular MBA specialisation in international business development: 22 modules and 1,800 academic hours (680 in class). The programme concludes with the defence of a capstone project — a company development roadmap.',
+      bodyRu: `## О программе
+
+MBA «Global Expansion. Выход на новые рынки» — классическая программа модульного типа для руководителей и предпринимателей, которые системно готовят компанию к международному развитию. Программа охватывает 22 модуля и 1800 академических часов, из них 680 аудиторных, и сочетает фундаментальную управленческую подготовку с прикладными модулями по выходу на зарубежные рынки.
+
+## Чему вы научитесь
+
+- Строить стратегию выхода на международные рынки и управлять в условиях глобализации
+- Исследовать зарубежные рынки, выстраивать продажи и маркетинг в разных странах
+- Управлять финансами, валютными рисками и инвестиционными проектами международного бизнеса
+- Разбираться в международном торговом праве, экспортном, налоговом и таможенном регулировании
+- Оптимизировать цепочки поставок и внедрять инновации для масштабирования
+
+## Структура программы
+
+Программа состоит из 22 модулей, объединённых в тематические блоки — от стратегического менеджмента и исследования рынков до права, ВЭД и логистики. Завершается обучение мастер-классами, мастермайндом для предпринимателей и подготовкой и защитой итогового проекта — дорожной карты развития компании.
+
+## Формат и документ
+
+Очно или онлайн, модульный график. По итогам обучения выдаётся диплом РУДН о профессиональной переподготовке с присвоением квалификации MBA.`,
+      bodyEn: `## About the programme
+
+MBA “Global Expansion. Entering new markets” is a classic modular programme for executives and entrepreneurs who prepare their company for international development systematically. It covers 22 modules and 1,800 academic hours, 680 of them in class, combining a solid management foundation with applied modules on entering foreign markets.
+
+## What you will learn
+
+- Build a market-entry strategy and manage under globalisation
+- Research foreign markets and build sales and marketing across countries
+- Manage finance, currency risk and investment projects in international business
+- Navigate international trade law and export, tax and customs regulation
+- Optimise supply chains and adopt innovation for scaling
+
+## Programme structure
+
+The programme consists of 22 modules grouped into thematic blocks — from strategic management and market research to law, foreign trade and logistics. It concludes with masterclasses, an entrepreneurs' mastermind and the preparation and defence of a capstone project — a company development roadmap.
+
+## Format and qualification
+
+On campus or online, on a modular schedule. On completion you receive a RUDN professional retraining diploma awarding the MBA qualification.`,
       format: 'Очно / онлайн',
-      durationRu: 'По запросу',
-      durationEn: 'On request',
-      audienceRu: 'Компании, планирующие выход на международные рынки',
-      audienceEn: 'Companies planning to enter international markets',
+      durationRu: '1800 ак. часов',
+      durationEn: '1,800 academic hours',
+      audienceRu: 'Руководители и предприниматели, развивающие международное направление',
+      audienceEn: 'Executives and entrepreneurs developing an international track',
     },
   ]
 
@@ -223,7 +326,11 @@ On completion you receive a RUDN professional retraining diploma.`,
   // ---------------------------------------------------------------------------
   // Faculty
   // ---------------------------------------------------------------------------
+  // Faculty roster mirrors the official programme decks. Roles are grouped by
+  // `order` ranges so the Faculty page can render headed sections without a
+  // schema change: 1–99 lecturers, 100–199 trackers, 200–299 international experts.
   const facultyData = [
+    // ----- Преподаватели программы (lecturers) — order 1–99 -----
     {
       slug: 'irina-gerasimenko',
       brand: 'MBA',
@@ -231,118 +338,347 @@ On completion you receive a RUDN professional retraining diploma.`,
       published: true,
       nameRu: 'Ирина Герасименко',
       nameEn: 'Irina Gerasimenko',
-      titleRu: 'MBA/EMBA, эксперт по стратегической трансформации',
-      titleEn: 'Strategic transformation expert',
+      titleRu: 'Эксперт по стратегической трансформации и управлению изменениями',
+      titleEn: 'Expert in strategic transformation and change management',
       bioRu:
-        'Более 16 лет руководит компаниями с оборотом до 20 млрд рублей в IT, кибербезопасности, логистике и e-commerce. Работала над проектами в России, СНГ, Европе, Бразилии и на Ближнем Востоке.',
+        'Более 16 лет в стратегической трансформации компаний с оборотами до 20 млрд ₽ в год. Ведёт блок лидерства и управления изменениями.',
       bioEn:
-        'Has led companies with turnover of up to 20 billion roubles for more than 16 years across IT, cybersecurity, logistics and e-commerce. She has run projects in Russia, the CIS, Europe, Brazil and the Middle East.',
+        'More than 16 years in the strategic transformation of companies with annual turnover of up to 20 billion roubles. She leads the leadership and change-management block.',
       field: 'Стратегия',
     },
     {
-      slug: 'renata-george',
+      slug: 'olga-vasilieva',
       brand: 'MBA',
       order: 2,
       published: true,
-      nameRu: 'Рената Джордж',
-      nameEn: 'Renata George',
-      titleRu: 'Инвестор, венчурный партнёр',
-      titleEn: 'Investor, VC partner',
+      nameRu: 'Ольга Васильева',
+      nameEn: 'Olga Vasilieva',
+      titleRu: 'Старший преподаватель',
+      titleEn: 'Senior lecturer',
       bioRu:
-        'Синдикатор в фонде iZBA VC, инвестирует в технологические компании ранних стадий. Forbes дважды включал её в список самых влиятельных женщин венчурной индустрии — в 2012 и 2015 годах.',
+        'Автор и ведущий цикла тренингов по развитию интеллектуального потенциала и личной эффективности.',
       bioEn:
-        'A syndicator at iZBA VC who invests in early-stage technology companies. Forbes named her among the Top Women in Venture Capital twice — in 2012 and 2015.',
-      field: 'Венчурные инвестиции',
+        'Author and host of a series of trainings on developing intellectual potential and personal effectiveness.',
+      field: 'Личная эффективность',
     },
     {
-      slug: 'alexander-chumikov',
+      slug: 'anna-pak',
       brand: 'MBA',
       order: 3,
       published: true,
-      nameRu: 'Александр Чумиков',
-      nameEn: 'Alexander Chumikov',
-      titleRu: 'Доктор наук, профессор',
-      titleEn: 'Doctor of Sciences, professor',
+      nameRu: 'Анна Пак',
+      nameEn: 'Anna Pak',
+      titleRu: 'Эксперт по таможенно-тарифному регулированию',
+      titleEn: 'Expert in customs and tariff regulation',
       bioRu:
-        'Профессор РУДН, автор более 40 учебников и монографий по коммуникациям и связям с общественностью. Среди наград — премия IPRA Golden World Awards.',
+        'Евразийская экономическая комиссия, Департамент промышленной политики.',
       bioEn:
-        'A professor at RUDN and the author of more than 40 textbooks and monographs on communications and public relations. His honours include the IPRA Golden World Awards.',
-      field: 'Коммуникации',
+        'Eurasian Economic Commission, Department of Industrial Policy.',
+      field: 'ВЭД',
     },
     {
-      slug: 'natalia-karmina',
+      slug: 'nikolay-shilkin',
       brand: 'MBA',
       order: 4,
       published: true,
-      nameRu: 'Наталья Кармина',
-      nameEn: 'Natalia Karmina',
-      titleRu: 'К.э.н., директор по маркетингу',
-      titleEn: 'PhD (Economics), marketing director',
+      nameRu: 'Николай Шилкин',
+      nameEn: 'Nikolay Shilkin',
+      titleRu: 'Консультант по выходу на глобальные рынки',
+      titleEn: 'Consultant on entering global markets',
       bioRu:
-        'Кандидат экономических наук и практикующий директор по маркетингу. Преподаёт маркетинг на программах MBA и помогает компаниям выстраивать работу с рынком на данных.',
+        'Консультирует работающие в России транснациональные корпорации и российские компании, выходящие на глобальный рынок.',
       bioEn:
-        'Holds a PhD in economics and works as a practising marketing director. She teaches marketing on MBA programmes and helps companies build data-driven work with the market.',
-      field: 'Маркетинг',
-    },
-    {
-      slug: 'vladimir-grigoriev',
-      brand: 'MBA',
-      order: 5,
-      published: true,
-      nameRu: 'Владимир Григорьев',
-      nameEn: 'Vladimir Grigoriev',
-      titleRu: 'К.э.н., преподаватель финансов',
-      titleEn: 'PhD (Economics), finance lecturer',
-      bioRu:
-        'Кандидат экономических наук, преподаёт финансы на программах MBA в РУДН, Сколково и НИУ ВШЭ. Объясняет финансовый язык так, чтобы им мог пользоваться любой руководитель.',
-      bioEn:
-        'Holds a PhD in economics and teaches finance on MBA programmes at RUDN, Skolkovo and HSE. He explains the language of finance so that any manager can actually use it.',
-      field: 'Финансы',
+        'Advises transnational corporations operating in Russia and Russian companies expanding into global markets.',
+      field: 'Международный бизнес',
     },
     {
       slug: 'igor-korneev',
       brand: 'MBA',
-      order: 6,
+      order: 5,
       published: true,
       nameRu: 'Игорь Корнеев',
       nameEn: 'Igor Korneev',
-      titleRu: 'Бизнес-консультант',
-      titleEn: 'Business consultant',
+      titleRu: 'Кандидат военных наук, доцент',
+      titleEn: 'PhD, associate professor',
       bioRu:
-        'Консультант по стратегическому и операционному управлению с опытом более 10 лет в корпоративном обучении. Помогает командам наводить порядок в процессах и доводить решения до результата.',
+        'Опыт реализации консалтинговых проектов в сфере продаж и логистического сервиса.',
       bioEn:
-        'A consultant in strategic and operational management with more than 10 years in corporate training. He helps teams bring order to their processes and turn decisions into results.',
-      field: 'Операционный менеджмент',
+        'Experience delivering consulting projects in sales and logistics services.',
+      field: 'Продажи и логистика',
     },
+    {
+      slug: 'denis-channov',
+      brand: 'MBA',
+      order: 6,
+      published: true,
+      nameRu: 'Денис Чаннов',
+      nameEn: 'Denis Channov',
+      titleRu: 'Серийный предприниматель, эксперт по международному экспорту',
+      titleEn: 'Serial entrepreneur, international export expert',
+      bioRu:
+        'Эксперт-практик по международному экспорту в акселераторах МИК, МЭЦ, Уралсиб, ТМК и др.',
+      bioEn:
+        'A hands-on international-export expert in the MIK, MEC, Uralsib and TMK accelerators and others.',
+      field: 'Международный экспорт',
+    },
+
+    // ----- Трекеры программы (trackers) — order 100–199 -----
     {
       slug: 'natalia-starostina',
       brand: 'ACCELERATOR',
-      order: 7,
+      order: 101,
       published: true,
       nameRu: 'Наталья Старостина',
       nameEn: 'Natalia Starostina',
       titleRu: 'Ведущий трекер программы',
-      titleEn: 'Lead program tracker',
+      titleEn: 'Lead programme tracker',
       bioRu:
-        'Сооснователь агентства Hop. Agency и совладелец инвесторского клуба Venture Games. Ведёт трекинг предпринимателей и помогает им находить точки роста на каждом этапе.',
+        'Сооснователь Hop.Agency, управляющий партнёр программ скаутинга, акселерации и вывода на международный рынок венчурного билдера UDT/X, совладелец клуба венчурных инвесторов Venture Games.',
       bioEn:
-        'Co-founder of Hop. Agency and co-owner of the Venture Games investor club. She tracks entrepreneurs and helps them find growth points at every stage.',
+        'Co-founder of Hop.Agency, managing partner of scouting, acceleration and international market-entry programmes at the UDT/X venture builder, and co-owner of the Venture Games investor club.',
       field: 'Трекинг',
+    },
+    {
+      slug: 'leonid-larshin',
+      brand: 'ACCELERATOR',
+      order: 102,
+      published: true,
+      nameRu: 'Леонид Ларшин',
+      nameEn: 'Leonid Larshin',
+      titleRu: 'Executive-трекер',
+      titleEn: 'Executive tracker',
+      bioRu:
+        'Трекер года 2020 в номинации «Трекинговые инструменты в управлении».',
+      bioEn:
+        'Tracker of the Year 2020 in the “Tracking tools in management” category.',
+      field: 'Трекинг',
+    },
+    {
+      slug: 'oleg-akulov',
+      brand: 'ACCELERATOR',
+      order: 103,
+      published: true,
+      nameRu: 'Олег Акулов',
+      nameEn: 'Oleg Akulov',
+      titleRu: 'Ведущий трекер и эксперт',
+      titleEn: 'Lead tracker and expert',
+      bioRu:
+        'Эксперт акселераторов ФРИИ, ФинтехЛаб, Start Hub, ФПСП. 10 лет в e-commerce.',
+      bioEn:
+        'An expert in the IIDF, FintechLab, Start Hub and FPSP accelerators. 10 years in e-commerce.',
+      field: 'Акселерация · e-commerce',
+    },
+    {
+      slug: 'sergey-vasiliev',
+      brand: 'ACCELERATOR',
+      order: 104,
+      published: true,
+      nameRu: 'Сергей Васильев',
+      nameEn: 'Sergey Vasiliev',
+      titleRu: 'Венчурный партнёр',
+      titleEn: 'Venture partner',
+      bioRu:
+        'Венчурный партнёр фондов Yellow Rockets и Friendly VC, ассоциированный партнёр O2Консалтинг по венчурным инвестициям и корпоративным инновациям.',
+      bioEn:
+        'Venture partner at the Yellow Rockets and Friendly VC funds and an associate partner at O2Consulting for venture investment and corporate innovation.',
+      field: 'Венчурные инвестиции',
+    },
+    {
+      slug: 'gadzhimurad-aliev',
+      brand: 'ACCELERATOR',
+      order: 105,
+      published: true,
+      nameRu: 'Гаджимурад Алиев',
+      nameEn: 'Gadzhimurad Aliev',
+      titleRu: 'Предприниматель, инноватор',
+      titleEn: 'Entrepreneur, innovator',
+      bioRu:
+        'Более 10 лет в венчурной индустрии. Сооснователь комьюнити предпринимателей и инвесторов GoAsia.club.',
+      bioEn:
+        'More than 10 years in the venture industry. Co-founder of the GoAsia.club community of entrepreneurs and investors.',
+      field: 'Венчур',
     },
     {
       slug: 'lyudmila-bulavkina',
       brand: 'ACCELERATOR',
-      order: 8,
+      order: 106,
       published: true,
       nameRu: 'Людмила Булавкина',
       nameEn: 'Lyudmila Bulavkina',
-      titleRu: 'Трекер, наставник',
-      titleEn: 'Tracker, mentor',
+      titleRu: 'Стратегический консультант',
+      titleEn: 'Strategic consultant',
       bioRu:
-        'Трекер с 2015 года, дважды признавалась «Трекером года». Работала с командами Сбера, Яндекса и МТС, сопровождая проекты от гипотезы до устойчивого роста.',
+        'Серийный предприниматель, бизнес-ангел.',
       bioEn:
-        'A tracker since 2015 and a two-time "Tracker of the Year". She has worked with teams at Sber, Yandex and MTS, guiding projects from hypothesis to sustainable growth.',
+        'Serial entrepreneur and business angel.',
       field: 'Акселерация',
+    },
+    {
+      slug: 'dmitry-korobtsev',
+      brand: 'ACCELERATOR',
+      order: 107,
+      published: true,
+      nameRu: 'Дмитрий Коробцев',
+      nameEn: 'Dmitry Korobtsev',
+      titleRu: 'Эксперт по продажам',
+      titleEn: 'Sales expert',
+      bioRu:
+        'Управлял командами продаж в Google, Cisco, Microsoft, Canon, HP, Avaya, Adobe, Citrix в РФ, СНГ и Европе. 5+ лет работает с edtech-, fintech-, e-commerce-, retail- и foodtech-стартапами в Индии, Европе, США и Латинской Америке.',
+      bioEn:
+        'Led sales teams at Google, Cisco, Microsoft, Canon, HP, Avaya, Adobe and Citrix across Russia, the CIS and Europe. For 5+ years he has worked with edtech, fintech, e-commerce, retail and foodtech startups in India, Europe, the US and Latin America.',
+      field: 'Продажи',
+    },
+    {
+      slug: 'inna-nosivskaya',
+      brand: 'ACCELERATOR',
+      order: 108,
+      published: true,
+      nameRu: 'Инна Носивская',
+      nameEn: 'Inna Nosivskaya',
+      titleRu: 'Наставник продуктовых команд',
+      titleEn: 'Product team mentor',
+      bioRu:
+        'Трекер в федеральных проектах национальной программы «Цифровая экономика Российской Федерации».',
+      bioEn:
+        'A tracker in federal projects of the national programme “Digital Economy of the Russian Federation”.',
+      field: 'Продукт',
+    },
+    {
+      slug: 'dmitry-morozov',
+      brand: 'ACCELERATOR',
+      order: 109,
+      published: true,
+      nameRu: 'Дмитрий Морозов',
+      nameEn: 'Dmitry Morozov',
+      titleRu: 'Ведущий трекер ФРИИ',
+      titleEn: 'Lead IIDF tracker',
+      bioRu:
+        'Корпоративный трекер «Северстали», коуч PCC ICF.',
+      bioEn:
+        'Corporate tracker at Severstal and a PCC ICF coach.',
+      field: 'Трекинг',
+    },
+    {
+      slug: 'alexander-pustovit',
+      brand: 'ACCELERATOR',
+      order: 110,
+      published: true,
+      nameRu: 'Александр Пустовит',
+      nameEn: 'Alexander Pustovit',
+      titleRu: 'Управляющий партнёр Product.Vision',
+      titleEn: 'Managing partner at Product.Vision',
+      bioRu:
+        'Ex-PwC, Deutsche Bank, ведущий трекер ФРИИ. Главный методолог корпоративных программ в Stanford Online.',
+      bioEn:
+        'Ex-PwC and Deutsche Bank, a lead IIDF tracker and chief methodologist of corporate programmes at Stanford Online.',
+      field: 'Методология',
+    },
+    {
+      slug: 'olga-elina',
+      brand: 'ACCELERATOR',
+      order: 111,
+      published: true,
+      nameRu: 'Ольга Елина',
+      nameEn: 'Olga Elina',
+      titleRu: 'Ведущий трекер и эксперт',
+      titleEn: 'Lead tracker and expert',
+      bioRu:
+        'Эксперт акселераторов ФРИИ, ФинтехЛаб, Start Hub, ФПСП. 10 лет в e-commerce.',
+      bioEn:
+        'An expert in the IIDF, FintechLab, Start Hub and FPSP accelerators. 10 years in e-commerce.',
+      field: 'Акселерация · e-commerce',
+    },
+
+    // ----- Международные эксперты (international experts) — order 200–299 -----
+    {
+      slug: 'joaquin-costa',
+      brand: 'ACCELERATOR',
+      order: 201,
+      published: true,
+      nameRu: 'Хоакин Коста',
+      nameEn: 'Joaquin Costa',
+      titleRu: 'Управляющий партнёр ROSVC',
+      titleEn: 'Managing partner at ROSVC',
+      bioRu:
+        'Более 13 лет в международном развитии стартапов, в частности в регионе Латинской Америки.',
+      bioEn:
+        'More than 13 years in the international development of startups, particularly in the LATAM region.',
+      field: 'Международное развитие · LATAM',
+    },
+    {
+      slug: 'vandana-mathur-dol',
+      brand: 'ACCELERATOR',
+      order: 202,
+      published: true,
+      nameRu: 'Вандана Матур-Дол',
+      nameEn: 'Vandana Mathur-Dol',
+      titleRu: 'Операционный директор ID Capital',
+      titleEn: 'COO at ID Capital',
+      bioRu:
+        'Эксперт в фуд- и агротехнологиях, SmartCity и промышленных технологиях. Руководитель GROW Impact (Юго-Восточная Азия).',
+      bioEn:
+        'An expert in food and agritech, SmartCity and industrial technologies. Head of GROW Impact (South-East Asia).',
+      field: 'AgriTech · Юго-Восточная Азия',
+    },
+    {
+      slug: 'walter-heredia',
+      brand: 'ACCELERATOR',
+      order: 203,
+      published: true,
+      nameRu: 'Вальтер Хередиа',
+      nameEn: 'Walter Heredia',
+      titleRu: 'Тренер по предпринимательству',
+      titleEn: 'Entrepreneurship coach',
+      bioRu:
+        'Тренер Национального института предпринимательства Мексики, экс-коммерческий директор PwC Мексика. Большой опыт работы со стартапами, МСП и ТНК.',
+      bioEn:
+        'A coach at Mexico’s National Institute of Entrepreneurship and former commercial director of PwC Mexico, with extensive experience working with startups, SMEs and multinationals.',
+      field: 'Стартапы · Мексика',
+    },
+    {
+      slug: 'sanjar-taromi',
+      brand: 'ACCELERATOR',
+      order: 204,
+      published: true,
+      nameRu: 'Санжар Тароми',
+      nameEn: 'Sanjar Taromi',
+      titleRu: 'Серийный предприниматель, ex-PnP',
+      titleEn: 'Serial entrepreneur, ex-PnP',
+      bioRu:
+        'Развивал партнёрства по всему миру с ключевыми игроками в области фудтеха.',
+      bioEn:
+        'Built partnerships worldwide with key players in the foodtech space.',
+      field: 'FoodTech · Иран',
+    },
+    {
+      slug: 'mohammed-fahmy',
+      brand: 'ACCELERATOR',
+      order: 205,
+      published: true,
+      nameRu: 'Мохаммед Фами',
+      nameEn: 'Mohammed Fahmy',
+      titleRu: 'Венчурный инвестор, партнёр Sequence VC',
+      titleEn: 'Venture investor, partner at Sequence VC',
+      bioRu:
+        'Опыт слияний и поглощений, управления жизненным циклом продуктов, операциями, производством и продажами.',
+      bioEn:
+        'Experience in M&A, product lifecycle management, operations, manufacturing and sales.',
+      field: 'M&A · Египет',
+    },
+    {
+      slug: 'jack-veledian',
+      brand: 'ACCELERATOR',
+      order: 206,
+      published: true,
+      nameRu: 'Джек Веледиан',
+      nameEn: 'Jack Veledian',
+      titleRu: 'Серийный предприниматель, ex-PnP ADGM',
+      titleEn: 'Serial entrepreneur, ex-PnP ADGM',
+      bioRu:
+        'Экс-руководитель программ Plug and Play ADGM, опытный генеральный директор с экспертизой в ИТ, услугах и продажах.',
+      bioEn:
+        'Former head of Plug and Play ADGM programmes and an experienced CEO with expertise in IT, services and sales.',
+      field: 'IT и продажи · ОАЭ',
     },
   ]
 

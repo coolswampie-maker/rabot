@@ -13,6 +13,19 @@ import FacultyCard from '@/components/cards/FacultyCard';
 import FormWithConsent from '@/components/FormWithConsent';
 import JsonLd from '@/components/JsonLd';
 import { getCurriculum } from '@/content/curriculum';
+import { prisma } from '@/lib/prisma';
+
+export async function generateStaticParams() {
+  try {
+    const programs = await prisma.program.findMany({ where: { published: true }, select: { slug: true } });
+    return programs.flatMap((p) => [
+      { locale: 'ru', slug: p.slug },
+      { locale: 'en', slug: p.slug },
+    ]);
+  } catch {
+    return [];
+  }
+}
 
 export async function generateMetadata({
   params,
@@ -50,6 +63,7 @@ export default async function ProgramDetail({
       'mba-classic': '/images/lecture.jpg',
       'master-of-business-acceleration': '/images/team.jpg',
       'global-expansion': '/images/campus.jpg',
+      'mba-global-expansion': '/images/library.jpg',
     } as Record<string, string>)[program.slug] ||
     '/images/library.jpg';
   const meta = [

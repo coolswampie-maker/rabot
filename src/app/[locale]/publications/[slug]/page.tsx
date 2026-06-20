@@ -8,6 +8,19 @@ import { localePath } from '@/lib/routing';
 import { getPublication } from '@/lib/queries';
 import { pubLabel } from '@/lib/labels';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import { prisma } from '@/lib/prisma';
+
+export async function generateStaticParams() {
+  try {
+    const pubs = await prisma.publication.findMany({ where: { status: 'PUBLISHED' }, select: { slug: true } });
+    return pubs.flatMap((p) => [
+      { locale: 'ru', slug: p.slug },
+      { locale: 'en', slug: p.slug },
+    ]);
+  } catch {
+    return [];
+  }
+}
 
 export async function generateMetadata({
   params,

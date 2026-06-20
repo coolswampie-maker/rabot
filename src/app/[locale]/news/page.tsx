@@ -29,8 +29,10 @@ export default async function NewsPage({
   const locale = params.locale;
   const dict = await getDictionary(locale);
   const lp = (p: string) => localePath(locale, p);
-  const activeCat = searchParams.category;
-  const q = searchParams.q?.trim() || undefined;
+  // In the static export there is no request query — show the full list.
+  const isStatic = process.env.NEXT_PUBLIC_STATIC === '1';
+  const activeCat = isStatic ? undefined : searchParams.category;
+  const q = isStatic ? undefined : searchParams.q?.trim() || undefined;
 
   const [posts, categories] = await Promise.all([
     getPosts({ locale, categorySlug: activeCat, search: q }),

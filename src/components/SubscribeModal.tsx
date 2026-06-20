@@ -30,6 +30,11 @@ export default function SubscribeModal({
       setError(dict.form.consentRequired);
       return;
     }
+    // Static review build has no backend — show success without POSTing.
+    if (process.env.NEXT_PUBLIC_STATIC === '1') {
+      setStatus('success');
+      return;
+    }
     setStatus('sending');
     setError(null);
     try {

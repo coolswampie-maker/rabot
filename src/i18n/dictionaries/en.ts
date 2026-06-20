@@ -13,7 +13,13 @@ const en: Dictionary = {
     faculty: 'Faculty',
     partners: 'Partners',
     contacts: 'Contacts',
+    subsidy: 'Training subsidy',
     apply: 'Apply now',
+  },
+  faculty: {
+    lecturers: 'Programme lecturers',
+    trackers: 'Programme trackers',
+    experts: 'International experts',
   },
   megaMenu: {
     programsDesc: 'MBA, acceleration and corporate programs at RUDN Business School.',

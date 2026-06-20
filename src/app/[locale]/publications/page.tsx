@@ -31,8 +31,10 @@ export default async function PublicationsPage({
   const dict = await getDictionary(locale);
   const lp = (p: string) => localePath(locale, p);
 
-  const activeType = searchParams.type;
-  const activeYear = searchParams.year ? Number(searchParams.year) : undefined;
+  // In the static export there is no request query — show the full catalogue.
+  const isStatic = process.env.NEXT_PUBLIC_STATIC === '1';
+  const activeType = isStatic ? undefined : searchParams.type;
+  const activeYear = !isStatic && searchParams.year ? Number(searchParams.year) : undefined;
 
   // Fetch all for building filter facets, then the filtered set.
   const [all, filtered] = await Promise.all([

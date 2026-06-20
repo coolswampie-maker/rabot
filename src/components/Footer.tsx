@@ -12,6 +12,7 @@ export default function Footer({ locale, dict }: { locale: Locale; dict: Diction
   const sections = [
     { label: dict.nav.programs, href: lp('/programs') },
     { label: dict.nav.accelerator, href: lp('/accelerator') },
+    { label: dict.nav.subsidy, href: lp('/subsidy') },
     { label: dict.nav.research, href: lp('/research') },
     { label: dict.nav.news, href: lp('/news') },
     { label: dict.nav.publications, href: lp('/publications') },

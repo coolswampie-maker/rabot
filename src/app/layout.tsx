@@ -38,7 +38,8 @@ export const viewport: Viewport = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  const locale = headers().get('x-locale') || 'ru';
+  // In static export there is no request — default the lang and skip headers().
+  const locale = process.env.NEXT_PUBLIC_STATIC === '1' ? 'ru' : headers().get('x-locale') || 'ru';
   return (
     <html lang={locale} className={`${manrope.variable} ${robotoSlab.variable}`}>
       <body>{children}</body>

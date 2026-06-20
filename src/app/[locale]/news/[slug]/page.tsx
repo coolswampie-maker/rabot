@@ -12,6 +12,16 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import Prose from '@/components/Prose';
 import NewsCard from '@/components/cards/NewsCard';
 import JsonLd from '@/components/JsonLd';
+import { prisma } from '@/lib/prisma';
+
+export async function generateStaticParams() {
+  try {
+    const posts = await prisma.post.findMany({ where: { status: 'PUBLISHED' }, select: { slug: true, locale: true } });
+    return posts.map((p) => ({ locale: p.locale === 'EN' ? 'en' : 'ru', slug: p.slug }));
+  } catch {
+    return [];
+  }
+}
 
 export async function generateMetadata({
   params,
