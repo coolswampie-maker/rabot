@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import type { Locale } from '@/i18n/config';
 import { getDictionary } from '@/i18n';
 import { buildMetadata } from '@/lib/seo';
@@ -7,6 +8,28 @@ import { getPartners, pick } from '@/lib/queries';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import PartnerLogoGrid from '@/components/PartnerLogoGrid';
 import CTASection from '@/components/CTASection';
+
+type Bi = Record<Locale, string>;
+const letters: { image: string; href: string; from: Bi; about: Bi }[] = [
+  {
+    image: '/images/letters/tatneft.jpg',
+    href: '/images/letters/tatneft.jpg',
+    from: { ru: 'ПАО «Татнефть» им. В.Д. Шашина', en: 'Tatneft (V.D. Shashin)' },
+    about: {
+      ru: 'Благодарность за экспертный семинар по анализу рынков Ближнего Востока и рекомендации по развитию бизнеса в регионе (2025).',
+      en: 'Appreciation for an expert seminar on Middle East market analysis and recommendations for business development in the region (2025).',
+    },
+  },
+  {
+    image: '/images/letters/kazanforum-1.jpg',
+    href: '/images/letters/kazanforum-1.jpg',
+    from: { ru: 'Оргкомитет KazanForum · Правительство Республики Татарстан', en: 'KazanForum Organising Committee · Government of Tatarstan' },
+    about: {
+      ru: 'Благодарность ректору РУДН и команде за участие в XVII Международном экономическом форуме «Россия — Исламский мир: KazanForum» (2026).',
+      en: 'Appreciation to the RUDN Rector and team for taking part in the XVII International Economic Forum “Russia — Islamic World: KazanForum” (2026).',
+    },
+  },
+];
 
 export async function generateMetadata({ params }: { params: { locale: Locale } }): Promise<Metadata> {
   const dict = await getDictionary(params.locale);
@@ -56,6 +79,34 @@ export default async function PartnersPage({ params }: { params: { locale: Local
               ))}
             </div>
           )}
+        </div>
+      </section>
+
+      {/* Letters of appreciation */}
+      <section className="section bg-paper">
+        <div className="container">
+          <header className="mb-8 max-w-2xl">
+            <p className="eyebrow mb-2">{locale === 'ru' ? 'Нам доверяют' : 'Trusted by'}</p>
+            <h2 className="text-3xl sm:text-4xl">{locale === 'ru' ? 'Благодарственные письма' : 'Letters of appreciation'}</h2>
+          </header>
+          <div className="grid gap-6 md:grid-cols-2">
+            {letters.map((l) => (
+              <div key={l.image} className="card flex flex-col p-5">
+                <a href={l.href} target="_blank" rel="noopener noreferrer" className="group relative block overflow-hidden rounded-xl border border-line bg-white">
+                  <Image
+                    src={l.image}
+                    alt={l.from[locale]}
+                    width={1000}
+                    height={1414}
+                    sizes="(max-width:768px) 100vw, 50vw"
+                    className="h-auto w-full object-contain transition group-hover:opacity-90"
+                  />
+                </a>
+                <h3 className="mt-4 text-base font-semibold text-navy-700">{l.from[locale]}</h3>
+                <p className="mt-1.5 text-sm text-muted">{l.about[locale]}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 

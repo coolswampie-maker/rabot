@@ -30,6 +30,7 @@ async function main() {
     { slug: 'research', nameRu: 'Исследования', nameEn: 'Research' },
     { slug: 'university-news', nameRu: 'Новости университета', nameEn: 'University news' },
     { slug: 'events', nameRu: 'События', nameEn: 'Events' },
+    { slug: 'media', nameRu: 'СМИ о нас', nameEn: 'In the media' },
   ]
 
   const categories: Record<string, { id: string }> = {}
@@ -84,6 +85,12 @@ async function main() {
 
 Классический MBA РУДН — это системное управленческое образование для тех, кто уже руководит, но хочет видеть бизнес целиком: от стратегии до денежного потока. Программа построена вокруг практики — каждый блок вы сразу примеряете к своей компании, а преподают действующие руководители, консультанты и предприниматели.
 
+## История программы
+
+Программа MBA в ИМЭБ РУДН разработана в 1991–1992 годах в рамках российско-американского «Проекта MBA» — в соответствии с соглашением о международном сотрудничестве между Министерством науки, высшей школы и технической политики РФ и Ассоциацией христианских университетов и колледжей США. Наиболее тесные связи изначально существовали с School of Business of Northern Kentucky University (США), Calvin College (США), Eastern College (США), Luton University (Великобритания) и Oxford Brookes University (Великобритания). В 1999 году приказом Министра образования РФ РУДН был включён в число вузов — участников эксперимента по реализации программы MBA.
+
+Сегодня программу ведут профессионалы-практики и преподаватели с международным опытом преподавания, имеющие авторские методики и научные публикации в наукометрических базах Web of Science и Scopus. Важная часть учебного процесса — мастер-классы и открытые лекции приглашённых спикеров-практиков. Занятия проходят в модульном формате по пятницам, субботам и воскресеньям один раз в месяц в Главном корпусе РУДН.
+
 ## Чему вы научитесь
 
 - Видеть компанию как систему и принимать решения на основе цифр, а не интуиции
@@ -105,6 +112,12 @@ async function main() {
       bodyEn: `## About the programme
 
 The RUDN Classic MBA is a systematic management education for people who already lead but want to see the business as a whole — from strategy to cash flow. It is built around practice: you apply every block to your own company, and it is taught by working executives, consultants and entrepreneurs.
+
+## Programme history
+
+The MBA programme at the RUDN Institute of World Economy and Business was developed in 1991–1992 as part of the Russian-American "MBA Project", under an international cooperation agreement between Russia's Ministry of Science, Higher School and Technical Policy and the association of Christian universities and colleges of the USA. Its closest early ties were with the School of Business of Northern Kentucky University (USA), Calvin College (USA), Eastern College (USA), Luton University (UK) and Oxford Brookes University (UK). In 1999, by order of the Russian Minister of Education, RUDN joined the universities taking part in the experiment to deliver the MBA programme.
+
+Today the programme is taught by practitioners and lecturers with international teaching experience, their own methods and research published in the Web of Science and Scopus databases. Masterclasses and open lectures by invited practitioner-speakers are an important part of the studies. Classes run in a modular format on Fridays, Saturdays and Sundays once a month in the RUDN Main Building.
 
 ## What you will learn
 
@@ -763,6 +776,133 @@ On campus or online, on a modular schedule. On completion you receive a RUDN pro
   // Posts
   // ---------------------------------------------------------------------------
   const postData = [
+    // ----- СМИ о нас / In the media -----
+    {
+      slug: 'berezin-m24-povyshenie-kvalifikacii',
+      coverImage: '/images/lecture.jpg',
+      locale: 'RU',
+      type: 'EXPERT_COMMENT',
+      brand: 'MBA',
+      status: 'PUBLISHED',
+      featured: true,
+      title: 'Москва 24: как часто нужно повышать квалификацию — мнение директора программ MBA РУДН',
+      excerpt:
+        'Директор программ MBA Института мировой экономики и бизнеса РУДН Андрей Березин рассказал телеканалу «Москва 24», почему специалистам важно проходить переквалификацию не реже одного раза в три года.',
+      content: `Директор программ MBA Института мировой экономики и бизнеса РУДН **Андрей Березин** в эфире телеканала «Москва 24» рассказал, как часто специалистам стоит обновлять знания.
+
+По мнению эксперта, проходить переквалификацию стоит **не реже одного раза в три года** — особенно в динамичных отраслях: ИТ, образовании, науке и финансовом секторе. При этом систематически повышают квалификацию лишь 11–13% занятых, отметил Андрей Березин.
+
+[Смотреть материал на «Москва 24» →](https://www.m24.ru/videos/25122025/859205)`,
+      categoryId: categories['media'].id,
+      authorName: 'РУДН в СМИ',
+      tagSlugs: ['leadership', 'strategy'],
+      publishedAt: new Date('2025-12-25T09:00:00.000Z'),
+    },
+    {
+      slug: 'rbc-berezin-rynok-stroymaterialov',
+      coverImage: '/images/h-build.jpg',
+      locale: 'RU',
+      type: 'EXPERT_COMMENT',
+      brand: 'MBA',
+      status: 'PUBLISHED',
+      featured: false,
+      title: 'РБК: руководитель программ MBA РУДН Андрей Березин — о рынке стройматериалов',
+      excerpt:
+        'Руководитель программ MBA РУДН Андрей Березин выступил экспертом РБК в материале о росте цен на строительные материалы.',
+      content: `Руководитель программ MBA РУДН **Андрей Березин** прокомментировал РБК ситуацию на рынке строительных материалов: издание разбирало причины заметного роста цен на керамоблоки и другие материалы в регионах.
+
+Экспертные комментарии преподавателей и руководителей программ — часть повседневной работы школы: наши спикеры регулярно выступают в деловых СМИ.
+
+[Читать материал на РБК →](https://t.rbc.ru/tyumen/04/05/2025/6808b7c59a7947acfdfb9327)`,
+      categoryId: categories['media'].id,
+      authorName: 'РУДН в СМИ',
+      tagSlugs: ['strategy'],
+      publishedAt: new Date('2025-05-04T09:00:00.000Z'),
+    },
+    {
+      slug: 'forbes-biznes-i-uchenye',
+      coverImage: '/images/h-libdark.jpg',
+      locale: 'RU',
+      type: 'ARTICLE',
+      brand: 'MBA',
+      status: 'PUBLISHED',
+      featured: false,
+      title: 'Forbes: почему бизнес и учёные не находят общего языка',
+      excerpt:
+        'Материал Forbes о разрыве между академической средой и бизнесом — тема, на которую напрямую отвечает практико-ориентированный подход бизнес-школы РУДН.',
+      content: `Forbes в статье «Университет монстров: почему бизнес и учёные не находят общего языка» (автор Павел Кошкин) разбирает давнюю проблему: университеты часто готовят теоретиков, а бизнесу нужны быстрые прикладные результаты — и стороны говорят на разных языках.
+
+Именно этот разрыв бизнес-школа РУДН старается закрывать на практике: программы ведут действующие руководители и эксперты, а слушатели работают над задачами собственных компаний, а не над абстрактными кейсами. Исследования центра ICEMR при этом напрямую питают учебные программы.
+
+[Читать статью на Forbes →](https://www.forbes.ru/kompanii/342707-universitet-monstrov-pochemu-biznes-i-uchenye-ne-nahodyat-obshchego-yazyka)`,
+      categoryId: categories['media'].id,
+      authorName: 'Бизнес-школа РУДН',
+      tagSlugs: ['strategy', 'leadership'],
+      publishedAt: new Date('2017-04-17T09:00:00.000Z'),
+    },
+    {
+      slug: 'berezin-moskva24-continuing-education',
+      coverImage: '/images/lecture.jpg',
+      locale: 'EN',
+      type: 'EXPERT_COMMENT',
+      brand: 'MBA',
+      status: 'PUBLISHED',
+      featured: true,
+      title: 'Moskva 24: how often should you upskill — the view of RUDN’s MBA programme director',
+      excerpt:
+        'Andrey Berezin, director of MBA programmes at the RUDN Institute of World Economy and Business, told the Moskva 24 channel why professionals should requalify at least once every three years.',
+      content: `**Andrey Berezin**, director of MBA programmes at the RUDN Institute of World Economy and Business (IWEB), spoke on the Moskva 24 channel about how often specialists should refresh their knowledge.
+
+In his view, professionals should requalify **at least once every three years** — especially in fast-moving fields such as IT, education, science and finance. Yet only 11–13% of the workforce upskill systematically, he noted.
+
+[Watch on Moskva 24 →](https://www.m24.ru/videos/25122025/859205)`,
+      categoryId: categories['media'].id,
+      authorName: 'RUDN in the media',
+      tagSlugs: ['leadership', 'strategy'],
+      publishedAt: new Date('2025-12-25T09:00:00.000Z'),
+    },
+    {
+      slug: 'rbc-berezin-construction-materials',
+      coverImage: '/images/h-build.jpg',
+      locale: 'EN',
+      type: 'EXPERT_COMMENT',
+      brand: 'MBA',
+      status: 'PUBLISHED',
+      featured: false,
+      title: 'RBC: head of RUDN MBA programmes Andrey Berezin on the construction-materials market',
+      excerpt:
+        'Andrey Berezin, head of MBA programmes at RUDN, commented for RBC on rising prices in the construction-materials market.',
+      content: `Andrey Berezin, head of MBA programmes at RUDN, commented for RBC on the construction-materials market as the outlet examined the sharp rise in prices for ceramic blocks and other materials across the regions.
+
+Expert commentary from the school’s lecturers and programme leads is part of everyday work: our speakers appear regularly in business media.
+
+[Read on RBC →](https://t.rbc.ru/tyumen/04/05/2025/6808b7c59a7947acfdfb9327)`,
+      categoryId: categories['media'].id,
+      authorName: 'RUDN in the media',
+      tagSlugs: ['strategy'],
+      publishedAt: new Date('2025-05-04T09:00:00.000Z'),
+    },
+    {
+      slug: 'forbes-business-and-academia',
+      coverImage: '/images/h-libdark.jpg',
+      locale: 'EN',
+      type: 'ARTICLE',
+      brand: 'MBA',
+      status: 'PUBLISHED',
+      featured: false,
+      title: 'Forbes: why business and academia don’t speak the same language',
+      excerpt:
+        'A Forbes piece on the gap between academia and business — exactly the gap RUDN Business School’s practice-first approach is built to close.',
+      content: `In the article “University of monsters: why business and scientists don’t find common ground” (by Pavel Koshkin), Forbes examines a long-standing problem: universities often train theorists, while business needs fast, applied results — and the two sides speak different languages.
+
+RUDN Business School works to close exactly this gap in practice: programmes are taught by working executives and experts, and students work on their own companies’ challenges rather than abstract cases. Research from the ICEMR centre feeds directly into the curriculum.
+
+[Read on Forbes →](https://www.forbes.ru/kompanii/342707-universitet-monstrov-pochemu-biznes-i-uchenye-ne-nahodyat-obshchego-yazyka)`,
+      categoryId: categories['media'].id,
+      authorName: 'RUDN Business School',
+      tagSlugs: ['strategy', 'leadership'],
+      publishedAt: new Date('2017-04-17T09:00:00.000Z'),
+    },
     {
       slug: 'nabor-na-programmy-mba-rudn-2025',
       coverImage: '/images/campus2.jpg',
