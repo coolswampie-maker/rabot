@@ -29,10 +29,10 @@ export default async function HomePage({ params }: { params: { locale: Locale } 
 
   // Real RUDN credibility numbers (trust strip — like Skolkovo/HBS).
   const stats: { value: string; label: string }[] = [
-    { value: '162', label: ru ? 'страны в сообществе РУДН' : 'countries in the RUDN community' },
-    { value: '85 000+', label: ru ? 'выпускников по всему миру' : 'alumni worldwide' },
-    { value: ru ? '60+ лет' : '60+ years', label: ru ? 'университету РУДН' : 'of RUDN University' },
-    { value: '170+', label: ru ? 'стран, где работают выпускники' : 'countries where alumni work' },
+    { value: '160+', label: ru ? 'стран в сообществе РУДН' : 'countries in the RUDN community' },
+    { value: ru ? '65 лет' : '65 years', label: ru ? 'университету РУДН (с 1960 года)' : 'of RUDN University (since 1960)' },
+    { value: '1500', label: ru ? 'студентов ИМЭБ' : 'students at IMEB' },
+    { value: '8', label: ru ? 'баз зарубежных стажировок' : 'foreign internship bases' },
   ];
 
   // RUDN University recognitions (per the RUDN Global Expansion deck).
@@ -44,12 +44,9 @@ export default async function HomePage({ params }: { params: { locale: Locale } 
 
   // ИМЭБ / RUDN in numbers (per the RUDN Global Expansion deck).
   const imebNumbers: { value: string; label: string }[] = [
-    { value: '15', label: ru ? 'программ высшего образования' : 'higher-education programmes' },
-    { value: '7', label: ru ? 'программ бизнес-образования' : 'business-education programmes' },
-    { value: '6', label: ru ? 'программ двойного диплома' : 'double-degree programmes' },
-    { value: '1500', label: ru ? 'студентов ИМЭБ' : 'students at IMEB' },
-    { value: '8', label: ru ? 'баз зарубежных стажировок' : 'foreign internship bases' },
-    { value: '160+', label: ru ? 'стран, откуда выпускники РУДН' : 'countries RUDN alumni come from' },
+    { value: '15', label: ru ? 'программ высшего образования' : 'higher-education programs' },
+    { value: '7', label: ru ? 'программ бизнес-образования' : 'business-education programs' },
+    { value: '6', label: ru ? 'программ двойного диплома' : 'double-degree programs' },
   ];
 
   const pillars = [
@@ -186,7 +183,7 @@ export default async function HomePage({ params }: { params: { locale: Locale } 
               <p className="mt-2 text-xl font-semibold leading-snug sm:text-2xl">
                 {ru
                   ? 'Московские работодатели могут вернуть до 95% стоимости обучения сотрудников — включая программы MBA'
-                  : 'Moscow employers can recover up to 95% of employee tuition — including MBA programmes'}
+                  : 'Moscow employers can recover up to 95% of employee tuition — including MBA programs'}
               </p>
               <p className="mt-2 text-sm text-white/75">
                 {ru ? 'Субсидия из бюджета города Москвы — до 10 млн ₽ на компанию.' : 'A subsidy from the Moscow city budget — up to ₽10M per company.'}

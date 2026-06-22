@@ -22,7 +22,7 @@ export default async function ContactsPage({ params }: { params: { locale: Local
   const lp = (p: string) => localePath(locale, p);
   const ru = locale === 'ru';
 
-  // Programme leadership (from the official RUDN programme decks).
+  // Programme leadership (from the official RUDN program decks).
   const team: { name: string; role: string; email: string; extra?: string }[] = [
     {
       name: ru ? 'Андронова Инна Витальевна' : 'Inna Andronova',

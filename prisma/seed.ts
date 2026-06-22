@@ -80,7 +80,7 @@ async function main() {
       summaryRu:
         'Модульная программа для руководителей и собственников, которые хотят систематизировать управленческий опыт и принимать решения опираясь на цифры, а не на интуицию. Учиться можно очно в Москве или полностью онлайн.',
       summaryEn:
-        'A modular programme for executives and owners who want to put their management experience into a system and base decisions on numbers rather than gut feeling. You can study on campus in Moscow or fully online.',
+        'A modular program for executives and owners who want to put their management experience into a system and base decisions on numbers rather than gut feeling. You can study on campus in Moscow or fully online.',
       bodyRu: `## О программе
 
 Классический MBA РУДН — это системное управленческое образование для тех, кто уже руководит, но хочет видеть бизнес целиком: от стратегии до денежного потока. Программа построена вокруг практики — каждый блок вы сразу примеряете к своей компании, а преподают действующие руководители, консультанты и предприниматели.
@@ -109,15 +109,15 @@ async function main() {
 ## Документ
 
 По окончании вы получаете диплом о профессиональной переподготовке РУДН с присвоением квалификации MBA.`,
-      bodyEn: `## About the programme
+      bodyEn: `## About the program
 
 The RUDN Classic MBA is a systematic management education for people who already lead but want to see the business as a whole — from strategy to cash flow. It is built around practice: you apply every block to your own company, and it is taught by working executives, consultants and entrepreneurs.
 
 ## Programme history
 
-The MBA programme at the RUDN Institute of World Economy and Business was developed in 1991–1992 as part of the Russian-American "MBA Project", under an international cooperation agreement between Russia's Ministry of Science, Higher School and Technical Policy and the association of Christian universities and colleges of the USA. Its closest early ties were with the School of Business of Northern Kentucky University (USA), Calvin College (USA), Eastern College (USA), Luton University (UK) and Oxford Brookes University (UK). In 1999, by order of the Russian Minister of Education, RUDN joined the universities taking part in the experiment to deliver the MBA programme.
+The MBA program at the RUDN Institute of World Economy and Business was developed in 1991–1992 as part of the Russian-American "MBA Project", under an international cooperation agreement between Russia's Ministry of Science, Higher School and Technical Policy and the association of Christian universities and colleges of the USA. Its closest early ties were with the School of Business of Northern Kentucky University (USA), Calvin College (USA), Eastern College (USA), Luton University (UK) and Oxford Brookes University (UK). In 1999, by order of the Russian Minister of Education, RUDN joined the universities taking part in the experiment to deliver the MBA program.
 
-Today the programme is taught by practitioners and lecturers with international teaching experience, their own methods and research published in the Web of Science and Scopus databases. Masterclasses and open lectures by invited practitioner-speakers are an important part of the studies. Classes run in a modular format on Fridays, Saturdays and Sundays once a month in the RUDN Main Building.
+Today the program is taught by practitioners and lecturers with international teaching experience, their own methods and research published in the Web of Science and Scopus databases. Masterclasses and open lectures by invited practitioner-speakers are an important part of the studies. Classes run in a modular format on Fridays, Saturdays and Sundays once a month in the RUDN Main Building.
 
 ## What you will learn
 
@@ -132,7 +132,7 @@ Classes run in modules — a few intensive days once a month, on campus in Mosco
 
 ## Admission
 
-Admission requires a motivation letter and an interview with the admissions committee, so the programme fits your goal and the group is made up of experienced managers.
+Admission requires a motivation letter and an interview with the admissions committee, so the program fits your goal and the group is made up of experienced managers.
 
 ## Qualification
 
@@ -153,7 +153,7 @@ On completion you receive a RUDN professional retraining diploma awarding the MB
       summaryRu:
         'Практический MBA, встроенный в акселератор: вы не просто учитесь, а под руководством трекеров растите конкретные показатели своего бизнеса. Программа идёт 18 месяцев, три дня в месяц в кампусе плюс онлайн-трекинг между сессиями.',
       summaryEn:
-        'A practical MBA built into an accelerator: you do not just study, you grow concrete metrics of your business under the guidance of trackers. The programme runs for 18 months, three days a month on campus plus online tracking between sessions.',
+        'A practical MBA built into an accelerator: you do not just study, you grow concrete metrics of your business under the guidance of trackers. The program runs for 18 months, three days a month on campus plus online tracking between sessions.',
       bodyRu: `## О программе
 
 Master of Business Acceleration — для предпринимателей, которые уже прошли стадию выживания и хотят масштабироваться осознанно. Теория здесь не самоцель: каждый модуль вы заканчиваете с конкретной гипотезой и планом её проверки, а трекер помогает довести её до результата.
@@ -161,7 +161,7 @@ Master of Business Acceleration — для предпринимателей, к�
 ## Формат
 
 Три дня в месяц очно в кампусе РУДН, между сессиями — онлайн-трекинг и работа над собственными целями. Вы движетесь не по абстрактной программе, а по дорожной карте своего бизнеса.`,
-      bodyEn: `## About the programme
+      bodyEn: `## About the program
 
 Master of Business Acceleration is for entrepreneurs who have already passed the survival stage and want to scale deliberately. Theory is not an end in itself here: you finish each module with a concrete hypothesis and a plan to test it, and a tracker helps you carry it through to a result.
 
@@ -184,7 +184,7 @@ Three days a month on the RUDN campus, with online tracking and work on your own
       summaryRu:
         'Корпоративная программа бизнес-образования для команд компаний, которые выводят продукт и бизнес на международные рынки. Содержание собирается под запрос заказчика, программа длится от 6 месяцев и сочетает корпоративный трекинг команды с выездными модулями в фокусные страны.',
       summaryEn:
-        'A corporate business-education programme for company teams taking their product and business into international markets. The content is assembled around the client\'s request, the programme runs from 6 months and combines corporate team tracking with on-site modules in focus countries.',
+        'A corporate business-education program for company teams taking their product and business into international markets. The content is assembled around the client\'s request, the program runs from 6 months and combines corporate team tracking with on-site modules in focus countries.',
       bodyRu: `## О программе
 
 RUDN Global Expansion — это корпоративная программа для компаний, которые выходят на международные рынки и хотят сделать это с работающей стратегией, а не на оптимизме. Программа состоит из четырёх образовательно-практических блоков, корпоративного трекинга команды для выстраивания управляемого роста и выездного модуля в фокусную страну. Формат и расписание адаптируются под цели и запрос компании и состав участников.
@@ -225,9 +225,9 @@ RUDN Global Expansion — это корпоративная программа �
 ## Формат и документ
 
 Продолжительность — от 6 месяцев. Очно, онлайн и выездные модули, график подстраивается под команду. По итогам обучения выдаётся диплом РУДН о профессиональной переподготовке.`,
-      bodyEn: `## About the programme
+      bodyEn: `## About the program
 
-RUDN Global Expansion is a corporate programme for companies entering international markets that want to do it with a working strategy rather than on optimism. It consists of four educational-and-practical blocks, corporate tracking of the team to build managed growth, and an on-site module in a focus country. The format and schedule are adapted to the company's goals, request and participants.
+RUDN Global Expansion is a corporate program for companies entering international markets that want to do it with a working strategy rather than on optimism. It consists of four educational-and-practical blocks, corporate tracking of the team to build managed growth, and an on-site module in a focus country. The format and schedule are adapted to the company's goals, request and participants.
 
 ## Who it is for
 
@@ -249,13 +249,13 @@ RUDN Global Expansion is a corporate programme for companies entering internatio
 - International modules in Asia, the Middle East, Latin America and Africa
 - Access to the global network of RUDN alumni from 160 countries, business communities and decision-makers in focus countries
 
-## How we design and run the programme
+## How we design and run the program
 
 1. A meeting with the company to clarify the request and define the participants
-2. Preparation and approval of the programme, its key blocks, format and timeline
+2. Preparation and approval of the program, its key blocks, format and timeline
 3. A strategy session with key participants: goals, tasks, timelines and areas of responsibility for market entry
 4. Selecting and agreeing experts, a business tracker and practitioners
-5. Delivering the modules according to the approved programme
+5. Delivering the modules according to the approved program
 6. A strategy session to defend the projects and define the next steps
 
 ## Graduates may hold positions as
@@ -285,7 +285,7 @@ Duration is from 6 months. On campus, online and international (field) modules, 
       summaryRu:
         'Классическая модульная MBA-специализация по международному развитию бизнеса: 22 модуля и 1800 академических часов (680 аудиторных). Программа завершается защитой итогового проекта — дорожной карты развития компании.',
       summaryEn:
-        'A classic modular MBA specialisation in international business development: 22 modules and 1,800 academic hours (680 in class). The programme concludes with the defence of a capstone project — a company development roadmap.',
+        'A classic modular MBA specialisation in international business development: 22 modules and 1,800 academic hours (680 in class). The program concludes with the defence of a capstone project — a company development roadmap.',
       bodyRu: `## О программе
 
 MBA «Global Expansion. Выход на новые рынки» — классическая программа модульного типа для руководителей и предпринимателей, которые системно готовят компанию к международному развитию. Программа охватывает 22 модуля и 1800 академических часов, из них 680 аудиторных, и сочетает фундаментальную управленческую подготовку с прикладными модулями по выходу на зарубежные рынки.
@@ -305,9 +305,9 @@ MBA «Global Expansion. Выход на новые рынки» — класси
 ## Формат и документ
 
 Очно или онлайн, модульный график. По итогам обучения выдаётся диплом РУДН о профессиональной переподготовке с присвоением квалификации MBA.`,
-      bodyEn: `## About the programme
+      bodyEn: `## About the program
 
-MBA “Global Expansion. Entering new markets” is a classic modular programme for executives and entrepreneurs who prepare their company for international development systematically. It covers 22 modules and 1,800 academic hours, 680 of them in class, combining a solid management foundation with applied modules on entering foreign markets.
+MBA “Global Expansion. Entering new markets” is a classic modular program for executives and entrepreneurs who prepare their company for international development systematically. It covers 22 modules and 1,800 academic hours, 680 of them in class, combining a solid management foundation with applied modules on entering foreign markets.
 
 ## What you will learn
 
@@ -319,7 +319,7 @@ MBA “Global Expansion. Entering new markets” is a classic modular programme 
 
 ## Programme structure
 
-The programme consists of 22 modules grouped into thematic blocks — from strategic management and market research to law, foreign trade and logistics. It concludes with masterclasses, an entrepreneurs' mastermind and the preparation and defence of a capstone project — a company development roadmap.
+The program consists of 22 modules grouped into thematic blocks — from strategic management and market research to law, foreign trade and logistics. It concludes with masterclasses, an entrepreneurs' mastermind and the preparation and defence of a capstone project — a company development roadmap.
 
 ## Format and qualification
 
@@ -329,6 +329,93 @@ On campus or online, on a modular schedule. On completion you receive a RUDN pro
       durationEn: '1,800 academic hours',
       audienceRu: 'Руководители и предприниматели, развивающие международное направление',
       audienceEn: 'Executives and entrepreneurs developing an international track',
+    },
+    {
+      slug: 'doing-business-in-russia',
+      brand: 'MBA',
+      order: 5,
+      published: true,
+      titleRu: 'Doing Business in Russia — ведение бизнеса в России',
+      titleEn: 'Doing Business in Russia',
+      summaryRu:
+        'Англоязычная гибридная программа для иностранных предпринимателей и менеджеров, которые выходят на российский рынок и работают с партнёрами и клиентами в России. Онлайн-обучение и практические выездные модули в кампусе РУДН в Москве.',
+      summaryEn:
+        'A hybrid, English-taught program for international students who work with partners and clients in the Russian market. It combines remote learning with practical field modules in Russia.',
+      bodyRu: `## О программе
+
+Doing Business in Russia — гибридная программа для иностранных слушателей, которые работают с партнёрами и клиентами на российском рынке. Она сочетает онлайн-обучение и практическую часть с выездными модулями в России.
+
+Общий объём — 1800 часов, включая 660 часов аудиторных занятий (онлайн), срок обучения 12–24 месяца. Предусмотрено 4 выездных модуля в кампусе РУДН в Москве. Занятия проходят онлайн на английском языке или на родном языке участников (для групп от 10 человек).
+
+## Для кого
+
+- Предприниматели и собственники бизнеса, выходящие на российский рынок и работающие с партнёрами и клиентами в России
+- Менеджеры по развитию бизнеса
+
+## Цели
+
+- Получить системное понимание того, как масштабировать бизнес в России
+- Освоить юридические, финансовые, налоговые и таможенные аспекты, а также правила и нормы ведения бизнеса в России
+- Построить сеть B2B- и B2G-контактов в России
+
+## Преимущества
+
+- Обучение на английском языке (или на родном языке для групп от 10 человек)
+- Менторская и экспертная поддержка от практиков-профессионалов
+- Доступ к сети выпускников РУДН из 160 стран, включая бизнес-сообщества и лидеров в России
+- Четыре модуля в кампусе РУДН в Москве
+
+## Кем смогут работать выпускники
+
+- Генеральный директор
+- Директор зарубежного филиала/сети в России
+- Директор по международному развитию
+- Директор по маркетингу
+- Директор по развитию продуктов
+
+## Формат и документ
+
+Онлайн, на английском или родном языке участников, 12–24 месяца, с четырьмя выездными модулями в России, включая два практических модуля по 14 дней. По итогам выдаётся диплом РУДН о профессиональной переподготовке.`,
+      bodyEn: `## About the program
+
+Doing Business in Russia is a hybrid program for international students to work with partners and clients in the Russian market. It combines a remote education and practical component with field modules in Russia.
+
+The total number of hours is 1,800, comprising 660 hours of classroom instruction (online), over a period of 12–24 months. There are four visiting modules at the RUDN University campus in Moscow. Modules are delivered online, either in English or in the native language of the participants (for groups of 10 or more).
+
+## Who it is for
+
+- Entrepreneurs and business owners seeking to enter the Russian market and work with partners and customers in Russia
+- Business development managers
+
+## Goals
+
+- To gain a comprehensive understanding of the system for scaling a business in Russia
+- To acquire knowledge of the legal, financial, tax and customs aspects, as well as the rules and regulations governing business operations in Russia
+- To establish a network of business-to-business (B2B) and business-to-government (B2G) contacts in Russia
+
+## Advantages
+
+- Education in English (or the native language for groups of 10 or more)
+- Mentorship and expert guidance from professional practitioners
+- Access to a network of RUDN alumni from 160 countries, including business communities and leaders in Russia
+- Four modules at the RUDN University campus in Moscow
+
+## Graduates may hold positions as
+
+- The General Director
+- Directors of the foreign branch/networks in Russia
+- Director of International Development
+- Marketing Director
+- Product Development Directors, etc.
+
+## Format and qualification
+
+Online, in English or the participants' native language, over 12–24 months, with four field modules in Russia, including two practical modules of 14 days each. On completion you receive a RUDN professional retraining diploma.`,
+      format: 'Онлайн + выездные модули в России',
+      durationRu: '12–24 месяца',
+      durationEn: '12–24 months',
+      audienceRu: 'Иностранные предприниматели, собственники и менеджеры по развитию бизнеса, выходящие на рынок России',
+      audienceEn: 'International entrepreneurs, business owners and development managers entering the Russian market',
     },
   ]
 
@@ -343,7 +430,7 @@ On campus or online, on a modular schedule. On completion you receive a RUDN pro
   // ---------------------------------------------------------------------------
   // Faculty
   // ---------------------------------------------------------------------------
-  // Faculty roster mirrors the official programme decks. Roles are grouped by
+  // Faculty roster mirrors the official program decks. Roles are grouped by
   // `order` ranges so the Faculty page can render headed sections without a
   // schema change: 1–99 lecturers, 100–199 trackers, 200–299 international experts.
   const facultyData = [
@@ -448,11 +535,11 @@ On campus or online, on a modular schedule. On completion you receive a RUDN pro
       nameRu: 'Наталья Старостина',
       nameEn: 'Natalia Starostina',
       titleRu: 'Ведущий трекер программы',
-      titleEn: 'Lead programme tracker',
+      titleEn: 'Lead program tracker',
       bioRu:
         'Сооснователь Hop.Agency, управляющий партнёр программ скаутинга, акселерации и вывода на международный рынок венчурного билдера UDT/X, совладелец клуба венчурных инвесторов Venture Games.',
       bioEn:
-        'Co-founder of Hop.Agency, managing partner of scouting, acceleration and international market-entry programmes at the UDT/X venture builder, and co-owner of the Venture Games investor club.',
+        'Co-founder of Hop.Agency, managing partner of scouting, acceleration and international market-entry programs at the UDT/X venture builder, and co-owner of the Venture Games investor club.',
       field: 'Трекинг',
     },
     {
@@ -557,7 +644,7 @@ On campus or online, on a modular schedule. On completion you receive a RUDN pro
       bioRu:
         'Трекер в федеральных проектах национальной программы «Цифровая экономика Российской Федерации».',
       bioEn:
-        'A tracker in federal projects of the national programme “Digital Economy of the Russian Federation”.',
+        'A tracker in federal projects of the national program “Digital Economy of the Russian Federation”.',
       field: 'Продукт',
     },
     {
@@ -587,7 +674,7 @@ On campus or online, on a modular schedule. On completion you receive a RUDN pro
       bioRu:
         'Ex-PwC, Deutsche Bank, ведущий трекер ФРИИ. Главный методолог корпоративных программ в Stanford Online.',
       bioEn:
-        'Ex-PwC and Deutsche Bank, a lead IIDF tracker and chief methodologist of corporate programmes at Stanford Online.',
+        'Ex-PwC and Deutsche Bank, a lead IIDF tracker and chief methodologist of corporate programs at Stanford Online.',
       field: 'Методология',
     },
     {
@@ -694,14 +781,14 @@ On campus or online, on a modular schedule. On completion you receive a RUDN pro
       bioRu:
         'Экс-руководитель программ Plug and Play ADGM, опытный генеральный директор с экспертизой в ИТ, услугах и продажах.',
       bioEn:
-        'Former head of Plug and Play ADGM programmes and an experienced CEO with expertise in IT, services and sales.',
+        'Former head of Plug and Play ADGM programs and an experienced CEO with expertise in IT, services and sales.',
       field: 'IT и продажи · ОАЭ',
     },
   ]
 
   for (const f of facultyData) {
     // Lecturers and trackers (order < 200) have portrait photos extracted from
-    // the programme deck; international experts (order >= 200) do not.
+    // the program deck; international experts (order >= 200) do not.
     const withPhoto = { ...f, photo: f.order < 200 ? `/images/faculty/${f.slug}.png` : null }
     await prisma.faculty.upsert({
       where: { slug: f.slug },
@@ -720,7 +807,7 @@ On campus or online, on a modular schedule. On completion you receive a RUDN pro
       published: true,
       name: 'РЖД',
       descRu: 'Крупнейший работодатель страны и партнёр по корпоративным образовательным программам.',
-      descEn: 'One of the country\'s largest employers and a partner in corporate education programmes.',
+      descEn: 'One of the country\'s largest employers and a partner in corporate education programs.',
     },
     {
       slug: 'sber',
@@ -749,22 +836,28 @@ On campus or online, on a modular schedule. On completion you receive a RUDN pro
       descEn: 'A partner in training management talent for the industry.',
     },
     {
-      slug: 'iidf',
+      slug: 'yandex',
       order: 5,
       published: true,
-      name: 'ФРИИ',
-      logo: '/images/partners/iidf.png',
-      descRu: 'Фонд развития интернет-инициатив, партнёр по акселерации и работе со стартапами.',
-      descEn: 'The Internet Initiatives Development Fund, a partner in acceleration and startup work.',
+      name: 'Яндекс',
+      descRu: 'Технологический партнёр по проектам в области данных и цифровых сервисов.',
+      descEn: 'A technology partner on data and digital-services projects.',
     },
     {
-      slug: 'severstal',
+      slug: 'vtb',
       order: 6,
       published: true,
-      name: 'Северсталь',
-      logo: '/images/partners/severstal.png',
-      descRu: 'Индустриальный партнёр, источник практических задач по операционной эффективности.',
-      descEn: 'An industrial partner and a source of practical challenges in operational efficiency.',
+      name: 'ВТБ',
+      descRu: 'Финансовый партнёр программ и поставщик практических кейсов.',
+      descEn: 'A financial partner of the programs and a source of practical cases.',
+    },
+    {
+      slug: 'rosseti',
+      order: 7,
+      published: true,
+      name: 'Россети',
+      descRu: 'Индустриальный партнёр по подготовке управленческих кадров.',
+      descEn: 'An industrial partner in training management talent.',
     },
   ]
 
@@ -852,10 +945,10 @@ On campus or online, on a modular schedule. On completion you receive a RUDN pro
       brand: 'MBA',
       status: 'PUBLISHED',
       featured: true,
-      title: 'Moskva 24: how often should you upskill — the view of RUDN’s MBA programme director',
+      title: 'Moskva 24: how often should you upskill — the view of RUDN’s MBA program director',
       excerpt:
-        'Andrey Berezin, director of MBA programmes at the RUDN Institute of World Economy and Business, told the Moskva 24 channel why professionals should requalify at least once every three years.',
-      content: `**Andrey Berezin**, director of MBA programmes at the RUDN Institute of World Economy and Business (IMEB), spoke on the Moskva 24 channel about how often specialists should refresh their knowledge.
+        'Andrey Berezin, director of MBA programs at the RUDN Institute of World Economy and Business, told the Moskva 24 channel why professionals should requalify at least once every three years.',
+      content: `**Andrey Berezin**, director of MBA programs at the RUDN Institute of World Economy and Business (IMEB), spoke on the Moskva 24 channel about how often specialists should refresh their knowledge.
 
 In his view, professionals should requalify **at least once every three years** — especially in fast-moving fields such as IT, education, science and finance. Yet only 11–13% of the workforce upskill systematically, he noted.
 
@@ -873,12 +966,12 @@ In his view, professionals should requalify **at least once every three years** 
       brand: 'MBA',
       status: 'PUBLISHED',
       featured: false,
-      title: 'RBC: head of RUDN MBA programmes Andrey Berezin on the construction-materials market',
+      title: 'RBC: head of RUDN MBA programs Andrey Berezin on the construction-materials market',
       excerpt:
-        'Andrey Berezin, head of MBA programmes at RUDN, commented for RBC on rising prices in the construction-materials market.',
-      content: `Andrey Berezin, head of MBA programmes at RUDN, commented for RBC on the construction-materials market as the outlet examined the sharp rise in prices for ceramic blocks and other materials across the regions.
+        'Andrey Berezin, head of MBA programs at RUDN, commented for RBC on rising prices in the construction-materials market.',
+      content: `Andrey Berezin, head of MBA programs at RUDN, commented for RBC on the construction-materials market as the outlet examined the sharp rise in prices for ceramic blocks and other materials across the regions.
 
-Expert commentary from the school’s lecturers and programme leads is part of everyday work: our speakers appear regularly in business media.
+Expert commentary from the school’s lecturers and program leads is part of everyday work: our speakers appear regularly in business media.
 
 [Read on RBC →](https://t.rbc.ru/tyumen/04/05/2025/6808b7c59a7947acfdfb9327)`,
       categoryId: categories['media'].id,
@@ -899,7 +992,7 @@ Expert commentary from the school’s lecturers and programme leads is part of e
         'A Forbes piece on the gap between academia and business — exactly the gap RUDN Business School’s practice-first approach is built to close.',
       content: `In the article “University of monsters: why business and scientists don’t find common ground” (by Pavel Koshkin), Forbes examines a long-standing problem: universities often train theorists, while business needs fast, applied results — and the two sides speak different languages.
 
-RUDN Business School works to close exactly this gap in practice: programmes are taught by working executives and experts, and students work on their own companies’ challenges rather than abstract cases. Research from the ICEMR centre feeds directly into the curriculum.
+RUDN Business School works to close exactly this gap in practice: programs are taught by working executives and experts, and students work on their own companies’ challenges rather than abstract cases. Research from the ICEMR centre feeds directly into the curriculum.
 
 [Read on Forbes →](https://www.forbes.ru/kompanii/342707-universitet-monstrov-pochemu-biznes-i-uchenye-ne-nahodyat-obshchego-yazyka)`,
       categoryId: categories['media'].id,
@@ -969,39 +1062,9 @@ RUDN Business School works to close exactly this gap in practice: programmes are
 
 На программе Master of Business Acceleration теория сразу проверяется на вашем бизнесе. Вы уходите не с конспектом, а с проверенными гипотезами и понятным следующим шагом.`,
       categoryId: categories['acceleration'].id,
-      authorName: 'Наталья Старостина',
+      authorName: 'Команда акселератора',
       tagSlugs: ['scaling', 'leadership'],
       publishedAt: new Date('2026-03-12T10:00:00.000Z'),
-    },
-    {
-      slug: 'vyezdnoy-modul-blizhniy-vostok',
-      coverImage: '/images/h-city.jpg',
-      locale: 'RU',
-      type: 'NEWS',
-      brand: 'ACCELERATOR',
-      status: 'PUBLISHED',
-      featured: false,
-      title: 'Выездной международный модуль: Ближний Восток',
-      excerpt:
-        'Слушатели акселератора провели неделю в ОАЭ, чтобы вживую разобраться, как устроен выход на рынки Ближнего Востока.',
-      content: `Группа Master of Business Acceleration провела выездной модуль в Объединённых Арабских Эмиратах. Формат выездов мы используем, чтобы рынок переставал быть абстракцией из презентаций и становился понятным изнутри.
-
-## Что было в программе
-
-- встречи с местными предпринимателями и фондами;
-- разбор юридических и налоговых нюансов открытия бизнеса в регионе;
-- визиты в технологические хабы и коворкинги;
-- практические сессии по адаптации продукта под местного клиента.
-
-## Зачем это нужно
-
-Ближний Восток — один из самых быстрорастущих рынков для российских компаний, но и один из самых непонятных на расстоянии. Несколько дней на месте дают больше, чем месяцы кабинетного анализа: становится видно, как принимаются решения, как строятся партнёрства и где обычно спотыкаются новички.
-
-Участники вернулись с конкретными контактами и пересобранными планами выхода на регион.`,
-      categoryId: categories['events'].id,
-      authorName: 'Команда акселератора',
-      tagSlugs: ['international', 'scaling'],
-      publishedAt: new Date('2026-02-20T08:00:00.000Z'),
     },
     {
       slug: 'what-makes-emerging-markets-different-for-scaling',
@@ -1035,107 +1098,6 @@ This is the kind of question we study at ICEMR and bring back into the classroom
       authorName: 'ICEMR Research Team',
       tagSlugs: ['scaling', 'international'],
       publishedAt: new Date('2026-02-05T09:00:00.000Z'),
-    },
-    {
-      slug: 'ekspertnyy-kommentariy-zachem-rukovoditelyu-mba',
-      coverImage: '/images/speaker.jpg',
-      locale: 'RU',
-      type: 'EXPERT_COMMENT',
-      brand: 'MBA',
-      status: 'PUBLISHED',
-      featured: false,
-      title: 'Экспертный комментарий: зачем руководителю MBA сегодня',
-      excerpt:
-        'Ирина Герасименко рассказывает, что на самом деле даёт MBA опытному управленцу и в каких случаях идти учиться не стоит.',
-      content: `Вопрос «нужен ли мне MBA» звучит всё чаще. Отвечает Ирина Герасименко, эксперт по стратегической трансформации.
-
-## Что меняется после MBA
-
-«Главная ценность не в наборе знаний — их сегодня можно собрать и самостоятельно. Ценность в том, что вы перестаёте принимать решения по наитию и начинаете видеть бизнес как систему: где деньги, где риск, где рычаг для роста».
-
-## Кому это действительно полезно
-
-- руководителям, которые выросли из эксперта и впервые отвечают за всю картину;
-- собственникам, которым стало тесно в режиме ручного управления;
-- тем, кто готовит компанию к следующему этапу — масштабированию или выходу на новые рынки.
-
-## А кому не стоит
-
-«Если вы ждёте готовых ответов и волшебной таблетки — будет разочарование. MBA работает только тогда, когда вы приносите реальные задачи и готовы менять свои привычки в управлении».
-
-Хорошая программа, по словам эксперта, не столько учит, сколько перестраивает способ думать о бизнесе.`,
-      categoryId: categories['business-education'].id,
-      authorName: 'Ирина Герасименко',
-      tagSlugs: ['strategy', 'leadership'],
-      publishedAt: new Date('2026-01-22T09:00:00.000Z'),
-    },
-    {
-      slug: 'open-day-at-rudn-business-school',
-      coverImage: '/images/students.jpg',
-      locale: 'EN',
-      type: 'EVENT',
-      brand: 'MBA',
-      status: 'PUBLISHED',
-      featured: false,
-      title: 'Open day at RUDN Business School',
-      excerpt:
-        'Come to campus, meet the faculty, sit in on a sample class and ask everything you ever wanted to know about our MBA programmes.',
-      content: `We are hosting an open day at RUDN Business School and you are invited. It is the easiest way to understand whether our programmes fit you — without committing to anything.
-
-## What to expect
-
-- A sample class taught by one of our practising lecturers
-- An honest Q&A about formats, workload and admissions
-- A walk around the campus
-- A chance to talk with current students and alumni
-
-## Who should come
-
-The day is for executives, owners and managers who are weighing up an MBA and want to feel the atmosphere before deciding. Bring your questions — including the awkward ones about time, money and what you will actually get.
-
-## How to join
-
-Entry is free, but please register in advance so we can prepare a seat for you. We look forward to meeting you on campus.`,
-      categoryId: categories['events'].id,
-      authorName: 'RUDN Business School',
-      tagSlugs: ['leadership'],
-      publishedAt: new Date('2026-06-02T09:00:00.000Z'),
-      eventStart: new Date('2026-09-24T11:00:00.000Z'),
-      eventEnd: new Date('2026-09-24T15:00:00.000Z'),
-      eventLocation: 'Moscow, Miklukho-Maklaya St. 6',
-    },
-    {
-      slug: 'intensiv-kross-kulturnyy-menedzhment-2025',
-      coverImage: '/images/h-arch.jpg',
-      locale: 'RU',
-      type: 'EVENT',
-      brand: 'MBA',
-      status: 'PUBLISHED',
-      featured: true,
-      title: 'Очный интенсив «Кросс-культурный менеджмент»',
-      excerpt:
-        'Три дня практики в кампусе РУДН: как договариваться, управлять и строить партнёрства в разных культурных контекстах.',
-      content: `Бизнес-школа РУДН проводит очный интенсив по кросс-культурному менеджменту. За три дня разбираем, что мешает командам и партнёрствам, когда люди выросли в разных деловых традициях, и как с этим работать.
-
-## Что будет на интенсиве
-
-- как культура влияет на переговоры, обратную связь и принятие решений;
-- типичные ошибки при выходе на рынки Ближнего Востока, Азии и Латинской Америки;
-- инструменты, которые помогают управлять международной командой;
-- разбор реальных кейсов участников.
-
-## Для кого
-
-Для руководителей и предпринимателей, которые работают с зарубежными партнёрами, нанимают людей в других странах или готовят выход компании на новый рынок.
-
-Занятия проходят в главном корпусе РУДН на ул. Миклухо-Маклая, 6. Количество мест ограничено — записывайтесь заранее.`,
-      categoryId: categories['events'].id,
-      authorName: 'Бизнес-школа РУДН',
-      tagSlugs: ['international', 'leadership'],
-      publishedAt: new Date('2026-05-28T09:00:00.000Z'),
-      eventStart: new Date('2026-10-14T10:00:00.000Z'),
-      eventEnd: new Date('2026-10-16T17:00:00.000Z'),
-      eventLocation: 'Москва, ул. Миклухо-Маклая, 6',
     },
     {
       slug: 'rudn-global-expansion-vyhod-na-mezhdunarodnye-rynki',
@@ -1353,81 +1315,6 @@ They stop treating their own way of working as the default. They learn the local
       venue: 'Emerald Publishing',
       field: 'Economic theory & econometrics',
     },
-    {
-      slug: 'scaling-strategies-emerging-markets-2024',
-      locale: 'EN',
-      type: 'WORKING_PAPER',
-      brand: 'ICEMR',
-      status: 'PUBLISHED',
-      featured: true,
-      title: 'Scaling Strategies of Technology Firms in Emerging Markets',
-      abstract:
-        'This working paper examines how technology firms adapt their growth playbooks when entering emerging economies. Drawing on a sample of fast-growing companies across the CIS and the Middle East, we identify recurring patterns in channel selection and partnership formation. The findings suggest that local institutional context, more than firm size, predicts which scaling strategies succeed.',
-      authorsText: 'Gerasimenko I., Korneev I.',
-      year: 2024,
-      venue: 'ICEMR Working Paper Series',
-      field: 'Emerging markets',
-    },
-    {
-      slug: 'venture-finance-early-stage-cis-2023',
-      locale: 'EN',
-      type: 'JOURNAL_ARTICLE',
-      brand: 'ICEMR',
-      status: 'PUBLISHED',
-      featured: true,
-      title: 'Venture Finance and Early-Stage Funding Gaps in the CIS Region',
-      abstract:
-        'We analyse the structure of early-stage venture funding in the CIS and document a persistent gap between seed and growth rounds. Using a combination of deal-level data and founder interviews, we show how syndication mitigates risk for investors while constraining the pace of company growth. The article discusses policy and market mechanisms that could narrow the gap.',
-      authorsText: 'George R., Grigoriev V.',
-      year: 2023,
-      venue: 'Journal of Emerging Market Finance',
-      field: 'Venture capital',
-    },
-    {
-      slug: 'digital-economy-transformation-report-2025',
-      locale: 'EN',
-      type: 'REPORT',
-      brand: 'ICEMR',
-      status: 'PUBLISHED',
-      featured: true,
-      title: 'Digital Economy Transformation: A Cross-Country Report',
-      abstract:
-        'This report synthesises evidence on how digital transformation reshapes competitive dynamics in mid-sized emerging economies. It combines macro indicators with company case studies to map where digital adoption translates into measurable productivity gains. Special attention is given to the role of artificial intelligence in operational decision-making.',
-      authorsText: 'Karmina N., Chumikov A.',
-      year: 2025,
-      venue: 'ICEMR Annual Report',
-      field: 'Digital economy',
-    },
-    {
-      slug: 'cross-cultural-management-distributed-teams-2024',
-      locale: 'EN',
-      type: 'JOURNAL_ARTICLE',
-      brand: 'ICEMR',
-      status: 'PUBLISHED',
-      featured: true,
-      title: 'Cross-Cultural Management in Distributed Teams Across Emerging Markets',
-      abstract:
-        'As companies operate across borders, distributed teams increasingly span very different cultural contexts. This article studies how managers reconcile divergent norms around hierarchy, feedback and decision-making. We propose a practical framework for leaders building teams that stretch across the CIS, Europe and the Middle East.',
-      authorsText: 'Chumikov A., Gerasimenko I.',
-      year: 2024,
-      venue: 'International Journal of Cross-Cultural Management',
-      field: 'Cross-cultural management',
-    },
-    {
-      slug: 'masshtabirovanie-biznesa-razvivayushchiesya-rynki-2023',
-      locale: 'RU',
-      type: 'WORKING_PAPER',
-      brand: 'ICEMR',
-      status: 'PUBLISHED',
-      featured: true,
-      title: 'Масштабирование бизнеса на развивающихся рынках: барьеры и драйверы',
-      abstract:
-        'В работе систематизируются факторы, которые ускоряют или тормозят масштабирование компаний на развивающихся рынках. На основе анализа кейсов российских и зарубежных компаний выделены типичные ошибки при выходе в новые регионы. Предложена практическая рамка оценки готовности компании к экспансии.',
-      authorsText: 'Корнеев И., Кармина Н.',
-      year: 2023,
-      venue: 'Серия рабочих докладов ICEMR',
-      field: 'Развивающиеся рынки',
-    },
   ]
 
   for (const pub of publicationData) {
@@ -1482,7 +1369,7 @@ We may process your name, contact phone number, email address and other informat
 
 ## Purposes of processing
 
-The data is used to contact you regarding your enquiries, to inform you about programmes and to improve the website.
+The data is used to contact you regarding your enquiries, to inform you about programs and to improve the website.
 
 ## Storage and protection
 
@@ -1615,7 +1502,7 @@ The website's materials are provided for informational purposes. Copying and dis
 
 ## Limitation of liability
 
-We aim to keep information up to date but do not guarantee the absence of errors. Information about programmes does not constitute a public offer.
+We aim to keep information up to date but do not guarantee the absence of errors. Information about programs does not constitute a public offer.
 
 ## Changes
 
@@ -1632,6 +1519,17 @@ We may update the terms and the content of the website without prior notice.
       create: lp,
     })
   }
+
+  // ---------------------------------------------------------------------------
+  // Cleanup: make the seed authoritative — remove rows no longer in the data
+  // arrays (otherwise upsert-only seeding leaves stale/renamed records behind,
+  // e.g. old faculty or partners that were replaced).
+  // ---------------------------------------------------------------------------
+  await prisma.program.deleteMany({ where: { slug: { notIn: programData.map((p) => p.slug) } } })
+  await prisma.faculty.deleteMany({ where: { slug: { notIn: facultyData.map((f) => f.slug) } } })
+  await prisma.partner.deleteMany({ where: { slug: { notIn: partnerData.map((p) => p.slug) } } })
+  await prisma.post.deleteMany({ where: { slug: { notIn: postData.map((p) => p.slug) } } })
+  await prisma.publication.deleteMany({ where: { slug: { notIn: publicationData.map((p) => p.slug) } } })
 
   // ---------------------------------------------------------------------------
   // Summary

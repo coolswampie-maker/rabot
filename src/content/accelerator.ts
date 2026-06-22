@@ -1,12 +1,12 @@
 // Accelerator landing content (bilingual). Source: the official
-// "MBA Acceleration" / "Master of Business Acceleration" programme deck,
+// "MBA Acceleration" / "Master of Business Acceleration" program deck,
 // rewritten in natural language.
 import type { Locale } from '@/i18n/config';
 
 type Bi = Record<Locale, string>;
 
 export const acceleratorMeta = {
-  startDate: { ru: 'Декабрь 2026', en: 'December 2026' } as Bi,
+  startDate: { ru: 'Декабрь 2024', en: 'December 2024' } as Bi,
   duration: { ru: '18 месяцев', en: '18 months' } as Bi,
   format: { ru: '3 дня в месяц очно + онлайн-трекинг между блоками', en: '3 days a month on campus + online tracking between blocks' } as Bi,
   language: { ru: 'Русский', en: 'Russian' } as Bi,
@@ -87,7 +87,7 @@ export const acceleratorBlocks: {
   modules: Bi[];
 }[] = [
   {
-    period: { ru: 'Декабрь 2026 — май 2027', en: 'December 2026 — May 2027' },
+    period: { ru: 'Декабрь 2024 — май 2025', en: 'December 2024 — May 2025' },
     title: { ru: 'Лидерство и управление изменениями', en: 'Leadership and change management' },
     modules: [
       { ru: 'Ключевые инструменты CEO', en: 'Core CEO tools' },
@@ -97,7 +97,7 @@ export const acceleratorBlocks: {
     ],
   },
   {
-    period: { ru: 'Сентябрь — декабрь 2027', en: 'September — December 2027' },
+    period: { ru: 'Сентябрь — декабрь 2025', en: 'September — December 2025' },
     title: { ru: 'Системный бизнес — управляемый рост', en: 'Systematic business — managed growth' },
     modules: [
       { ru: 'Стратегический и финансовый менеджмент', en: 'Strategic and financial management' },
@@ -107,7 +107,7 @@ export const acceleratorBlocks: {
     ],
   },
   {
-    period: { ru: 'Январь — июнь 2028', en: 'January — June 2028' },
+    period: { ru: 'Январь — июнь 2026', en: 'January — June 2026' },
     title: { ru: 'Устойчивый рост — масштабирование', en: 'Sustainable growth — scaling up' },
     modules: [
       { ru: 'Операционный менеджмент', en: 'Operations management' },
@@ -117,7 +117,7 @@ export const acceleratorBlocks: {
     ],
   },
   {
-    period: { ru: 'Сентябрь — декабрь 2028', en: 'September — December 2028' },
+    period: { ru: 'Сентябрь — декабрь 2026', en: 'September — December 2026' },
     title: { ru: 'Выход и развитие на новых рынках', en: 'Entering and growing in new markets' },
     modules: [
       { ru: 'Управление международным бизнесом', en: 'International business management' },
@@ -140,7 +140,7 @@ export const acceleratorSupport: Bi[] = [
   { ru: 'Инструменты для роста', en: 'Tools for growth' },
   { ru: 'Доступ в сообщество', en: 'Access to the community' },
   { ru: 'Мастер-классы', en: 'Masterclasses' },
-  { ru: 'Выездные программы', en: 'On-site programmes abroad' },
+  { ru: 'Выездные программы', en: 'On-site programs abroad' },
 ];
 
 // "Как поступить" — отбор в ТОП-25 участников

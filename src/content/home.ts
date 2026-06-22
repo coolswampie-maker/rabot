@@ -6,7 +6,7 @@ import type { Locale } from '@/i18n/config';
 type Bi = Record<Locale, string>;
 
 export const heroStats: { value: string; label: Bi }[] = [
-  { value: '162', label: { ru: 'страны в сообществе РУДН', en: 'countries in the RUDN community' } },
+  { value: '160+', label: { ru: 'стран в сообществе РУДН', en: 'countries in the RUDN community' } },
   { value: '85k+', label: { ru: 'выпускников по всему миру', en: 'alumni worldwide' } },
   { value: '18', label: { ru: 'месяцев в программе акселерации', en: 'months in the acceleration track' } },
   { value: '3', label: { ru: 'направления в одной экосистеме', en: 'tracks in one ecosystem' } },
@@ -23,8 +23,8 @@ export const advantages: { title: Bi; text: Bi }[] = [
   {
     title: { ru: 'Международный контекст', en: 'An international context' },
     text: {
-      ru: 'РУДН объединяет студентов и преподавателей из 162 стран. Выездные модули помогают выйти на рынки Ближнего Востока, Латинской Америки и Юго-Восточной Азии.',
-      en: 'RUDN brings together students and faculty from 162 countries. On-site modules help you enter markets in the Middle East, Latin America and Southeast Asia.',
+      ru: 'РУДН объединяет студентов и преподавателей из 160+ стран. Международные выездные модули помогают выйти на рынки Азии, Ближнего Востока, Латинской Америки и Африки.',
+      en: 'RUDN brings together students and faculty from 160+ countries. International modules help you enter markets in Asia, the Middle East, Latin America and Africa.',
     },
   },
   {

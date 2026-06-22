@@ -58,7 +58,7 @@ const curriculum: Record<string, CurriculumModule[]> = {
     {
       title: { ru: 'Лидерство и управление изменениями', en: 'Leadership and change management' },
       desc: { ru: 'Перестроить себя как руководителя растущей компании.', en: 'Reshape yourself as the leader of a growing company.' },
-      period: { ru: 'Декабрь 2026 — май 2027', en: 'December 2026 — May 2027' },
+      period: { ru: 'Декабрь 2024 — май 2025', en: 'December 2024 — May 2025' },
       items: [
         { ru: 'Ключевые инструменты CEO', en: 'Core CEO tools' },
         { ru: 'Развитие управленческих компетенций', en: 'Building management competencies' },
@@ -67,9 +67,9 @@ const curriculum: Record<string, CurriculumModule[]> = {
       ],
     },
     {
-      title: { ru: 'Масштабирование', en: 'Scaling up' },
+      title: { ru: 'Системный бизнес — управляемый рост', en: 'Systematic business — managed growth' },
       desc: { ru: 'Собрать стратегию роста и системные процессы.', en: 'Assemble a growth strategy and systematic processes.' },
-      period: { ru: 'Сентябрь — декабрь 2027', en: 'September — December 2027' },
+      period: { ru: 'Сентябрь — декабрь 2025', en: 'September — December 2025' },
       items: [
         { ru: 'Стратегический и финансовый менеджмент', en: 'Strategic and financial management' },
         { ru: 'Организация бизнес-процессов', en: 'Designing business processes' },
@@ -78,9 +78,9 @@ const curriculum: Record<string, CurriculumModule[]> = {
       ],
     },
     {
-      title: { ru: 'Устойчивый рост', en: 'Sustainable growth' },
+      title: { ru: 'Устойчивый рост — масштабирование', en: 'Sustainable growth — scaling up' },
       desc: { ru: 'Закрепить рост на данных, ИИ и эффективности.', en: 'Lock in growth with data, AI and efficiency.' },
-      period: { ru: 'Январь — июнь 2028', en: 'January — June 2028' },
+      period: { ru: 'Январь — июнь 2026', en: 'January — June 2026' },
       items: [
         { ru: 'Операционный менеджмент', en: 'Operations management' },
         { ru: 'Решения на основе данных и ИИ', en: 'Data-driven thinking and AI' },
@@ -89,9 +89,9 @@ const curriculum: Record<string, CurriculumModule[]> = {
       ],
     },
     {
-      title: { ru: 'Выход на новые рынки', en: 'Entering new markets' },
+      title: { ru: 'Выход и развитие на новых рынках', en: 'Entering and growing in new markets' },
       desc: { ru: 'Подготовить и реализовать выход компании за рубеж.', en: 'Prepare and deliver your company’s move abroad.' },
-      period: { ru: 'Сентябрь — декабрь 2028', en: 'September — December 2028' },
+      period: { ru: 'Сентябрь — декабрь 2026', en: 'September — December 2026' },
       items: [
         { ru: 'Управление международным бизнесом', en: 'International business management' },
         { ru: 'Кросс-культурный менеджмент', en: 'Cross-cultural management' },
@@ -198,6 +198,47 @@ const curriculum: Record<string, CurriculumModule[]> = {
         { ru: 'Мастер-классы', en: 'Masterclasses' },
         { ru: 'Мастермайнд для предпринимателей «Управление компанией»', en: 'Entrepreneurs’ mastermind “Running the company”' },
         { ru: 'Подготовка и защита итогового проекта (дорожная карта развития компании)', en: 'Preparation and defence of the capstone project (company development roadmap)' },
+      ],
+    },
+  ],
+  'doing-business-in-russia': [
+    {
+      title: { ru: 'Особенности ведения бизнеса в России', en: 'Features of conducting business in Russia' },
+      desc: { ru: 'Понять рынок, среду и деловую культуру России.', en: 'Understand the Russian market, environment and business culture.' },
+      items: [
+        { ru: 'Введение в российский рынок: особенности, вызовы и возможности', en: 'Introduction to the Russian market: features, challenges and opportunities' },
+        { ru: 'Влияние политической и экономической системы на бизнес', en: 'Impact of the political and economic system on business' },
+        { ru: 'Нормы и ценности культурных аспектов и деловая этика', en: 'Norms and values of cultural aspects and business ethics' },
+      ],
+    },
+    {
+      title: { ru: 'Право и регулирование бизнеса в России', en: 'Legal sphere and business regulation in Russia' },
+      desc: { ru: 'Работать по правилам: регистрация, учёт, споры, таможня.', en: 'Operate by the rules: registration, accounting, disputes, customs.' },
+      items: [
+        { ru: 'Правовые и регуляторные рамки ведения бизнеса в России', en: 'The main legal and regulatory frameworks governing business activities in Russia' },
+        { ru: 'Регистрация бизнеса, бухгалтерский учёт и аудит', en: 'Business registration, accounting and auditing services' },
+        { ru: 'Правовая защита и разрешение споров', en: 'Legal protection and dispute resolution' },
+        { ru: 'Таможенное регулирование', en: 'Customs regulations' },
+      ],
+    },
+    {
+      title: { ru: 'Go-to-market стратегия и управление брендом в России', en: 'Go-to-market strategy and brand management in Russia' },
+      desc: { ru: 'Выйти на рынок и закрепить бренд в России.', en: 'Enter the market and establish your brand in Russia.' },
+      items: [
+        { ru: 'Анализ рынка и конкурентов', en: 'Market and competitive analysis' },
+        { ru: 'Маркетинговые стратегии и инструменты привлечения и удержания клиентов на российском рынке', en: 'Marketing strategies and tools for attracting and retaining customers in the Russian market' },
+        { ru: 'Управление брендом в России', en: 'Brand management in Russia' },
+        { ru: 'Индивидуальная работа с ментором из фокусной страны', en: 'One-on-one work with a mentor from the focus country' },
+      ],
+    },
+    {
+      title: { ru: 'Инвестиции и финансовый менеджмент', en: 'Investments and financial management' },
+      desc: { ru: 'Управлять финансами и инвестициями на рынке России.', en: 'Manage finance and investment in the Russian market.' },
+      items: [
+        { ru: 'Финансовое планирование и управление денежным потоком', en: 'Financial planning and cash-flow management' },
+        { ru: 'Переговоры и финансовые операции в России', en: 'Negotiations and financial transactions in Russia' },
+        { ru: 'Оценка рисков и выбор оптимальных инвестиционных возможностей в России', en: 'Risk assessment and selection of optimal investment opportunities in Russia' },
+        { ru: 'Индивидуальная работа с международным экспертом для реализации стратегии', en: 'One-on-one work with an international expert to implement strategies' },
       ],
     },
   ],

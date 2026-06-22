@@ -64,6 +64,7 @@ export default async function ProgramDetail({
       'master-of-business-acceleration': '/images/team.jpg',
       'global-expansion': '/images/campus.jpg',
       'mba-global-expansion': '/images/library.jpg',
+      'doing-business-in-russia': '/images/campus2.jpg',
     } as Record<string, string>)[program.slug] ||
     '/images/library.jpg';
   const meta = [

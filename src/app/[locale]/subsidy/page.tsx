@@ -172,7 +172,7 @@ export default async function SubsidyPage({ params }: { params: { locale: Locale
 
       <CTASection
         title={ru ? 'Хотите учиться по программе РУДН?' : 'Want to study at RUDN?'}
-        text={ru ? 'Расскажем о программах и поможем разобраться с оформлением субсидии.' : 'We will tell you about the programmes and help you navigate the subsidy.'}
+        text={ru ? 'Расскажем о программах и поможем разобраться с оформлением субсидии.' : 'We will tell you about the programs and help you navigate the subsidy.'}
         cta={{ label: dict.nav.apply, href: lp('/contacts#apply') }}
       />
     </>

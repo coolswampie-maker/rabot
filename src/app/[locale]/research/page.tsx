@@ -54,7 +54,7 @@ export default async function ResearchPage({ params }: { params: { locale: Local
         subtitle={researchIntro[locale]}
         image="/images/rudn/campus-sign.jpg"
         primaryCta={{ label: dict.nav.publications, href: lp('/publications') }}
-        secondaryCta={{ label: ru ? 'Activities (Harvard)' : 'Activities (Harvard)', href: activitiesUrl }}
+        secondaryCta={{ label: ru ? 'Сайт центра ICEMR' : 'ICEMR website', href: activitiesUrl }}
       />
 
       {/* Research directions — compact, each links to its own page */}
@@ -137,20 +137,20 @@ export default async function ResearchPage({ params }: { params: { locale: Local
         </div>
       </section>
 
-      {/* Activities (external Harvard page) */}
+      {/* Activities (external ICEMR site) */}
       <section className="section-tight bg-paper">
         <div className="container">
           <div className="flex flex-col items-start justify-between gap-4 rounded-2xl border border-line bg-white p-7 sm:flex-row sm:items-center">
             <div>
-              <h2 className="text-xl">Activities</h2>
+              <h2 className="text-xl">{ru ? 'Деятельность центра' : 'Activities'}</h2>
               <p className="mt-1 text-sm text-muted">
                 {ru
-                  ? 'Программа мероприятий центра размещена на партнёрской площадке Гарвардского университета.'
-                  : 'The center’s activities programme is hosted on a partner page at Harvard University.'}
+                  ? 'Мероприятия и проекты центра публикуются на сайте ICEMR.'
+                  : 'The center’s activities and projects are published on the ICEMR website.'}
               </p>
             </div>
             <a href={activitiesUrl} target="_blank" rel="noopener noreferrer" className="btn-secondary shrink-0">
-              {ru ? 'Открыть на Harvard ↗' : 'Open on Harvard ↗'}
+              {ru ? 'Открыть сайт ICEMR ↗' : 'Open ICEMR website ↗'}
             </a>
           </div>
         </div>

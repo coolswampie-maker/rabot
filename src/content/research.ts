@@ -1,7 +1,7 @@
 // ICEMR research center content (bilingual).
 // Structure and items mirror the live icemr.ru (International Center for
 // Emerging Markets Research at RUDN), reviewed June 2026:
-//   About us · Activities (external, Harvard) · Publications · Working Papers · Working Groups.
+//   About us · Activities · Publications · Working Papers · Working Groups.
 import type { Locale } from '@/i18n/config';
 
 type Bi = Record<Locale, string>;
@@ -132,8 +132,8 @@ export const workingPapers: { code: string; title: Bi }[] = [
   { code: 'EI', title: { ru: 'Working Papers EI', en: 'Working Papers EI' } },
 ];
 
-// "Activities" lives on a Harvard-hosted page; we link out rather than mirror it.
-export const activitiesUrl = 'https://projects.iq.harvard.edu/icemr/activities';
+// Link out to the ICEMR center site rather than mirroring its activities here.
+export const activitiesUrl = 'https://icemr.ru/';
 
 export const researchGroups: { name: Bi; focus: Bi }[] = [
   {

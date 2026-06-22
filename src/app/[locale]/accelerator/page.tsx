@@ -66,7 +66,7 @@ export default async function AcceleratorPage({ params }: { params: { locale: Lo
             { value: acceleratorMeta.duration[locale], label: dict.common.duration },
             { value: '4', label: ru ? 'акселерационных блока' : 'acceleration blocks' },
             { value: acceleratorMeta.startDate[locale], label: ru ? 'старт потока' : 'cohort start' },
-            { value: acceleratorMeta.price[locale], label: ru ? 'стоимость программы' : 'programme price' },
+            { value: acceleratorMeta.price[locale], label: ru ? 'стоимость программы' : 'program price' },
           ].map((f) => (
             <div key={f.label}>
               <div className="font-serif text-2xl text-navy-700 sm:text-3xl">{f.value}</div>
@@ -79,7 +79,7 @@ export default async function AcceleratorPage({ params }: { params: { locale: Lo
       {/* Participant profiles */}
       <section className="section">
         <div className="container">
-          <SectionHeading eyebrow={dict.common.audience} title={ru ? 'Кому подходит программа' : 'Who the programme is for'} />
+          <SectionHeading eyebrow={dict.common.audience} title={ru ? 'Кому подходит программа' : 'Who the program is for'} />
           <div className="grid gap-6 md:grid-cols-2">
             {acceleratorProfiles.map((p, i) => (
               <div key={i} className="card p-6">
@@ -102,7 +102,7 @@ export default async function AcceleratorPage({ params }: { params: { locale: Lo
       {/* What you achieve */}
       <section className="section bg-paper">
         <div className="container">
-          <SectionHeading eyebrow={ru ? 'Зачем' : 'Why'} title={ru ? 'Что вы сделаете на программе' : 'What you will do on the programme'} />
+          <SectionHeading eyebrow={ru ? 'Зачем' : 'Why'} title={ru ? 'Что вы сделаете на программе' : 'What you will do on the program'} />
           <ul className="grid gap-3 sm:grid-cols-2">
             {acceleratorAudience.map((a, i) => (
               <li key={i} className="flex items-start gap-3 rounded-xl border border-line bg-white p-4">
@@ -200,7 +200,7 @@ export default async function AcceleratorPage({ params }: { params: { locale: Lo
               </div>
             ))}
           </div>
-          <p className="mt-3 text-xs uppercase tracking-wide text-muted">{ru ? 'Сопровождение после программы' : 'Support after the programme'}</p>
+          <p className="mt-3 text-xs uppercase tracking-wide text-muted">{ru ? 'Сопровождение после программы' : 'Support after the program'}</p>
         </div>
       </section>
 
@@ -224,7 +224,7 @@ export default async function AcceleratorPage({ params }: { params: { locale: Lo
           <SectionHeading
             eyebrow={ru ? 'Отбор' : 'Selection'}
             title={ru ? 'Как поступить' : 'How to apply'}
-            subtitle={ru ? 'Пройдите отбор, чтобы попасть в ТОП-25 участников программы.' : 'Pass the selection to join the TOP-25 participants of the programme.'}
+            subtitle={ru ? 'Пройдите отбор, чтобы попасть в ТОП-25 участников программы.' : 'Pass the selection to join the TOP-25 participants of the program.'}
           />
           <ol className="grid gap-4 md:grid-cols-4">
             {acceleratorSteps.map((s, i) => (

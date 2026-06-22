@@ -6,7 +6,7 @@ type Bi = Record<Locale, string>;
 
 export const subsidyIntro: Bi = {
   ru: 'Московские работодатели могут вернуть значительную часть затрат на обучение сотрудников — в том числе на программы MBA — за счёт субсидии из бюджета города Москвы. Ниже — условия по данным Департамента предпринимательства и инновационного развития города Москвы (delo.mos.ru).',
-  en: 'Moscow employers can recover a substantial part of their employee-training costs — including MBA programmes — through a subsidy from the Moscow city budget. Below are the terms as published by the Moscow Department of Entrepreneurship and Innovative Development (delo.mos.ru).',
+  en: 'Moscow employers can recover a substantial part of their employee-training costs — including MBA programs — through a subsidy from the Moscow city budget. Below are the terms as published by the Moscow Department of Entrepreneurship and Innovative Development (delo.mos.ru).',
 };
 
 export const subsidyHighlights: { value: string; label: Bi }[] = [
@@ -21,7 +21,7 @@ export const subsidyRecipients: Bi[] = [
 ];
 
 export const subsidyCovers: Bi[] = [
-  { ru: 'Дополнительное профессиональное образование, в том числе программы MBA', en: 'Additional professional education, including MBA programmes' },
+  { ru: 'Дополнительное профессиональное образование, в том числе программы MBA', en: 'Additional professional education, including MBA programs' },
   { ru: 'Среднее профессиональное образование', en: 'Secondary vocational education' },
 ];
 
@@ -54,7 +54,7 @@ export const subsidyDocuments: Bi[] = [
   { ru: 'Интерактивная форма заявки на delo.mos.ru', en: 'Interactive application form on delo.mos.ru' },
   { ru: 'Копии договоров об образовании', en: 'Copies of the education contracts' },
   { ru: 'Копии платёжных поручений', en: 'Copies of payment orders' },
-  { ru: 'Копии образовательных программ', en: 'Copies of the educational programmes' },
+  { ru: 'Копии образовательных программ', en: 'Copies of the educational programs' },
   { ru: 'Копия лицензии образовательной организации', en: 'A copy of the educational institution’s licence' },
   { ru: 'Согласие на обработку персональных данных обучающегося', en: 'Consent to processing the trainee’s personal data' },
   { ru: 'Форма финансового отчёта о фактически понесённых затратах', en: 'A financial report form on the actual costs incurred' },
