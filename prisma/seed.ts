@@ -1315,6 +1315,123 @@ They stop treating their own way of working as the default. They learn the local
       venue: 'Emerald Publishing',
       field: 'Economic theory & econometrics',
     },
+    // Selected publications listed on icemr.ru/publications.
+    {
+      slug: 'barnett-chen-bifurcation-2015',
+      locale: 'EN',
+      type: 'JOURNAL_ARTICLE',
+      brand: 'ICEMR',
+      status: 'PUBLISHED',
+      featured: false,
+      title: 'Bifurcation of Macroeconometric Models and Robustness of Dynamical Inferences',
+      abstract:
+        'Foundations and Trends in Econometrics, Vol. 8, No. 1–2, pp. 1–144 (2015). DOI: 10.1561/0800000026.',
+      authorsText: 'Barnett W. A., Chen G.',
+      year: 2015,
+      venue: 'Foundations and Trends in Econometrics',
+      field: 'Economic theory & econometrics',
+      doi: '10.1561/0800000026',
+      externalUrl: 'http://dx.doi.org/10.1561/0800000026',
+    },
+    {
+      slug: 'barnett-shilnikov-chaos-2022',
+      locale: 'EN',
+      type: 'JOURNAL_ARTICLE',
+      brand: 'ICEMR',
+      status: 'PUBLISHED',
+      featured: false,
+      title: 'Shilnikov Chaos, Low Interest Rates, and New Keynesian Macroeconomics',
+      abstract:
+        'Journal of Economic Dynamics and Control, Vol. 134, January 2022, pp. 1–17.',
+      authorsText: 'Barnett W. A., Bella G., Ghosh T., Mattana P., Venturi B.',
+      year: 2022,
+      venue: 'Journal of Economic Dynamics and Control',
+      field: 'Economic theory & econometrics',
+    },
+    {
+      slug: 'sergi-future-russia-economy-2018',
+      locale: 'EN',
+      type: 'BOOK',
+      brand: 'ICEMR',
+      status: 'PUBLISHED',
+      featured: false,
+      title: "Exploring the Future of Russia's Economy and Markets: Towards Sustainable Economic Development",
+      abstract: 'Edited volume published by Emerald Publishing Limited (2018).',
+      authorsText: 'Sergi B. S. (ed.)',
+      year: 2018,
+      venue: 'Emerald Publishing Limited',
+      field: 'Emerging markets',
+    },
+    {
+      slug: 'sergi-modeling-economic-growth-2019',
+      locale: 'EN',
+      type: 'BOOK',
+      brand: 'ICEMR',
+      status: 'PUBLISHED',
+      featured: false,
+      title: 'Modeling Economic Growth in Contemporary Russia',
+      abstract: 'Edited volume published by Emerald Publishing Limited (2019).',
+      authorsText: 'Sergi B. S. (ed.)',
+      year: 2019,
+      venue: 'Emerald Publishing Limited',
+      field: 'Emerging markets',
+    },
+    {
+      slug: 'sergi-tech-smart-cities-2019',
+      locale: 'EN',
+      type: 'BOOK',
+      brand: 'ICEMR',
+      status: 'PUBLISHED',
+      featured: false,
+      title: 'Tech, Smart Cities, and Regional Development in Contemporary Russia',
+      abstract: 'Edited volume published by Emerald Publishing Limited (2019).',
+      authorsText: 'Sergi B. S. (ed.)',
+      year: 2019,
+      venue: 'Emerald Publishing Limited',
+      field: 'Digital economy',
+    },
+    {
+      slug: 'sergi-scanlon-entrepreneurship-development-2019',
+      locale: 'EN',
+      type: 'BOOK',
+      brand: 'ICEMR',
+      status: 'PUBLISHED',
+      featured: false,
+      title: 'Entrepreneurship and Development in the 21st Century',
+      abstract: 'Edited volume published by Emerald Publishing Limited (2019).',
+      authorsText: 'Sergi B. S., Scanlon C. C. (eds.)',
+      year: 2019,
+      venue: 'Emerald Publishing Limited',
+      field: 'Emerging markets',
+    },
+    {
+      slug: 'barnett-sergi-asia-pacific-finance-2019',
+      locale: 'EN',
+      type: 'BOOK',
+      brand: 'ICEMR',
+      status: 'PUBLISHED',
+      featured: false,
+      title: 'Asia-Pacific Contemporary Finance and Development',
+      abstract: 'Edited volume published by Emerald Publishing Limited (2019).',
+      authorsText: 'Barnett W. A., Sergi B. S. (eds.)',
+      year: 2019,
+      venue: 'Emerald Publishing Limited',
+      field: 'Trade & global markets',
+    },
+    {
+      slug: 'barnett-sergi-banking-finance-emerging-2018',
+      locale: 'EN',
+      type: 'BOOK',
+      brand: 'ICEMR',
+      status: 'PUBLISHED',
+      featured: false,
+      title: 'Banking and Finance Issues in Emerging Markets',
+      abstract: 'Edited volume published by Emerald Publishing Limited (2018).',
+      authorsText: 'Barnett W. A., Sergi B. S. (eds.)',
+      year: 2018,
+      venue: 'Emerald Publishing Limited',
+      field: 'Emerging markets',
+    },
   ]
 
   for (const pub of publicationData) {
@@ -1334,101 +1451,101 @@ They stop treating their own way of working as the default. They learn the local
       slug: 'privacy',
       titleRu: 'Политика конфиденциальности',
       titleEn: 'Privacy Policy',
-      bodyRu: `> **Внимание:** это шаблонный текст. Он подготовлен как черновик и подлежит проверке и утверждению юридической службой университета. В текущем виде документ не является юридически обязывающим.
+      bodyRu: `> Оператор персональных данных — федеральное государственное автономное образовательное учреждение высшего образования «Российский университет дружбы народов имени Патриса Лумумбы» (РУДН). Полный официальный текст опубликован на сайте РУДН: [Политика в отношении обработки и защиты персональных данных](https://www.rudn.ru/personal-data-processing-and-protection-policy).
 
 ## Общие положения
 
-Настоящая Политика конфиденциальности описывает, как мы собираем, используем и защищаем персональные данные посетителей сайта. Обработка данных осуществляется в соответствии с Федеральным законом № 152-ФЗ «О персональных данных».
+Политика разработана в целях реализации требований законодательства Российской Федерации в области персональных данных и направлена на обеспечение защиты прав и свобод человека и гражданина при обработке его персональных данных. Обработка осуществляется в соответствии с Федеральным законом от 27.07.2006 № 152-ФЗ «О персональных данных» и иными нормативными правовыми актами, в том числе Федеральным законом от 29.12.2012 № 273-ФЗ «Об образовании в Российской Федерации».
 
-## Какие данные мы собираем
+## Цели и основания обработки
 
-Мы можем обрабатывать имя, контактный телефон, адрес электронной почты и иную информацию, которую вы указываете в формах на сайте.
+Персональные данные обрабатываются для выполнения возложенных на РУДН функций, полномочий и обязанностей, а также для связи по заявкам, поступающим через формы сайта, и информирования о программах. Конкретные цели обработки, категории субъектов и сроки хранения определяются локальными нормативными актами РУДН.
 
-## Цели обработки
+## Какие данные обрабатываются
 
-Данные используются для связи с вами по вашим заявкам, информирования о программах и улучшения работы сайта.
+Имя, контактный телефон, адрес электронной почты и иные данные, которые вы указываете в формах на сайте.
 
 ## Хранение и защита
 
-Мы принимаем организационные и технические меры для защиты данных от несанкционированного доступа. Срок хранения определяется целями обработки и требованиями законодательства.
+Применяются организационные и технические меры защиты данных от несанкционированного доступа. Персональные данные хранятся на территории Российской Федерации; срок хранения определяется целями обработки, сроком действия правоотношений и требованиями законодательства. По достижении целей обработки данные уничтожаются.
 
-## Ваши права
+## Права субъекта персональных данных
 
-Вы вправе запросить уточнение, блокирование или удаление своих персональных данных, а также отозвать согласие на их обработку.
+Вы вправе получать сведения об обработке своих данных, требовать их уточнения, блокирования или удаления, отозвать согласие на обработку, а также обжаловать действия оператора в Роскомнадзор или в суд. Запросы рассматриваются в установленные законом сроки.
 
-*Финальную редакцию необходимо согласовать с юридической службой.*`,
-      bodyEn: `> **Notice:** this is template text. It is a draft to be reviewed and approved by the university's legal team, and it is not legally binding in its current form.
+## Официальный документ
+
+Полный текст Политики РУДН публикуется в свободном доступе в разделе [«Сведения об образовательной организации»](https://www.rudn.ru/sveden/document). По вопросам обработки персональных данных можно обратиться по контактам, указанным в разделе «Контакты».`,
+      bodyEn: `> The personal data operator is the Federal State Autonomous Educational Institution of Higher Education "Peoples' Friendship University of Russia named after Patrice Lumumba" (RUDN). The full official text is published on the RUDN website: [Personal Data Processing and Protection Policy](https://www.rudn.ru/personal-data-processing-and-protection-policy).
 
 ## General provisions
 
-This Privacy Policy describes how we collect, use and protect the personal data of website visitors.
+The Policy implements the requirements of Russian Federation law on personal data and is aimed at protecting the rights and freedoms of individuals when their personal data is processed. Processing is carried out in accordance with Federal Law No. 152-FZ of 27 July 2006 "On Personal Data" and other regulations, including Federal Law No. 273-FZ of 29 December 2012 "On Education in the Russian Federation".
 
-## What data we collect
+## Purposes and legal basis
 
-We may process your name, contact phone number, email address and other information you provide in forms on the website.
+Personal data is processed to perform the functions, powers and duties of RUDN, as well as to respond to enquiries submitted through the website's forms and to provide information about programs. Specific purposes, categories of data subjects and retention periods are defined by RUDN's internal regulations.
 
-## Purposes of processing
+## What data is processed
 
-The data is used to contact you regarding your enquiries, to inform you about programs and to improve the website.
+Your name, contact phone number, email address and other data you provide in the website's forms.
 
 ## Storage and protection
 
-We apply organisational and technical measures to protect data against unauthorised access. The retention period is determined by the purposes of processing and by applicable law.
+Organisational and technical measures are applied to protect data against unauthorised access. Personal data is stored within the Russian Federation; the retention period is determined by the purposes of processing, the duration of the relationship and legal requirements. Data is destroyed once the purposes of processing are met.
 
-## Your rights
+## Rights of the data subject
 
-You have the right to request clarification, blocking or deletion of your personal data, and to withdraw your consent to its processing.
+You have the right to obtain information about the processing of your data, to request its clarification, blocking or deletion, to withdraw your consent, and to appeal the operator's actions to Roskomnadzor or in court. Requests are handled within the time limits set by law.
 
-*The final wording must be approved by the legal team.*`,
+## Official document
+
+The full text of the RUDN Policy is publicly available in the [official information section](https://www.rudn.ru/sveden/document). For questions about personal data processing, please use the details in the Contacts section.`,
     },
     {
       slug: 'consent',
       titleRu: 'Согласие на обработку персональных данных',
       titleEn: 'Personal Data Processing Consent',
-      bodyRu: `> **Внимание:** это шаблонный текст. Он подготовлен как черновик и подлежит проверке и утверждению юридической службой университета. В текущем виде документ не является юридически обязывающим.
+      bodyRu: `> Оператор — РУДН (Российский университет дружбы народов имени Патриса Лумумбы). Согласие даётся в соответствии с Федеральным законом от 27.07.2006 № 152-ФЗ «О персональных данных». См. [Политику РУДН в отношении обработки персональных данных](https://www.rudn.ru/personal-data-processing-and-protection-policy).
 
 ## Предмет согласия
 
-Отправляя форму на сайте, вы даёте согласие на обработку указанных вами персональных данных в соответствии с Федеральным законом № 152-ФЗ «О персональных данных».
+Отправляя форму на сайте, вы даёте оператору (РУДН) согласие на обработку указанных вами персональных данных.
 
 ## Перечень данных
 
-Согласие распространяется на имя, номер телефона, адрес электронной почты и иные данные, переданные через формы сайта.
+Имя, номер телефона, адрес электронной почты и иные данные, переданные через формы сайта.
 
-## Действия с данными
+## Действия с данными и цели
 
-Вы соглашаетесь на сбор, запись, хранение, использование и удаление данных в целях обработки ваших обращений и заявок.
+Согласие распространяется на сбор, запись, систематизацию, хранение, использование, передачу уполномоченным лицам и удаление данных в целях обработки ваших обращений и заявок, а также информирования о программах. Обработка ведётся на территории Российской Федерации.
 
 ## Срок действия и отзыв
 
-Согласие действует до достижения целей обработки или до момента его отзыва. Отозвать согласие можно, направив соответствующее обращение по контактам, указанным на сайте.
-
-*Текст требует проверки юридической службой перед публикацией.*`,
-      bodyEn: `> **Notice:** this is template text. It is a draft to be reviewed and approved by the university's legal team, and it is not legally binding in its current form.
+Согласие действует до достижения целей обработки или до момента его отзыва. Отозвать согласие можно, направив обращение по контактам, указанным на сайте.`,
+      bodyEn: `> The operator is RUDN (Peoples' Friendship University of Russia named after Patrice Lumumba). Consent is given in accordance with Federal Law No. 152-FZ of 27 July 2006 "On Personal Data". See the [RUDN Personal Data Policy](https://www.rudn.ru/personal-data-processing-and-protection-policy).
 
 ## Subject of consent
 
-By submitting a form on the website, you consent to the processing of the personal data you provide.
+By submitting a form on the website, you give the operator (RUDN) your consent to process the personal data you provide.
 
 ## Scope of data
 
-The consent covers your name, phone number, email address and other data submitted through the website's forms.
+Your name, phone number, email address and other data submitted through the website's forms.
 
-## Actions with data
+## Actions with data and purposes
 
-You consent to the collection, recording, storage, use and deletion of data for the purpose of handling your enquiries and applications.
+The consent covers the collection, recording, organisation, storage, use, transfer to authorised persons and deletion of data for the purpose of handling your enquiries and applications and informing you about programs. Processing takes place within the Russian Federation.
 
 ## Validity and withdrawal
 
-The consent remains valid until the purposes of processing are met or until it is withdrawn. You may withdraw consent by sending a request to the contacts listed on the website.
-
-*This text must be reviewed by the legal team before publication.*`,
+The consent remains valid until the purposes of processing are met or until it is withdrawn. You may withdraw consent by sending a request to the contacts listed on the website.`,
     },
     {
       slug: 'cookie',
       titleRu: 'Политика использования cookie',
       titleEn: 'Cookie Policy',
-      bodyRu: `> **Внимание:** это шаблонный текст. Он подготовлен как черновик и подлежит проверке и утверждению юридической службой университета. В текущем виде документ не является юридически обязывающим.
+      bodyRu: `> Сайт принадлежит РУДН. Обработка данных, собираемых с помощью cookie, ведётся в соответствии с [Политикой РУДН в отношении обработки персональных данных](https://www.rudn.ru/personal-data-processing-and-protection-policy).
 
 ## Что такое cookie
 
@@ -1436,7 +1553,7 @@ Cookie — это небольшие файлы, которые сохраняю
 
 ## Как мы используем cookie
 
-Мы используем cookie, чтобы запоминать ваши настройки, анализировать посещаемость и улучшать работу сайта.
+Cookie применяются, чтобы запоминать ваши настройки, анализировать посещаемость и улучшать работу сайта.
 
 ## Аналитика
 
@@ -1444,10 +1561,8 @@ Cookie — это небольшие файлы, которые сохраняю
 
 ## Управление cookie
 
-Вы можете отключить или удалить cookie в настройках браузера. При этом часть функций сайта может работать некорректно.
-
-*Окончательную редакцию следует согласовать с юридической службой.*`,
-      bodyEn: `> **Notice:** this is template text. It is a draft to be reviewed and approved by the university's legal team, and it is not legally binding in its current form.
+Вы можете отключить или удалить cookie в настройках браузера. При этом часть функций сайта может работать некорректно.`,
+      bodyEn: `> The website belongs to RUDN. Data collected via cookies is processed in accordance with the [RUDN Personal Data Policy](https://www.rudn.ru/personal-data-processing-and-protection-policy).
 
 ## What cookies are
 
@@ -1455,7 +1570,7 @@ Cookies are small files stored in your browser when you visit the website that h
 
 ## How we use cookies
 
-We use cookies to remember your settings, analyse traffic and improve how the website works.
+Cookies are used to remember your settings, analyse traffic and improve how the website works.
 
 ## Analytics
 
@@ -1463,15 +1578,13 @@ The website may use web analytics services that collect anonymised statistics ab
 
 ## Managing cookies
 
-You can disable or delete cookies in your browser settings. Some website features may then not work correctly.
-
-*The final wording should be approved by the legal team.*`,
+You can disable or delete cookies in your browser settings. Some website features may then not work correctly.`,
     },
     {
       slug: 'terms',
       titleRu: 'Пользовательское соглашение',
       titleEn: 'Terms of Use',
-      bodyRu: `> **Внимание:** это шаблонный текст. Он подготовлен как черновик и подлежит проверке и утверждению юридической службой университета. В текущем виде документ не является юридически обязывающим.
+      bodyRu: `> Сайт принадлежит РУДН (Российский университет дружбы народов имени Патриса Лумумбы).
 
 ## Общие условия
 
@@ -1483,14 +1596,16 @@ You can disable or delete cookies in your browser settings. Some website feature
 
 ## Ограничение ответственности
 
-Мы стремимся поддерживать актуальность информации, но не гарантируем отсутствие ошибок и неточностей. Сведения о программах не являются публичной офертой.
+Мы стремимся поддерживать актуальность информации, но не гарантируем отсутствие ошибок и неточностей. Сведения о программах носят информационный характер и не являются публичной офертой.
+
+## Персональные данные
+
+Обработка персональных данных, передаваемых через сайт, осуществляется в соответствии с [Политикой РУДН в отношении обработки персональных данных](https://www.rudn.ru/personal-data-processing-and-protection-policy).
 
 ## Изменения
 
-Мы вправе обновлять условия и содержание сайта без предварительного уведомления.
-
-*Документ подлежит финальной проверке юридической службой.*`,
-      bodyEn: `> **Notice:** this is template text. It is a draft to be reviewed and approved by the university's legal team, and it is not legally binding in its current form.
+Мы вправе обновлять условия и содержание сайта без предварительного уведомления.`,
+      bodyEn: `> The website belongs to RUDN (Peoples' Friendship University of Russia named after Patrice Lumumba).
 
 ## General terms
 
@@ -1502,13 +1617,15 @@ The website's materials are provided for informational purposes. Copying and dis
 
 ## Limitation of liability
 
-We aim to keep information up to date but do not guarantee the absence of errors. Information about programs does not constitute a public offer.
+We aim to keep information up to date but do not guarantee the absence of errors. Information about programs is for reference only and does not constitute a public offer.
+
+## Personal data
+
+Personal data submitted through the website is processed in accordance with the [RUDN Personal Data Policy](https://www.rudn.ru/personal-data-processing-and-protection-policy).
 
 ## Changes
 
-We may update the terms and the content of the website without prior notice.
-
-*This document is subject to final review by the legal team.*`,
+We may update the terms and the content of the website without prior notice.`,
     },
   ]
 

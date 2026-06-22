@@ -13,8 +13,8 @@ export const researchName: Bi = {
 
 // Mission — two short paragraphs, as on the About us page.
 export const researchIntro: Bi = {
-  ru: 'ICEMR изучает экономику и бизнес развивающихся рынков: как на них устроен рост, инновации и предпринимательство, как работают человеческий капитал, энергетика и технологии. Центр объединяет исследователей РУДН и партнёрских университетов, а результаты выходят в международных журналах и сериях.',
-  en: 'ICEMR studies the economics and business of emerging markets — how growth, innovation and entrepreneurship work there, and the role of human capital, energy and technology. The center brings together researchers from RUDN and partner universities, with results published in international journals and book series.',
+  ru: 'Международный центр исследований развивающихся рынков (ICEMR) проводит политический и технический анализ, связанный с развивающимися рынками и их потребностью поддерживать быстрый рост, внедрять инновации и повышать конкурентоспособность. Центр стремится дать исследователям, стейкхолдерам и лицам, принимающим решения, рабочие подходы и ценные исследования, чтобы лучше понимать роль их решений в развитии развивающихся экономик.',
+  en: 'The International Center for Emerging Markets Research (ICEMR) conducts policy and technical analysis that arises from emerging markets and their continuous need to support and foster rapid growth, implement constant innovation, and spur competitiveness. We aim to equip researchers, stakeholders and decision-makers with effective frameworks and valuable research to better understand the impact and role of their decisions in fostering growth in emerging markets.',
 };
 
 // Six research directions, as listed on the site. Each has its own subpage
@@ -135,13 +135,14 @@ export const workingPapers: { code: string; title: Bi }[] = [
 // Link out to the ICEMR center site rather than mirroring its activities here.
 export const activitiesUrl = 'https://icemr.ru/';
 
-export const researchGroups: { name: Bi; focus: Bi }[] = [
-  {
-    name: { ru: 'Группа стратегий роста', en: 'Growth Strategies Group' },
-    focus: { ru: 'Масштабирование бизнеса и выход на новые рынки', en: 'Business scaling and entry into new markets' },
-  },
-  {
-    name: { ru: 'Группа цифровой трансформации', en: 'Digital Transformation Group' },
-    focus: { ru: 'Данные, ИИ и операционная эффективность', en: 'Data, AI and operational efficiency' },
-  },
+// Working groups as listed on icemr.ru (with their leads where named).
+export const researchGroups: { name: Bi; lead?: string }[] = [
+  { name: { ru: 'Банковское дело и финансы', en: 'Banking and Finance' }, lead: 'Carlo Bellavite Pellegrini' },
+  { name: { ru: 'Экономическая политика, регулирование и рост', en: 'Economic policy, regulation and growth' }, lead: 'Michael K Fung' },
+  { name: { ru: 'Энергетическая отрасль', en: 'Energy Industry' }, lead: 'Apostolos Serletis' },
+  { name: { ru: 'Финансовое развитие и финансовая стабильность', en: 'Financial Development and Financial Stability' }, lead: 'Irwan Trinugroho' },
+  { name: { ru: 'Социальная ответственность', en: 'Social Responsibility' } },
+  { name: { ru: 'Концепция эндогенного экономического роста России', en: 'Concept of Russia’s endogenous economic growth' } },
+  { name: { ru: 'Устойчивый рост и предпринимательство', en: 'Sustainable Growth and Entrepreneurship' } },
+  { name: { ru: 'Здоровье и благополучие', en: 'Health and wellbeing' } },
 ];

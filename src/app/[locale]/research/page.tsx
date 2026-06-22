@@ -18,6 +18,7 @@ import {
   researchIntro,
   researchDirections,
   researchSeries,
+  researchGroups,
   workingPapers,
   activitiesUrl,
 } from '@/content/research';
@@ -92,6 +93,21 @@ export default async function ResearchPage({ params }: { params: { locale: Local
               </li>
             ))}
           </ul>
+        </div>
+      </section>
+
+      {/* Working groups */}
+      <section className="section">
+        <div className="container">
+          <SectionHeading eyebrow="ICEMR" title={ru ? 'Рабочие группы' : 'Working Groups'} />
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {researchGroups.map((g) => (
+              <div key={g.name.en} className="rounded-xl border border-line bg-white p-5">
+                <h3 className="font-semibold leading-snug text-navy-700">{g.name[locale]}</h3>
+                {g.lead && <p className="mt-1.5 text-sm text-muted">{g.lead}</p>}
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
