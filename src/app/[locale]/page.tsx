@@ -47,7 +47,7 @@ export default async function HomePage({ params }: { params: { locale: Locale } 
     { value: '15', label: ru ? 'программ высшего образования' : 'higher-education programmes' },
     { value: '7', label: ru ? 'программ бизнес-образования' : 'business-education programmes' },
     { value: '6', label: ru ? 'программ двойного диплома' : 'double-degree programmes' },
-    { value: '1500', label: ru ? 'студентов ИМЭБ' : 'students at IWEB' },
+    { value: '1500', label: ru ? 'студентов ИМЭБ' : 'students at IMEB' },
     { value: '8', label: ru ? 'баз зарубежных стажировок' : 'foreign internship bases' },
     { value: '160+', label: ru ? 'стран, откуда выпускники РУДН' : 'countries RUDN alumni come from' },
   ];
@@ -113,13 +113,13 @@ export default async function HomePage({ params }: { params: { locale: Locale } 
         </div>
       </section>
 
-      {/* IWEB / RUDN in numbers */}
+      {/* IMEB / RUDN in numbers */}
       <section className="section-tight bg-paper">
         <div className="container">
           <SectionHeading
             eyebrow={dict.brandShort}
-            title={ru ? 'РУДН и ИМЭБ в цифрах' : 'RUDN and IWEB in numbers'}
-            subtitle={ru ? 'Институт мировой экономики и бизнеса (ИМЭБ) Экономического факультета РУДН.' : 'The Institute of World Economy and Business (IWEB), Faculty of Economics, RUDN.'}
+            title={ru ? 'РУДН и ИМЭБ в цифрах' : 'RUDN and IMEB in numbers'}
+            subtitle={ru ? 'Институт мировой экономики и бизнеса (ИМЭБ) Экономического факультета РУДН.' : 'The Institute of World Economy and Business (IMEB), Faculty of Economics, RUDN University.'}
             align="center"
           />
           <div className="mx-auto grid max-w-4xl grid-cols-2 gap-y-8 text-center sm:grid-cols-3">

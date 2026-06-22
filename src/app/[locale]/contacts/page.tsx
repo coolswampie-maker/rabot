@@ -28,21 +28,21 @@ export default async function ContactsPage({ params }: { params: { locale: Local
       name: ru ? 'Андронова Инна Витальевна' : 'Inna Andronova',
       role: ru
         ? 'д.э.н., профессор, декан Экономического факультета РУДН, заведующая кафедрой международных экономических отношений'
-        : 'D.Sc. (Economics), professor, Dean of the Faculty of Economics, RUDN; Head of the Department of International Economic Relations',
+        : 'Doctor of Economics, Professor, Dean of the Faculty of Economics at RUDN University, Head of the Department of International Economic Relations',
       email: 'andronova-iv@rudn.ru',
     },
     {
       name: ru ? 'Пинчук Виктор Николаевич' : 'Viktor Pinchuk',
       role: ru
-        ? 'д.э.н., директор Института мировой экономики и бизнеса (ИМЭБ)'
-        : 'D.Sc. (Economics), Director of the Institute of World Economy and Business (IWEB)',
+        ? 'д.э.н., директор Института мировой экономики и бизнеса (ИМЭБ), заместитель генерального директора Mediascope'
+        : 'Doctor of Economics, Director of the Institute of World Economy and Business (IMEB) at RUDN University, Deputy CEO of Mediascope',
       email: 'pinchuk-vn@rudn.ru',
     },
     {
       name: ru ? 'Оганесян Ани Ашотовна' : 'Ani Oganesyan',
       role: ru
         ? 'к.э.н., Ph.D., доцент, руководитель программ MBA'
-        : 'PhD (Economics), associate professor, Head of MBA programmes',
+        : 'Ph.D., Associate Professor, Head of MBA Programs at RUDN University',
       email: 'oganesyan-aa@rudn.ru',
       extra: '+7 (925) 881-25-94 · Telegram @anihov',
     },

@@ -244,10 +244,10 @@ RUDN Global Expansion is a corporate programme for companies entering internatio
 
 ## Advantages
 
-- International-level practitioner lecturers and modern, hands-on tools
+- International level of professors and business practitioners, with modern hands-on tools
 - Mentoring and expert support from professional practitioners
-- On-site modules in Asia, the Middle East, Latin America and Africa
-- Access to business communities and decision-makers in focus countries
+- International modules in Asia, the Middle East, Latin America and Africa
+- Access to the global network of RUDN alumni from 160 countries, business communities and decision-makers in focus countries
 
 ## How we design and run the programme
 
@@ -258,13 +258,17 @@ RUDN Global Expansion is a corporate programme for companies entering internatio
 5. Delivering the modules according to the approved programme
 6. A strategy session to defend the projects and define the next steps
 
-## What graduates gain
+## Graduates may hold positions as
 
-The tools to perform the roles of director of a foreign branch or network, international-development director, marketing director and product-development director.
+- General Director
+- Director of a foreign branch/network
+- Director of International Development
+- Marketing Director
+- Product Development Director
 
 ## Format and qualification
 
-Duration is from 6 months. On campus, online and on-site modules, with a schedule that fits the team. On completion you receive a RUDN professional retraining diploma.`,
+Duration is from 6 months. On campus, online and international (field) modules, with a schedule that fits the team. On completion you receive a RUDN professional retraining diploma.`,
       format: 'Очно / онлайн / выездные модули',
       durationRu: 'От 6 месяцев',
       durationEn: 'From 6 months',
@@ -851,7 +855,7 @@ On campus or online, on a modular schedule. On completion you receive a RUDN pro
       title: 'Moskva 24: how often should you upskill — the view of RUDN’s MBA programme director',
       excerpt:
         'Andrey Berezin, director of MBA programmes at the RUDN Institute of World Economy and Business, told the Moskva 24 channel why professionals should requalify at least once every three years.',
-      content: `**Andrey Berezin**, director of MBA programmes at the RUDN Institute of World Economy and Business (IWEB), spoke on the Moskva 24 channel about how often specialists should refresh their knowledge.
+      content: `**Andrey Berezin**, director of MBA programmes at the RUDN Institute of World Economy and Business (IMEB), spoke on the Moskva 24 channel about how often specialists should refresh their knowledge.
 
 In his view, professionals should requalify **at least once every three years** — especially in fast-moving fields such as IT, education, science and finance. Yet only 11–13% of the workforce upskill systematically, he noted.
 
