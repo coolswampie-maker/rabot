@@ -112,152 +112,248 @@
 <loc>http://localhost:3000/ru/programs/master-of-business-acceleration</loc>
 <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/programs/master-of-business-acceleration" />
 <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/programs/master-of-business-acceleration" />
-<lastmod>2026-06-22T09:54:02.729Z</lastmod>
+<lastmod>2026-06-22T10:55:53.420Z</lastmod>
 </url>
 <url>
 <loc>http://localhost:3000/en/programs/master-of-business-acceleration</loc>
 <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/programs/master-of-business-acceleration" />
 <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/programs/master-of-business-acceleration" />
-<lastmod>2026-06-22T09:54:02.729Z</lastmod>
+<lastmod>2026-06-22T10:55:53.420Z</lastmod>
 </url>
 <url>
 <loc>http://localhost:3000/ru/programs/mba-global-expansion</loc>
 <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/programs/mba-global-expansion" />
 <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/programs/mba-global-expansion" />
-<lastmod>2026-06-22T09:54:02.731Z</lastmod>
+<lastmod>2026-06-22T10:55:53.422Z</lastmod>
 </url>
 <url>
 <loc>http://localhost:3000/en/programs/mba-global-expansion</loc>
 <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/programs/mba-global-expansion" />
 <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/programs/mba-global-expansion" />
-<lastmod>2026-06-22T09:54:02.731Z</lastmod>
+<lastmod>2026-06-22T10:55:53.422Z</lastmod>
 </url>
 <url>
 <loc>http://localhost:3000/ru/programs/mba-classic</loc>
 <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/programs/mba-classic" />
 <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/programs/mba-classic" />
-<lastmod>2026-06-22T09:54:02.724Z</lastmod>
+<lastmod>2026-06-22T10:55:53.415Z</lastmod>
 </url>
 <url>
 <loc>http://localhost:3000/en/programs/mba-classic</loc>
 <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/programs/mba-classic" />
 <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/programs/mba-classic" />
-<lastmod>2026-06-22T09:54:02.724Z</lastmod>
-</url>
-<url>
-<loc>http://localhost:3000/ru/programs/global-expansion</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/programs/global-expansion" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/programs/global-expansion" />
-<lastmod>2026-06-22T09:54:02.730Z</lastmod>
-</url>
-<url>
-<loc>http://localhost:3000/en/programs/global-expansion</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/programs/global-expansion" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/programs/global-expansion" />
-<lastmod>2026-06-22T09:54:02.730Z</lastmod>
+<lastmod>2026-06-22T10:55:53.415Z</lastmod>
 </url>
 <url>
 <loc>http://localhost:3000/ru/programs/doing-business-in-russia</loc>
 <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/programs/doing-business-in-russia" />
 <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/programs/doing-business-in-russia" />
-<lastmod>2026-06-22T09:54:02.733Z</lastmod>
+<lastmod>2026-06-22T10:55:53.424Z</lastmod>
 </url>
 <url>
 <loc>http://localhost:3000/en/programs/doing-business-in-russia</loc>
 <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/programs/doing-business-in-russia" />
 <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/programs/doing-business-in-russia" />
-<lastmod>2026-06-22T09:54:02.733Z</lastmod>
+<lastmod>2026-06-22T10:55:53.424Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/publications/ijepee-journal</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/ijepee-journal" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/ijepee-journal" />
-<lastmod>2026-06-22T09:54:02.793Z</lastmod>
+<loc>http://localhost:3000/ru/programs/global-expansion</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/programs/global-expansion" />
+<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/programs/global-expansion" />
+<lastmod>2026-06-22T10:55:53.421Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/publications/ijepee-journal</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/ijepee-journal" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/ijepee-journal" />
-<lastmod>2026-06-22T09:54:02.793Z</lastmod>
-</url>
-<url>
-<loc>http://localhost:3000/ru/publications/ijtgm-journal</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/ijtgm-journal" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/ijtgm-journal" />
-<lastmod>2026-06-22T09:54:02.794Z</lastmod>
-</url>
-<url>
-<loc>http://localhost:3000/en/publications/ijtgm-journal</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/ijtgm-journal" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/ijtgm-journal" />
-<lastmod>2026-06-22T09:54:02.794Z</lastmod>
+<loc>http://localhost:3000/en/programs/global-expansion</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/programs/global-expansion" />
+<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/programs/global-expansion" />
+<lastmod>2026-06-22T10:55:53.421Z</lastmod>
 </url>
 <url>
 <loc>http://localhost:3000/ru/publications/isete-symposia-series</loc>
 <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/isete-symposia-series" />
 <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/isete-symposia-series" />
-<lastmod>2026-06-22T09:54:02.795Z</lastmod>
+<lastmod>2026-06-22T10:55:53.498Z</lastmod>
 </url>
 <url>
 <loc>http://localhost:3000/en/publications/isete-symposia-series</loc>
 <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/isete-symposia-series" />
 <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/isete-symposia-series" />
-<lastmod>2026-06-22T09:54:02.795Z</lastmod>
+<lastmod>2026-06-22T10:55:53.498Z</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/ru/publications/barnett-chen-bifurcation-2015</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/barnett-chen-bifurcation-2015" />
+<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/barnett-chen-bifurcation-2015" />
+<lastmod>2026-06-22T10:55:53.499Z</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/en/publications/barnett-chen-bifurcation-2015</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/barnett-chen-bifurcation-2015" />
+<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/barnett-chen-bifurcation-2015" />
+<lastmod>2026-06-22T10:55:53.499Z</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/ru/publications/ijepee-journal</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/ijepee-journal" />
+<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/ijepee-journal" />
+<lastmod>2026-06-22T10:55:53.496Z</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/en/publications/ijepee-journal</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/ijepee-journal" />
+<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/ijepee-journal" />
+<lastmod>2026-06-22T10:55:53.496Z</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/ru/publications/barnett-shilnikov-chaos-2022</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/barnett-shilnikov-chaos-2022" />
+<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/barnett-shilnikov-chaos-2022" />
+<lastmod>2026-06-22T10:55:53.502Z</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/en/publications/barnett-shilnikov-chaos-2022</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/barnett-shilnikov-chaos-2022" />
+<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/barnett-shilnikov-chaos-2022" />
+<lastmod>2026-06-22T10:55:53.502Z</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/ru/publications/sergi-future-russia-economy-2018</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/sergi-future-russia-economy-2018" />
+<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/sergi-future-russia-economy-2018" />
+<lastmod>2026-06-22T10:55:53.503Z</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/en/publications/sergi-future-russia-economy-2018</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/sergi-future-russia-economy-2018" />
+<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/sergi-future-russia-economy-2018" />
+<lastmod>2026-06-22T10:55:53.503Z</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/ru/publications/sergi-modeling-economic-growth-2019</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/sergi-modeling-economic-growth-2019" />
+<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/sergi-modeling-economic-growth-2019" />
+<lastmod>2026-06-22T10:55:53.504Z</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/en/publications/sergi-modeling-economic-growth-2019</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/sergi-modeling-economic-growth-2019" />
+<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/sergi-modeling-economic-growth-2019" />
+<lastmod>2026-06-22T10:55:53.504Z</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/ru/publications/sergi-tech-smart-cities-2019</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/sergi-tech-smart-cities-2019" />
+<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/sergi-tech-smart-cities-2019" />
+<lastmod>2026-06-22T10:55:53.504Z</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/en/publications/sergi-tech-smart-cities-2019</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/sergi-tech-smart-cities-2019" />
+<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/sergi-tech-smart-cities-2019" />
+<lastmod>2026-06-22T10:55:53.504Z</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/ru/publications/sergi-scanlon-entrepreneurship-development-2019</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/sergi-scanlon-entrepreneurship-development-2019" />
+<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/sergi-scanlon-entrepreneurship-development-2019" />
+<lastmod>2026-06-22T10:55:53.505Z</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/en/publications/sergi-scanlon-entrepreneurship-development-2019</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/sergi-scanlon-entrepreneurship-development-2019" />
+<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/sergi-scanlon-entrepreneurship-development-2019" />
+<lastmod>2026-06-22T10:55:53.505Z</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/ru/publications/barnett-sergi-asia-pacific-finance-2019</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/barnett-sergi-asia-pacific-finance-2019" />
+<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/barnett-sergi-asia-pacific-finance-2019" />
+<lastmod>2026-06-22T10:55:53.506Z</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/en/publications/barnett-sergi-asia-pacific-finance-2019</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/barnett-sergi-asia-pacific-finance-2019" />
+<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/barnett-sergi-asia-pacific-finance-2019" />
+<lastmod>2026-06-22T10:55:53.506Z</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/ru/publications/barnett-sergi-banking-finance-emerging-2018</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/barnett-sergi-banking-finance-emerging-2018" />
+<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/barnett-sergi-banking-finance-emerging-2018" />
+<lastmod>2026-06-22T10:55:53.507Z</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/en/publications/barnett-sergi-banking-finance-emerging-2018</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/barnett-sergi-banking-finance-emerging-2018" />
+<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/barnett-sergi-banking-finance-emerging-2018" />
+<lastmod>2026-06-22T10:55:53.507Z</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/ru/publications/ijtgm-journal</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/ijtgm-journal" />
+<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/ijtgm-journal" />
+<lastmod>2026-06-22T10:55:53.497Z</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/en/publications/ijtgm-journal</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/ijtgm-journal" />
+<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/ijtgm-journal" />
+<lastmod>2026-06-22T10:55:53.497Z</lastmod>
 </url>
 <url>
 <loc>http://localhost:3000/ru/news/kak-akselerator-pomogaet-masshtabirovatsya</loc>
-<lastmod>2026-06-22T09:54:02.777Z</lastmod>
+<lastmod>2026-06-22T10:55:53.478Z</lastmod>
 </url>
 <url>
 <loc>http://localhost:3000/en/news/what-makes-emerging-markets-different-for-scaling</loc>
-<lastmod>2026-06-22T09:54:02.779Z</lastmod>
-</url>
-<url>
-<loc>http://localhost:3000/ru/news/rudn-global-expansion-vyhod-na-mezhdunarodnye-rynki</loc>
-<lastmod>2026-06-22T09:54:02.781Z</lastmod>
+<lastmod>2026-06-22T10:55:53.481Z</lastmod>
 </url>
 <url>
 <loc>http://localhost:3000/ru/news/chetyre-bloka-programmy-akseleratsii</loc>
-<lastmod>2026-06-22T09:54:02.784Z</lastmod>
+<lastmod>2026-06-22T10:55:53.486Z</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/ru/news/rudn-global-expansion-vyhod-na-mezhdunarodnye-rynki</loc>
+<lastmod>2026-06-22T10:55:53.483Z</lastmod>
 </url>
 <url>
 <loc>http://localhost:3000/en/news/berezin-moskva24-continuing-education</loc>
-<lastmod>2026-06-22T09:54:02.766Z</lastmod>
+<lastmod>2026-06-22T10:55:53.466Z</lastmod>
 </url>
 <url>
 <loc>http://localhost:3000/en/news/rbc-berezin-construction-materials</loc>
-<lastmod>2026-06-22T09:54:02.769Z</lastmod>
-</url>
-<url>
-<loc>http://localhost:3000/ru/news/nabor-na-programmy-mba-rudn-2025</loc>
-<lastmod>2026-06-22T09:54:02.774Z</lastmod>
+<lastmod>2026-06-22T10:55:53.469Z</lastmod>
 </url>
 <url>
 <loc>http://localhost:3000/ru/news/rbc-berezin-rynok-stroymaterialov</loc>
-<lastmod>2026-06-22T09:54:02.761Z</lastmod>
+<lastmod>2026-06-22T10:55:53.460Z</lastmod>
 </url>
 <url>
 <loc>http://localhost:3000/ru/news/soobshchestvo-i-status-vypusknika</loc>
-<lastmod>2026-06-22T09:54:02.788Z</lastmod>
-</url>
-<url>
-<loc>http://localhost:3000/ru/news/berezin-m24-povyshenie-kvalifikacii</loc>
-<lastmod>2026-06-22T09:54:02.753Z</lastmod>
+<lastmod>2026-06-22T10:55:53.490Z</lastmod>
 </url>
 <url>
 <loc>http://localhost:3000/en/news/cross-cultural-management-core-skill</loc>
-<lastmod>2026-06-22T09:54:02.791Z</lastmod>
+<lastmod>2026-06-22T10:55:53.493Z</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/ru/news/berezin-m24-povyshenie-kvalifikacii</loc>
+<lastmod>2026-06-22T10:55:53.447Z</lastmod>
 </url>
 <url>
 <loc>http://localhost:3000/ru/news/forbes-biznes-i-uchenye</loc>
-<lastmod>2026-06-22T09:54:02.764Z</lastmod>
+<lastmod>2026-06-22T10:55:53.464Z</lastmod>
 </url>
 <url>
 <loc>http://localhost:3000/en/news/forbes-business-and-academia</loc>
-<lastmod>2026-06-22T09:54:02.771Z</lastmod>
+<lastmod>2026-06-22T10:55:53.472Z</lastmod>
+</url>
+<url>
+<loc>http://localhost:3000/ru/news/nabor-na-programmy-mba-rudn-2025</loc>
+<lastmod>2026-06-22T10:55:53.475Z</lastmod>
 </url>
 <url>
 <loc>http://localhost:3000/ru/news/data-driven-i-ii-v-upravlenii</loc>
-<lastmod>2026-06-22T09:54:02.786Z</lastmod>
+<lastmod>2026-06-22T10:55:53.488Z</lastmod>
 </url>
 </urlset>
