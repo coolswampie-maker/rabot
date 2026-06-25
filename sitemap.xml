@@ -1,359 +1,371 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 <url>
-<loc>http://localhost:3000/ru</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en" />
+<loc>https://new.icemr.biz/ru</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en" />
 <lastmod>2026-01-01T00:00:00.000Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en" />
+<loc>https://new.icemr.biz/en</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en" />
 <lastmod>2026-01-01T00:00:00.000Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/programs</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/programs" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/programs" />
+<loc>https://new.icemr.biz/ru/programs</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/programs" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/programs" />
 <lastmod>2026-01-01T00:00:00.000Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/programs</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/programs" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/programs" />
+<loc>https://new.icemr.biz/en/programs</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/programs" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/programs" />
 <lastmod>2026-01-01T00:00:00.000Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/accelerator</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/accelerator" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/accelerator" />
+<loc>https://new.icemr.biz/ru/accelerator</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/accelerator" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/accelerator" />
 <lastmod>2026-01-01T00:00:00.000Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/accelerator</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/accelerator" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/accelerator" />
+<loc>https://new.icemr.biz/en/accelerator</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/accelerator" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/accelerator" />
 <lastmod>2026-01-01T00:00:00.000Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/research</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/research" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/research" />
+<loc>https://new.icemr.biz/ru/research</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/research" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/research" />
 <lastmod>2026-01-01T00:00:00.000Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/research</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/research" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/research" />
+<loc>https://new.icemr.biz/en/research</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/research" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/research" />
 <lastmod>2026-01-01T00:00:00.000Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/news</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/news" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/news" />
+<loc>https://new.icemr.biz/ru/news</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/news" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/news" />
 <lastmod>2026-01-01T00:00:00.000Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/news</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/news" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/news" />
+<loc>https://new.icemr.biz/en/news</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/news" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/news" />
 <lastmod>2026-01-01T00:00:00.000Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/publications</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications" />
+<loc>https://new.icemr.biz/ru/publications</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/publications" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/publications" />
 <lastmod>2026-01-01T00:00:00.000Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/publications</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications" />
+<loc>https://new.icemr.biz/en/publications</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/publications" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/publications" />
 <lastmod>2026-01-01T00:00:00.000Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/faculty</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/faculty" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/faculty" />
+<loc>https://new.icemr.biz/ru/faculty</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/faculty" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/faculty" />
 <lastmod>2026-01-01T00:00:00.000Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/faculty</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/faculty" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/faculty" />
+<loc>https://new.icemr.biz/en/faculty</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/faculty" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/faculty" />
 <lastmod>2026-01-01T00:00:00.000Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/partners</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/partners" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/partners" />
+<loc>https://new.icemr.biz/ru/partners</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/partners" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/partners" />
 <lastmod>2026-01-01T00:00:00.000Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/partners</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/partners" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/partners" />
+<loc>https://new.icemr.biz/en/partners</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/partners" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/partners" />
 <lastmod>2026-01-01T00:00:00.000Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/contacts</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/contacts" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/contacts" />
+<loc>https://new.icemr.biz/ru/contacts</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/contacts" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/contacts" />
 <lastmod>2026-01-01T00:00:00.000Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/contacts</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/contacts" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/contacts" />
+<loc>https://new.icemr.biz/en/contacts</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/contacts" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/contacts" />
 <lastmod>2026-01-01T00:00:00.000Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/programs/master-of-business-acceleration</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/programs/master-of-business-acceleration" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/programs/master-of-business-acceleration" />
-<lastmod>2026-06-22T10:55:53.420Z</lastmod>
+<loc>https://new.icemr.biz/ru/programs/mba-classic</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/programs/mba-classic" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/programs/mba-classic" />
+<lastmod>2026-06-25T11:51:17.715Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/programs/master-of-business-acceleration</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/programs/master-of-business-acceleration" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/programs/master-of-business-acceleration" />
-<lastmod>2026-06-22T10:55:53.420Z</lastmod>
+<loc>https://new.icemr.biz/en/programs/mba-classic</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/programs/mba-classic" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/programs/mba-classic" />
+<lastmod>2026-06-25T11:51:17.715Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/programs/mba-global-expansion</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/programs/mba-global-expansion" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/programs/mba-global-expansion" />
-<lastmod>2026-06-22T10:55:53.422Z</lastmod>
+<loc>https://new.icemr.biz/ru/programs/master-of-business-acceleration</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/programs/master-of-business-acceleration" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/programs/master-of-business-acceleration" />
+<lastmod>2026-06-25T11:51:17.719Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/programs/mba-global-expansion</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/programs/mba-global-expansion" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/programs/mba-global-expansion" />
-<lastmod>2026-06-22T10:55:53.422Z</lastmod>
+<loc>https://new.icemr.biz/en/programs/master-of-business-acceleration</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/programs/master-of-business-acceleration" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/programs/master-of-business-acceleration" />
+<lastmod>2026-06-25T11:51:17.719Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/programs/mba-classic</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/programs/mba-classic" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/programs/mba-classic" />
-<lastmod>2026-06-22T10:55:53.415Z</lastmod>
+<loc>https://new.icemr.biz/ru/programs/global-expansion</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/programs/global-expansion" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/programs/global-expansion" />
+<lastmod>2026-06-25T11:51:17.722Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/programs/mba-classic</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/programs/mba-classic" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/programs/mba-classic" />
-<lastmod>2026-06-22T10:55:53.415Z</lastmod>
+<loc>https://new.icemr.biz/en/programs/global-expansion</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/programs/global-expansion" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/programs/global-expansion" />
+<lastmod>2026-06-25T11:51:17.722Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/programs/doing-business-in-russia</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/programs/doing-business-in-russia" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/programs/doing-business-in-russia" />
-<lastmod>2026-06-22T10:55:53.424Z</lastmod>
+<loc>https://new.icemr.biz/ru/programs/mba-global-expansion</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/programs/mba-global-expansion" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/programs/mba-global-expansion" />
+<lastmod>2026-06-25T11:51:17.725Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/programs/doing-business-in-russia</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/programs/doing-business-in-russia" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/programs/doing-business-in-russia" />
-<lastmod>2026-06-22T10:55:53.424Z</lastmod>
+<loc>https://new.icemr.biz/en/programs/mba-global-expansion</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/programs/mba-global-expansion" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/programs/mba-global-expansion" />
+<lastmod>2026-06-25T11:51:17.725Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/programs/global-expansion</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/programs/global-expansion" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/programs/global-expansion" />
-<lastmod>2026-06-22T10:55:53.421Z</lastmod>
+<loc>https://new.icemr.biz/ru/programs/doing-business-in-russia</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/programs/doing-business-in-russia" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/programs/doing-business-in-russia" />
+<lastmod>2026-06-25T11:51:17.728Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/programs/global-expansion</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/programs/global-expansion" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/programs/global-expansion" />
-<lastmod>2026-06-22T10:55:53.421Z</lastmod>
+<loc>https://new.icemr.biz/en/programs/doing-business-in-russia</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/programs/doing-business-in-russia" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/programs/doing-business-in-russia" />
+<lastmod>2026-06-25T11:51:17.728Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/publications/isete-symposia-series</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/isete-symposia-series" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/isete-symposia-series" />
-<lastmod>2026-06-22T10:55:53.498Z</lastmod>
+<loc>https://new.icemr.biz/ru/programs/mba-finance-director</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/programs/mba-finance-director" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/programs/mba-finance-director" />
+<lastmod>2026-06-25T11:51:17.731Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/publications/isete-symposia-series</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/isete-symposia-series" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/isete-symposia-series" />
-<lastmod>2026-06-22T10:55:53.498Z</lastmod>
+<loc>https://new.icemr.biz/en/programs/mba-finance-director</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/programs/mba-finance-director" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/programs/mba-finance-director" />
+<lastmod>2026-06-25T11:51:17.731Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/publications/barnett-chen-bifurcation-2015</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/barnett-chen-bifurcation-2015" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/barnett-chen-bifurcation-2015" />
-<lastmod>2026-06-22T10:55:53.499Z</lastmod>
+<loc>https://new.icemr.biz/ru/publications/ijepee-journal</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/publications/ijepee-journal" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/publications/ijepee-journal" />
+<lastmod>2026-06-25T11:51:17.864Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/publications/barnett-chen-bifurcation-2015</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/barnett-chen-bifurcation-2015" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/barnett-chen-bifurcation-2015" />
-<lastmod>2026-06-22T10:55:53.499Z</lastmod>
+<loc>https://new.icemr.biz/en/publications/ijepee-journal</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/publications/ijepee-journal" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/publications/ijepee-journal" />
+<lastmod>2026-06-25T11:51:17.864Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/publications/ijepee-journal</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/ijepee-journal" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/ijepee-journal" />
-<lastmod>2026-06-22T10:55:53.496Z</lastmod>
+<loc>https://new.icemr.biz/ru/publications/ijtgm-journal</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/publications/ijtgm-journal" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/publications/ijtgm-journal" />
+<lastmod>2026-06-25T11:51:17.868Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/publications/ijepee-journal</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/ijepee-journal" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/ijepee-journal" />
-<lastmod>2026-06-22T10:55:53.496Z</lastmod>
+<loc>https://new.icemr.biz/en/publications/ijtgm-journal</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/publications/ijtgm-journal" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/publications/ijtgm-journal" />
+<lastmod>2026-06-25T11:51:17.868Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/publications/barnett-shilnikov-chaos-2022</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/barnett-shilnikov-chaos-2022" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/barnett-shilnikov-chaos-2022" />
-<lastmod>2026-06-22T10:55:53.502Z</lastmod>
+<loc>https://new.icemr.biz/ru/publications/isete-symposia-series</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/publications/isete-symposia-series" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/publications/isete-symposia-series" />
+<lastmod>2026-06-25T11:51:17.870Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/publications/barnett-shilnikov-chaos-2022</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/barnett-shilnikov-chaos-2022" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/barnett-shilnikov-chaos-2022" />
-<lastmod>2026-06-22T10:55:53.502Z</lastmod>
+<loc>https://new.icemr.biz/en/publications/isete-symposia-series</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/publications/isete-symposia-series" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/publications/isete-symposia-series" />
+<lastmod>2026-06-25T11:51:17.870Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/publications/sergi-future-russia-economy-2018</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/sergi-future-russia-economy-2018" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/sergi-future-russia-economy-2018" />
-<lastmod>2026-06-22T10:55:53.503Z</lastmod>
+<loc>https://new.icemr.biz/ru/publications/barnett-chen-bifurcation-2015</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/publications/barnett-chen-bifurcation-2015" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/publications/barnett-chen-bifurcation-2015" />
+<lastmod>2026-06-25T11:51:17.873Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/publications/sergi-future-russia-economy-2018</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/sergi-future-russia-economy-2018" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/sergi-future-russia-economy-2018" />
-<lastmod>2026-06-22T10:55:53.503Z</lastmod>
+<loc>https://new.icemr.biz/en/publications/barnett-chen-bifurcation-2015</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/publications/barnett-chen-bifurcation-2015" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/publications/barnett-chen-bifurcation-2015" />
+<lastmod>2026-06-25T11:51:17.873Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/publications/sergi-modeling-economic-growth-2019</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/sergi-modeling-economic-growth-2019" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/sergi-modeling-economic-growth-2019" />
-<lastmod>2026-06-22T10:55:53.504Z</lastmod>
+<loc>https://new.icemr.biz/ru/publications/barnett-shilnikov-chaos-2022</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/publications/barnett-shilnikov-chaos-2022" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/publications/barnett-shilnikov-chaos-2022" />
+<lastmod>2026-06-25T11:51:17.875Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/publications/sergi-modeling-economic-growth-2019</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/sergi-modeling-economic-growth-2019" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/sergi-modeling-economic-growth-2019" />
-<lastmod>2026-06-22T10:55:53.504Z</lastmod>
+<loc>https://new.icemr.biz/en/publications/barnett-shilnikov-chaos-2022</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/publications/barnett-shilnikov-chaos-2022" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/publications/barnett-shilnikov-chaos-2022" />
+<lastmod>2026-06-25T11:51:17.875Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/publications/sergi-tech-smart-cities-2019</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/sergi-tech-smart-cities-2019" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/sergi-tech-smart-cities-2019" />
-<lastmod>2026-06-22T10:55:53.504Z</lastmod>
+<loc>https://new.icemr.biz/ru/publications/sergi-future-russia-economy-2018</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/publications/sergi-future-russia-economy-2018" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/publications/sergi-future-russia-economy-2018" />
+<lastmod>2026-06-25T11:51:17.878Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/publications/sergi-tech-smart-cities-2019</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/sergi-tech-smart-cities-2019" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/sergi-tech-smart-cities-2019" />
-<lastmod>2026-06-22T10:55:53.504Z</lastmod>
+<loc>https://new.icemr.biz/en/publications/sergi-future-russia-economy-2018</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/publications/sergi-future-russia-economy-2018" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/publications/sergi-future-russia-economy-2018" />
+<lastmod>2026-06-25T11:51:17.878Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/publications/sergi-scanlon-entrepreneurship-development-2019</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/sergi-scanlon-entrepreneurship-development-2019" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/sergi-scanlon-entrepreneurship-development-2019" />
-<lastmod>2026-06-22T10:55:53.505Z</lastmod>
+<loc>https://new.icemr.biz/ru/publications/sergi-modeling-economic-growth-2019</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/publications/sergi-modeling-economic-growth-2019" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/publications/sergi-modeling-economic-growth-2019" />
+<lastmod>2026-06-25T11:51:17.880Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/publications/sergi-scanlon-entrepreneurship-development-2019</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/sergi-scanlon-entrepreneurship-development-2019" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/sergi-scanlon-entrepreneurship-development-2019" />
-<lastmod>2026-06-22T10:55:53.505Z</lastmod>
+<loc>https://new.icemr.biz/en/publications/sergi-modeling-economic-growth-2019</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/publications/sergi-modeling-economic-growth-2019" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/publications/sergi-modeling-economic-growth-2019" />
+<lastmod>2026-06-25T11:51:17.880Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/publications/barnett-sergi-asia-pacific-finance-2019</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/barnett-sergi-asia-pacific-finance-2019" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/barnett-sergi-asia-pacific-finance-2019" />
-<lastmod>2026-06-22T10:55:53.506Z</lastmod>
+<loc>https://new.icemr.biz/ru/publications/sergi-tech-smart-cities-2019</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/publications/sergi-tech-smart-cities-2019" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/publications/sergi-tech-smart-cities-2019" />
+<lastmod>2026-06-25T11:51:17.882Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/publications/barnett-sergi-asia-pacific-finance-2019</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/barnett-sergi-asia-pacific-finance-2019" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/barnett-sergi-asia-pacific-finance-2019" />
-<lastmod>2026-06-22T10:55:53.506Z</lastmod>
+<loc>https://new.icemr.biz/en/publications/sergi-tech-smart-cities-2019</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/publications/sergi-tech-smart-cities-2019" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/publications/sergi-tech-smart-cities-2019" />
+<lastmod>2026-06-25T11:51:17.882Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/publications/barnett-sergi-banking-finance-emerging-2018</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/barnett-sergi-banking-finance-emerging-2018" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/barnett-sergi-banking-finance-emerging-2018" />
-<lastmod>2026-06-22T10:55:53.507Z</lastmod>
+<loc>https://new.icemr.biz/ru/publications/sergi-scanlon-entrepreneurship-development-2019</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/publications/sergi-scanlon-entrepreneurship-development-2019" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/publications/sergi-scanlon-entrepreneurship-development-2019" />
+<lastmod>2026-06-25T11:51:17.885Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/publications/barnett-sergi-banking-finance-emerging-2018</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/barnett-sergi-banking-finance-emerging-2018" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/barnett-sergi-banking-finance-emerging-2018" />
-<lastmod>2026-06-22T10:55:53.507Z</lastmod>
+<loc>https://new.icemr.biz/en/publications/sergi-scanlon-entrepreneurship-development-2019</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/publications/sergi-scanlon-entrepreneurship-development-2019" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/publications/sergi-scanlon-entrepreneurship-development-2019" />
+<lastmod>2026-06-25T11:51:17.885Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/publications/ijtgm-journal</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/ijtgm-journal" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/ijtgm-journal" />
-<lastmod>2026-06-22T10:55:53.497Z</lastmod>
+<loc>https://new.icemr.biz/ru/publications/barnett-sergi-asia-pacific-finance-2019</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/publications/barnett-sergi-asia-pacific-finance-2019" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/publications/barnett-sergi-asia-pacific-finance-2019" />
+<lastmod>2026-06-25T11:51:17.887Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/publications/ijtgm-journal</loc>
-<xhtml:link rel="alternate" hreflang="ru" href="http://localhost:3000/ru/publications/ijtgm-journal" />
-<xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/publications/ijtgm-journal" />
-<lastmod>2026-06-22T10:55:53.497Z</lastmod>
+<loc>https://new.icemr.biz/en/publications/barnett-sergi-asia-pacific-finance-2019</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/publications/barnett-sergi-asia-pacific-finance-2019" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/publications/barnett-sergi-asia-pacific-finance-2019" />
+<lastmod>2026-06-25T11:51:17.887Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/news/kak-akselerator-pomogaet-masshtabirovatsya</loc>
-<lastmod>2026-06-22T10:55:53.478Z</lastmod>
+<loc>https://new.icemr.biz/ru/publications/barnett-sergi-banking-finance-emerging-2018</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/publications/barnett-sergi-banking-finance-emerging-2018" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/publications/barnett-sergi-banking-finance-emerging-2018" />
+<lastmod>2026-06-25T11:51:17.889Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/news/what-makes-emerging-markets-different-for-scaling</loc>
-<lastmod>2026-06-22T10:55:53.481Z</lastmod>
+<loc>https://new.icemr.biz/en/publications/barnett-sergi-banking-finance-emerging-2018</loc>
+<xhtml:link rel="alternate" hreflang="ru" href="https://new.icemr.biz/ru/publications/barnett-sergi-banking-finance-emerging-2018" />
+<xhtml:link rel="alternate" hreflang="en" href="https://new.icemr.biz/en/publications/barnett-sergi-banking-finance-emerging-2018" />
+<lastmod>2026-06-25T11:51:17.889Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/news/chetyre-bloka-programmy-akseleratsii</loc>
-<lastmod>2026-06-22T10:55:53.486Z</lastmod>
+<loc>https://new.icemr.biz/ru/news/forbes-biznes-i-uchenye</loc>
+<lastmod>2026-06-25T11:51:17.813Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/news/rudn-global-expansion-vyhod-na-mezhdunarodnye-rynki</loc>
-<lastmod>2026-06-22T10:55:53.483Z</lastmod>
+<loc>https://new.icemr.biz/en/news/forbes-business-and-academia</loc>
+<lastmod>2026-06-25T11:51:17.825Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/news/berezin-moskva24-continuing-education</loc>
-<lastmod>2026-06-22T10:55:53.466Z</lastmod>
+<loc>https://new.icemr.biz/ru/news/rbc-berezin-rynok-stroymaterialov</loc>
+<lastmod>2026-06-25T11:51:17.808Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/news/rbc-berezin-construction-materials</loc>
-<lastmod>2026-06-22T10:55:53.469Z</lastmod>
+<loc>https://new.icemr.biz/en/news/rbc-berezin-construction-materials</loc>
+<lastmod>2026-06-25T11:51:17.821Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/news/rbc-berezin-rynok-stroymaterialov</loc>
-<lastmod>2026-06-22T10:55:53.460Z</lastmod>
+<loc>https://new.icemr.biz/ru/news/berezin-m24-povyshenie-kvalifikacii</loc>
+<lastmod>2026-06-25T11:51:17.801Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/news/soobshchestvo-i-status-vypusknika</loc>
-<lastmod>2026-06-22T10:55:53.490Z</lastmod>
+<loc>https://new.icemr.biz/en/news/berezin-moskva24-continuing-education</loc>
+<lastmod>2026-06-25T11:51:17.817Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/news/cross-cultural-management-core-skill</loc>
-<lastmod>2026-06-22T10:55:53.493Z</lastmod>
+<loc>https://new.icemr.biz/ru/news/chetyre-bloka-programmy-akseleratsii</loc>
+<lastmod>2026-06-25T11:51:17.846Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/news/berezin-m24-povyshenie-kvalifikacii</loc>
-<lastmod>2026-06-22T10:55:53.447Z</lastmod>
+<loc>https://new.icemr.biz/en/news/what-makes-emerging-markets-different-for-scaling</loc>
+<lastmod>2026-06-25T11:51:17.838Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/news/forbes-biznes-i-uchenye</loc>
-<lastmod>2026-06-22T10:55:53.464Z</lastmod>
+<loc>https://new.icemr.biz/ru/news/rudn-global-expansion-vyhod-na-mezhdunarodnye-rynki</loc>
+<lastmod>2026-06-25T11:51:17.842Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/en/news/forbes-business-and-academia</loc>
-<lastmod>2026-06-22T10:55:53.472Z</lastmod>
+<loc>https://new.icemr.biz/ru/news/kak-akselerator-pomogaet-masshtabirovatsya</loc>
+<lastmod>2026-06-25T11:51:17.834Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/news/nabor-na-programmy-mba-rudn-2025</loc>
-<lastmod>2026-06-22T10:55:53.475Z</lastmod>
+<loc>https://new.icemr.biz/ru/news/data-driven-i-ii-v-upravlenii</loc>
+<lastmod>2026-06-25T11:51:17.851Z</lastmod>
 </url>
 <url>
-<loc>http://localhost:3000/ru/news/data-driven-i-ii-v-upravlenii</loc>
-<lastmod>2026-06-22T10:55:53.488Z</lastmod>
+<loc>https://new.icemr.biz/ru/news/soobshchestvo-i-status-vypusknika</loc>
+<lastmod>2026-06-25T11:51:17.855Z</lastmod>
+</url>
+<url>
+<loc>https://new.icemr.biz/ru/news/nabor-na-programmy-mba-rudn-2025</loc>
+<lastmod>2026-06-25T11:51:17.829Z</lastmod>
+</url>
+<url>
+<loc>https://new.icemr.biz/en/news/cross-cultural-management-core-skill</loc>
+<lastmod>2026-06-25T11:51:17.860Z</lastmod>
 </url>
 </urlset>
