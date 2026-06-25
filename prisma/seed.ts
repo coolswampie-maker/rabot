@@ -417,6 +417,61 @@ Online, in English or the participants' native language, over 12–24 months, wi
       audienceRu: 'Иностранные предприниматели, собственники и менеджеры по развитию бизнеса, выходящие на рынок России',
       audienceEn: 'International entrepreneurs, business owners and development managers entering the Russian market',
     },
+    {
+      slug: 'mba-finance-director',
+      brand: 'MBA',
+      order: 6,
+      published: true,
+      titleRu: 'MBA «Управление финансами. Finance-Director»',
+      titleEn: 'MBA “Financial Management. Finance Director”',
+      summaryRu:
+        'Модульная MBA-программа для финансовых руководителей: 50 зачётных единиц и 1800 академических часов, 18 модулей в шести блоках — от лидерства и современного менеджмента до управления финансами компании. Завершается деловой игрой «Управление компанией» и защитой итоговой аттестационной работы.',
+      summaryEn:
+        'A modular MBA program for finance leaders: 50 credits and 1,800 academic hours across 18 modules in six blocks — from leadership and modern management to corporate financial management. It concludes with the “Running the Company” business game and the defence of a capstone project.',
+      bodyRu: `## О программе
+
+MBA «Управление финансами. Finance-Director» — классическая программа модульного типа для финансовых директоров, руководителей финансовых служб и собственников, которые хотят управлять компанией через цифры и стоимость. Программа охватывает 50 зачётных единиц и 1800 академических часов и сочетает фундаментальную управленческую подготовку с углублённым блоком по управлению финансами.
+
+## Чему вы научитесь
+
+- Выстраивать финансовую стратегию компании и управлять её стоимостью
+- Управлять активами и пассивами, ликвидностью и финансовыми рисками
+- Работать с инвестиционным анализом и проектным финансированием
+- Вести деятельность компании на финансовых рынках и в международном контуре
+- Развивать управленческие и лидерские компетенции финансового руководителя
+
+## Структура программы
+
+Программа состоит из 18 модулей, объединённых в шесть блоков: «Лидерство в бизнесе», «Современный менеджмент», «Развитие бизнеса», «Аспекты ESG», «Экономика и финансы» и «Управление финансами». Обучение дополняют мастер-классы и деловая игра «Управление компанией», а завершается подготовкой и защитой итоговой аттестационной работы (проекта).
+
+## Формат и документ
+
+Очно или онлайн, модульный график. По итогам обучения выдаётся диплом РУДН о профессиональной переподготовке с присвоением квалификации MBA.`,
+      bodyEn: `## About the program
+
+MBA “Financial Management. Finance Director” is a classic modular program for CFOs, heads of finance functions and owners who want to run the company through numbers and value. It covers 50 credits and 1,800 academic hours, combining a solid management foundation with an in-depth block on corporate financial management.
+
+## What you will learn
+
+- Build the company's financial strategy and manage its value
+- Manage assets and liabilities, liquidity and financial risk
+- Work with investment analysis and project finance
+- Operate the company on financial markets and in an international setting
+- Develop the management and leadership competencies of a finance leader
+
+## Programme structure
+
+The program consists of 18 modules grouped into six blocks: “Leadership in business”, “Modern management”, “Business development”, “ESG aspects”, “Economics and finance” and “Financial management”. The studies are complemented by masterclasses and the “Running the Company” business game, and conclude with the preparation and defence of a capstone project.
+
+## Format and qualification
+
+On campus or online, on a modular schedule. On completion you receive a RUDN professional retraining diploma awarding the MBA qualification.`,
+      format: 'Очно / онлайн',
+      durationRu: '1800 ак. часов',
+      durationEn: '1,800 academic hours',
+      audienceRu: 'Финансовые директора, руководители финансовых служб, собственники и предприниматели',
+      audienceEn: 'CFOs, heads of finance functions, owners and entrepreneurs',
+    },
   ]
 
   for (const p of programData) {

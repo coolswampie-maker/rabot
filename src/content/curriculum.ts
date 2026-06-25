@@ -242,6 +242,71 @@ const curriculum: Record<string, CurriculumModule[]> = {
       ],
     },
   ],
+  'mba-finance-director': [
+    {
+      title: { ru: 'Лидерство в бизнесе', en: 'Leadership in business' },
+      desc: { ru: 'Развить управленческие и лидерские компетенции руководителя.', en: 'Develop the management and leadership competencies of a leader.' },
+      items: [
+        { ru: 'Развитие управленческих компетенций', en: 'Developing management competencies' },
+        { ru: 'Управление человеческими ресурсами и их развитием в современной организации (HRM & HRD)', en: 'Human resource management and development in the modern organisation (HRM & HRD)' },
+        { ru: 'Эффективные управленческие решения', en: 'Effective management decisions' },
+      ],
+    },
+    {
+      title: { ru: 'Современный менеджмент', en: 'Modern management' },
+      desc: { ru: 'Управлять стратегией, коммуникациями и в кросс-культурной среде.', en: 'Manage strategy, communications and in a cross-cultural environment.' },
+      items: [
+        { ru: 'Стратегический менеджмент', en: 'Strategic management' },
+        { ru: 'Коммуникационный менеджмент', en: 'Communications management' },
+        { ru: 'Кросс-культурный менеджмент', en: 'Cross-cultural management' },
+      ],
+    },
+    {
+      title: { ru: 'Развитие бизнеса', en: 'Business development' },
+      desc: { ru: 'Растить бизнес через маркетинг, репутацию и международную экспансию.', en: 'Grow the business through marketing, reputation and international expansion.' },
+      items: [
+        { ru: 'Стратегический маркетинг', en: 'Strategic marketing' },
+        { ru: 'Репутационный менеджмент и медиа-коммуникации', en: 'Reputation management and media communications' },
+        { ru: 'Управление международным бизнесом. Стратегии интернационализации компании', en: 'International business management. Company internationalisation strategies' },
+      ],
+    },
+    {
+      title: { ru: 'Аспекты ESG', en: 'ESG aspects' },
+      desc: { ru: 'Встроить устойчивость, ответственность и этику в бизнес.', en: 'Embed sustainability, responsibility and ethics into the business.' },
+      items: [
+        { ru: 'Корпоративная социальная ответственность. Социальные инновации бизнеса', en: 'Corporate social responsibility. Social innovation in business' },
+        { ru: 'Этика бизнеса', en: 'Business ethics' },
+      ],
+    },
+    {
+      title: { ru: 'Экономика и финансы', en: 'Economics and finance' },
+      desc: { ru: 'Освоить экономику предприятия и финансовый менеджмент.', en: 'Master enterprise economics and financial management.' },
+      items: [
+        { ru: 'Экономика современного предприятия', en: 'Economics of the modern enterprise' },
+        { ru: 'Финансовый менеджмент', en: 'Financial management' },
+      ],
+    },
+    {
+      title: { ru: 'Управление финансами', en: 'Financial management' },
+      desc: { ru: 'Управлять стоимостью, активами, инвестициями и финансовыми рынками.', en: 'Manage value, assets, investment and financial markets.' },
+      items: [
+        { ru: 'Оценка бизнеса и управление его стоимостью', en: 'Business valuation and value management' },
+        { ru: 'Управление активами и пассивами компании', en: 'Management of the company’s assets and liabilities' },
+        { ru: 'Активность организации на финансовых рынках', en: 'The organisation’s activity on financial markets' },
+        { ru: 'Инвестиционный анализ и проектное финансирование', en: 'Investment analysis and project finance' },
+        { ru: 'Международный финансовый менеджмент', en: 'International financial management' },
+      ],
+    },
+    {
+      title: { ru: 'Практика и итоговый проект', en: 'Practice and capstone project' },
+      desc: { ru: 'Закрепить знания на практике и защитить итоговую работу.', en: 'Consolidate knowledge in practice and defend the capstone project.' },
+      items: [
+        { ru: 'Мастер-классы', en: 'Masterclasses' },
+        { ru: 'Деловая игра «Управление компанией»', en: 'The “Running the Company” business game' },
+        { ru: 'Подготовка и защита итоговой аттестационной работы (проекта)', en: 'Preparation and defence of the capstone project' },
+      ],
+    },
+  ],
 };
 
 export function getCurriculum(slug: string): CurriculumModule[] {
