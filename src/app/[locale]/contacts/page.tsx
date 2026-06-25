@@ -81,7 +81,7 @@ export default async function ContactsPage({ params }: { params: { locale: Local
                 <div>
                   <dt className="text-xs font-semibold uppercase tracking-wide text-muted">Email</dt>
                   <dd className="mt-1">
-                    <a href="mailto:iweb.mba@pfur.ru" className="text-brand-600 hover:text-brand-700">iweb.mba@pfur.ru</a>
+                    <a href="mailto:iWeb.mba@rudn.ru" className="text-brand-600 hover:text-brand-700">iWeb.mba@rudn.ru</a>
                   </dd>
                 </div>
                 <div>

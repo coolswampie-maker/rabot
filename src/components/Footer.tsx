@@ -73,7 +73,7 @@ export default function Footer({ locale, dict }: { locale: Locale; dict: Diction
               <a href="tel:+74957873803" className="hover:text-brand-600">+7 (495) 787-38-03</a>
             </li>
             <li>
-              <a href="mailto:iweb.mba@pfur.ru" className="hover:text-brand-600">iweb.mba@pfur.ru</a>
+              <a href="mailto:iWeb.mba@rudn.ru" className="hover:text-brand-600">iWeb.mba@rudn.ru</a>
             </li>
           </ul>
         </div>
