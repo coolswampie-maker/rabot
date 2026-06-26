@@ -26,10 +26,11 @@ function brandPrefixForHost(host: string): string | null {
 export function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
-  // Skip API, admin, Next internals and static files.
+  // Skip API, admin, the leads viewer, Next internals and static files.
   if (
     pathname.startsWith('/api') ||
     pathname.startsWith('/admin') ||
+    pathname.startsWith('/leads') ||
     pathname.startsWith('/_next') ||
     pathname === '/robots.txt' ||
     pathname === '/sitemap.xml' ||

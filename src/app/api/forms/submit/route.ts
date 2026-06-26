@@ -3,6 +3,7 @@ import { prisma } from '@/lib/prisma';
 import { submissionSchema } from '@/lib/validation';
 import { rateLimit, hashIp, clientIp } from '@/lib/rate-limit';
 import { toDbLocale } from '@/i18n/config';
+import { notifyNewSubmission } from '@/lib/notify';
 
 export const runtime = 'nodejs';
 
@@ -42,8 +43,9 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: 'consent_required' }, { status: 400 });
   }
 
+  let created;
   try {
-    await prisma.submission.create({
+    created = await prisma.submission.create({
       data: {
         kind: data.kind,
         name: data.name,
@@ -64,6 +66,9 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: 'server_error' }, { status: 500 });
   }
 
-  // TODO(production): notify staff by email / forward to CRM here.
+  // Notify staff by email (no-op if SMTP is not configured; never blocks the
+  // response on failure).
+  await notifyNewSubmission(created);
+
   return NextResponse.json({ ok: true });
 }

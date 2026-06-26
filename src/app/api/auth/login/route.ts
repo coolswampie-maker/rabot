@@ -3,10 +3,16 @@ import { prisma } from '@/lib/prisma';
 import { loginSchema } from '@/lib/validation';
 import { verifyPassword, createSession } from '@/lib/auth';
 import { rateLimit, clientIp } from '@/lib/rate-limit';
+import { cmsEnabled } from '@/lib/flags';
 
 export const runtime = 'nodejs';
 
 export async function POST(req: Request) {
+  // Admin login is unavailable when the CMS is disabled (handover build).
+  if (!cmsEnabled()) {
+    return NextResponse.json({ error: 'not_found' }, { status: 404 });
+  }
+
   const ip = clientIp(req.headers);
   // Throttle brute force: 10 attempts / 5 min / IP.
   if (!rateLimit(`login:${ip}`, 10, 5 * 60_000)) {
