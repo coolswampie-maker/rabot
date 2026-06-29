@@ -39,10 +39,10 @@ const steps: { title: Bi; text: Bi }[] = [
     },
   },
   {
-    title: { ru: 'Напишите эссе', en: 'Write the essays' },
+    title: { ru: 'Напишите эссе', en: 'Write the essay' },
     text: {
-      ru: 'Подготовьте мотивационные эссе по темам вступительного испытания.',
-      en: 'Prepare the motivation essays on the entrance-examination topics.',
+      ru: 'Подготовьте мотивационное эссе в составе пакета документов.',
+      en: 'Prepare the motivation essay as part of your document package.',
     },
   },
   {
@@ -105,51 +105,11 @@ const docsForeign: { ru: string[]; en: string[] } = {
   ],
 };
 
-// Entrance-examination essay topics.
-const essays: { word: string; text: Bi }[] = [
-  {
-    word: '600',
-    text: {
-      ru: 'Дайте объективное описание себя, выделив личные качества — ваши сильные и слабые стороны, которые повлияли на ваше развитие. Можно подкрепить рассказ примерами.',
-      en: 'Provide an objective description of yourself, emphasising the personal qualities — your strengths and weaknesses — that have influenced your development. You may support your story with examples.',
-    },
-  },
-  {
-    word: '400',
-    text: {
-      ru: 'Опишите два своих наиболее значимых достижения (по возможности одно из личной жизни и одно из профессиональной). Объясните свой выбор.',
-      en: 'Describe two of your most significant achievements (if possible, one personal and one professional). Explain your choice.',
-    },
-  },
-  {
-    word: '400',
-    text: {
-      ru: 'Опишите ситуацию, в которой вы потерпели неудачу (в личной или профессиональной жизни). Какой урок вы из неё извлекли?',
-      en: 'Describe a situation where you experienced a failure (in your personal or professional life). What lesson did you learn from it?',
-    },
-  },
-  {
-    word: '300 + 250',
-    text: {
-      ru: 'A) Расскажите о краткосрочных и долгосрочных карьерных планах (300 слов). B) Как обучение на программе MBA поможет достичь ваших целей? (250 слов).',
-      en: 'A) Tell us about your short-term and long-term career plans (300 words). B) How will studying in the MBA program help you achieve your goals? (250 words).',
-    },
-  },
-  {
-    word: '350',
-    text: {
-      ru: 'Необязательное эссе. Есть ли что-то, чего вы не упомянули в предыдущих эссе и чем хотели бы поделиться с приёмной комиссией?',
-      en: 'Optional. Is there anything you did not mention in your previous essays that you would like to share with the admissions committee?',
-    },
-  },
-];
-
 // Downloadable forms (files live in /public/docs).
 const files: { href: string; name: Bi }[] = [
   { href: '/docs/mba-admission-documents.docx', name: { ru: 'Список документов для поступления', en: 'List of documents for admission' } },
   { href: '/docs/mba-application-form.docx', name: { ru: 'Заявление о поступлении (бланк)', en: 'Application form' } },
   { href: '/docs/mba-consent-personal-data.docx', name: { ru: 'Согласие на обработку персональных данных', en: 'Consent to personal-data processing' } },
-  { href: '/docs/mba-entrance-essays.docx', name: { ru: 'Темы вступительных эссе', en: 'Entrance essay topics' } },
 ];
 
 export default async function AdmissionPage({ params }: { params: { locale: Locale } }) {
@@ -220,28 +180,8 @@ export default async function AdmissionPage({ params }: { params: { locale: Loca
         </div>
       </section>
 
-      {/* Entrance essays */}
-      <section className="section bg-paper">
-        <div className="container">
-          <SectionHeading eyebrow={ru ? 'Вступительное испытание' : 'Entrance examination'} title={ru ? 'Темы эссе' : 'Essay topics'} />
-          <div className="space-y-4">
-            {essays.map((e, i) => (
-              <div key={i} className="flex gap-4 rounded-2xl border border-line bg-white p-6 shadow-card">
-                <div className="shrink-0">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-brand-50 font-serif text-lg font-bold text-brand-600">{i + 1}</div>
-                </div>
-                <div>
-                  <p className="text-sm leading-relaxed text-navy-700">{e.text[locale]}</p>
-                  <p className="mt-2 text-xs uppercase tracking-wide text-muted">{e.word} {ru ? 'слов' : 'words'}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Downloadable forms */}
-      <section className="section">
+      <section className="section bg-paper">
         <div className="container">
           <SectionHeading eyebrow={ru ? 'Скачать' : 'Download'} title={ru ? 'Бланки и документы' : 'Forms and documents'} />
           <div className="grid gap-4 sm:grid-cols-2">
