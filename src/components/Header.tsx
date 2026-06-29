@@ -35,6 +35,7 @@ export default function Header({
         { label: 'RUDN Global Expansion', href: lp('/programs/global-expansion'), desc: ru ? 'Корпоративная программа' : 'Corporate program' },
         { label: ru ? 'MBA «Global Expansion. Выход на новые рынки»' : 'MBA “Global Expansion”', href: lp('/programs/mba-global-expansion'), desc: ru ? 'Классическая специализация, 22 модуля' : 'Classic specialisation, 22 modules' },
         { label: 'Doing Business in Russia', href: lp('/programs/doing-business-in-russia'), desc: ru ? 'Англоязычная программа для иностранцев' : 'English-taught program for international students' },
+        { label: dict.nav.admission, href: lp('/admission'), desc: ru ? 'Документы и вступительные эссе' : 'Documents and entrance essays' },
         { label: dict.nav.subsidy, href: lp('/subsidy'), desc: ru ? 'Субсидия до 95% на обучение' : 'Up to 95% training subsidy' },
         { label: dict.nav.faculty, href: lp('/faculty'), desc: ru ? 'Преподаватели и эксперты' : 'Faculty & experts' },
       ],
@@ -141,6 +142,7 @@ export default function Header({
           <nav className="container flex flex-col py-3" aria-label="Mobile">
             {[
               ...items,
+              { key: 'admission', label: dict.nav.admission, href: lp('/admission') },
               { key: 'subsidy', label: dict.nav.subsidy, href: lp('/subsidy') },
               { key: 'publications', label: dict.nav.publications, href: lp('/publications') },
               { key: 'faculty', label: dict.nav.faculty, href: lp('/faculty') },

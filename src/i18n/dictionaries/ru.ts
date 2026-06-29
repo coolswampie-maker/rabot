@@ -12,6 +12,7 @@ const ru = {
     partners: 'Партнёры',
     contacts: 'Контакты',
     subsidy: 'Субсидия на обучение',
+    admission: 'Поступление',
     apply: 'Оставить заявку',
   },
   faculty: {

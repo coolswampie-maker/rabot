@@ -14,6 +14,7 @@ STASH=".static-stash"
 ITEMS=(
   "src/app/admin"
   "src/app/api"
+  "src/app/leads"
   "src/components/admin"
   "src/app/[locale]/opengraph-image.tsx"
 )

@@ -14,6 +14,7 @@ const en: Dictionary = {
     partners: 'Partners',
     contacts: 'Contacts',
     subsidy: 'Training subsidy',
+    admission: 'Admission',
     apply: 'Apply now',
   },
   faculty: {
