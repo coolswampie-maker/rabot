@@ -31,7 +31,7 @@ export default function Header({
       menu: [
         { label: ru ? 'Все программы' : 'All programs', href: lp('/programs'), desc: ru ? 'Обзор направлений' : 'Overview' },
         { label: ru ? 'Классическая MBA' : 'Classic MBA', href: lp('/programs/mba-classic') },
-        { label: 'Master of Business Acceleration', href: lp('/programs/master-of-business-acceleration') },
+        { label: 'Master of Business Acceleration', href: lp('/accelerator'), desc: ru ? 'Акселерационная программа для роста бизнеса' : 'Acceleration program for business growth' },
         { label: 'RUDN Global Expansion', href: lp('/programs/global-expansion'), desc: ru ? 'Корпоративная программа' : 'Corporate program' },
         { label: ru ? 'MBA «Global Expansion. Выход на новые рынки»' : 'MBA “Global Expansion”', href: lp('/programs/mba-global-expansion'), desc: ru ? 'Классическая специализация, 22 модуля' : 'Classic specialisation, 22 modules' },
         { label: 'Doing Business in Russia', href: lp('/programs/doing-business-in-russia'), desc: ru ? 'Англоязычная программа для иностранцев' : 'English-taught program for international students' },
@@ -40,7 +40,6 @@ export default function Header({
         { label: dict.nav.faculty, href: lp('/faculty'), desc: ru ? 'Преподаватели и эксперты' : 'Faculty & Experts' },
       ],
     },
-    { key: 'accelerator', label: dict.nav.accelerator, href: lp('/accelerator') },
     {
       key: 'research',
       label: dict.nav.research,

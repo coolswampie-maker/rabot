@@ -30,7 +30,7 @@ export default function Curriculum({
           <h2 className="text-3xl font-bold sm:text-4xl">{ru ? 'Программа обучения' : 'What you will study'}</h2>
           <p className="mt-3 max-w-xl text-muted">
             {ru
-              ? `${n} ${word} — от стратегии и финансов до людей, операций и роста.`
+              ? `${n} ${word} — от стратегии и финансов до людей, операций и роста`
               : `${n} modules — from strategy and finance to people, operations, and growth`}
           </p>
         </div>
