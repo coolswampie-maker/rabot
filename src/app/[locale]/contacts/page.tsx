@@ -112,7 +112,7 @@ export default async function ContactsPage({ params }: { params: { locale: Local
 
           {/* Programme leadership */}
           <div className="mt-14">
-            <h2 className="text-2xl font-bold text-navy-700">{ru ? 'Руководство программ' : 'Programme leadership'}</h2>
+            <h2 className="text-2xl font-bold text-navy-700">{ru ? 'Руководство программ' : 'Program leadership'}</h2>
             <div className="mt-6 grid gap-5 md:grid-cols-3">
               {team.map((m) => (
                 <div key={m.email} className="card p-6">

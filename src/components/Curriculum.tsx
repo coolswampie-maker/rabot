@@ -31,7 +31,7 @@ export default function Curriculum({
           <p className="mt-3 max-w-xl text-muted">
             {ru
               ? `${n} ${word} — от стратегии и финансов до людей, операций и роста.`
-              : `${n} modules — from strategy and finance to people, operations and growth.`}
+              : `${n} modules — from strategy and finance to people, operations, and growth`}
           </p>
         </div>
 

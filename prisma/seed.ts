@@ -80,7 +80,7 @@ async function main() {
       summaryRu:
         'Модульная программа для руководителей и собственников, которые хотят систематизировать управленческий опыт и принимать решения опираясь на цифры, а не на интуицию. Учиться можно очно в Москве или полностью онлайн.',
       summaryEn:
-        'A modular program for executives and owners who want to put their management experience into a system and base decisions on numbers rather than gut feeling. You can study on campus in Moscow or fully online.',
+        'A modular program for executives and owners who want to put their management experience into a system and base decisions on numbers rather than just gut feeling. You can study on campus in Moscow or fully online.',
       bodyRu: `## О программе
 
 Классический MBA РУДН — это системное управленческое образование для тех, кто уже руководит, но хочет видеть бизнес целиком: от стратегии до денежного потока. Программа построена вокруг практики — каждый блок вы сразу примеряете к своей компании, а преподают действующие руководители, консультанты и предприниматели.
@@ -113,7 +113,7 @@ async function main() {
 
 The RUDN Classic MBA is a systematic management education for people who already lead but want to see the business as a whole — from strategy to cash flow. It is built around practice: you apply every block to your own company, and it is taught by working executives, consultants and entrepreneurs.
 
-## Programme history
+## Program history
 
 The MBA program at the RUDN Institute of World Economy and Business was developed in 1991–1992 as part of the Russian-American "MBA Project", under an international cooperation agreement between Russia's Ministry of Science, Higher School and Technical Policy and the association of Christian universities and colleges of the USA. Its closest early ties were with the School of Business of Northern Kentucky University (USA), Calvin College (USA), Eastern College (USA), Luton University (UK) and Oxford Brookes University (UK). In 1999, by order of the Russian Minister of Education, RUDN joined the universities taking part in the experiment to deliver the MBA program.
 
@@ -121,12 +121,12 @@ Today the program is taught by practitioners and lecturers with international te
 
 ## What you will learn
 
-- See the company as a system and decide based on numbers, not intuition
-- Build and defend a strategy, model unit economics and finances
-- Lead teams, change and your own effectiveness
-- Align marketing, sales and operations with business goals
+- See the company as a system and decide based on numbers, not just intuition
+- Build and defend a strategy, and model your unit economics and finances
+- Lead teams, change, and your own effectiveness
+- Align marketing, sales, and operations with business goals
 
-## How the training works
+## How the course works
 
 Classes run in modules — a few intensive days once a month, on campus in Moscow or online (materials and recordings are available either way). The methods are hands-on: real case studies, business simulations, small-group work and action learning. Between modules you run your own project with a tutor.
 
@@ -136,7 +136,7 @@ Admission requires a motivation letter and an interview with the admissions comm
 
 ## Qualification
 
-On completion you receive a RUDN professional retraining diploma awarding the MBA qualification.`,
+On completion you receive a RUDN diploma awarding the qualification of MBA.`,
       format: 'Очно / онлайн',
       durationRu: 'От 18 месяцев',
       durationEn: 'From 18 months',
@@ -153,7 +153,7 @@ On completion you receive a RUDN professional retraining diploma awarding the MB
       summaryRu:
         'Практический MBA, встроенный в акселератор: вы не просто учитесь, а под руководством трекеров растите конкретные показатели своего бизнеса. Программа идёт 18 месяцев, три дня в месяц в кампусе плюс онлайн-трекинг между сессиями.',
       summaryEn:
-        'A practical MBA built into an accelerator: you do not just study, you grow concrete metrics of your business under the guidance of trackers. The program runs for 18 months, three days a month on campus plus online tracking between sessions.',
+        'A practical MBA built into an accelerator: you do not just study, you grow concrete metrics for your business under the guidance of trackers. The program runs for 18 months, three days a month on campus plus online tracking between sessions.',
       bodyRu: `## О программе
 
 Master of Business Acceleration — для предпринимателей, которые уже прошли стадию выживания и хотят масштабироваться осознанно. Теория здесь не самоцель: каждый модуль вы заканчиваете с конкретной гипотезой и планом её проверки, а трекер помогает довести её до результата.
@@ -163,7 +163,7 @@ Master of Business Acceleration — для предпринимателей, к�
 Три дня в месяц очно в кампусе РУДН, между сессиями — онлайн-трекинг и работа над собственными целями. Вы движетесь не по абстрактной программе, а по дорожной карте своего бизнеса.`,
       bodyEn: `## About the program
 
-Master of Business Acceleration is for entrepreneurs who have already passed the survival stage and want to scale deliberately. Theory is not an end in itself here: you finish each module with a concrete hypothesis and a plan to test it, and a tracker helps you carry it through to a result.
+The Master of Business Acceleration is for entrepreneurs who have already passed the survival stage and want to scale deliberately. Theory is not an end in itself here: you finish each module with a concrete hypothesis and a plan to test it, and a tracker helps you carry it through to a result.
 
 ## Format
 
@@ -227,7 +227,7 @@ RUDN Global Expansion — это корпоративная программа �
 Продолжительность — от 6 месяцев. Очно, онлайн и выездные модули, график подстраивается под команду. По итогам обучения выдаётся диплом РУДН о профессиональной переподготовке.`,
       bodyEn: `## About the program
 
-RUDN Global Expansion is a corporate program for companies entering international markets that want to do it with a working strategy rather than on optimism. It consists of four educational-and-practical blocks, corporate tracking of the team to build managed growth, and an on-site module in a focus country. The format and schedule are adapted to the company's goals, request and participants.
+RUDN Global Expansion is a corporate program for companies entering international markets that want to do it with a working strategy rather than just optimism. It consists of four educational-and-practical blocks, corporate tracking of the team to build managed growth, and an on-site module in a focus country. The format and schedule are adapted to the company's goals, request and participants.
 
 ## Who it is for
 
@@ -235,7 +235,7 @@ RUDN Global Expansion is a corporate program for companies entering internationa
 - Heads of development and new-product directions in corporations
 - Managers responsible for business development
 
-## Programme goals
+## Program goals
 
 - Gain systematic knowledge for the company's international development and market entry
 - Create and implement a working international-development strategy
@@ -268,7 +268,7 @@ RUDN Global Expansion is a corporate program for companies entering internationa
 
 ## Format and qualification
 
-Duration is from 6 months. On campus, online and international (field) modules, with a schedule that fits the team. On completion you receive a RUDN professional retraining diploma.`,
+Duration is from 6 months. On campus, online and international (field) modules, with a schedule that fits the team. On completion you receive a RUDN professional diploma.`,
       format: 'Очно / онлайн / выездные модули',
       durationRu: 'От 6 месяцев',
       durationEn: 'From 6 months',
@@ -317,13 +317,13 @@ MBA “Global Expansion. Entering new markets” is a classic modular program fo
 - Navigate international trade law and export, tax and customs regulation
 - Optimise supply chains and adopt innovation for scaling
 
-## Programme structure
+## Program structure
 
-The program consists of 22 modules grouped into thematic blocks — from strategic management and market research to law, foreign trade and logistics. It concludes with masterclasses, an entrepreneurs' mastermind and the preparation and defence of a capstone project — a company development roadmap.
+The program consists of 22 modules grouped into thematic blocks — from strategic management and market research to law, foreign trade and logistics. It concludes with masterclasses, an entrepreneurs' mastermind group and the preparation and defence of a capstone project — a company development roadmap.
 
 ## Format and qualification
 
-On campus or online, on a modular schedule. On completion you receive a RUDN professional retraining diploma awarding the MBA qualification.`,
+On campus or online, on a modular schedule. On completion you receive a RUDN diploma awarding the qualification of MBA.`,
       format: 'Очно / онлайн',
       durationRu: '1800 ак. часов',
       durationEn: '1,800 academic hours',
@@ -402,7 +402,7 @@ The total number of hours is 1,800, comprising 660 hours of classroom instructio
 
 ## Graduates may hold positions as
 
-- The General Director
+- General Director
 - Directors of the foreign branch/networks in Russia
 - Director of International Development
 - Marketing Director
@@ -410,7 +410,7 @@ The total number of hours is 1,800, comprising 660 hours of classroom instructio
 
 ## Format and qualification
 
-Online, in English or the participants' native language, over 12–24 months, with four field modules in Russia, including two practical modules of 14 days each. On completion you receive a RUDN professional retraining diploma.`,
+Online, in English or the participants' native language, over 12–24 months, with four field modules in Russia, including two practical modules of 14 days each. On completion you receive a RUDN professional diploma.`,
       format: 'Онлайн + выездные модули в России',
       durationRu: '12–24 месяца',
       durationEn: '12–24 months',
@@ -449,23 +449,23 @@ MBA «Управление финансами. Finance-Director» — класс
 Очно или онлайн, модульный график. По итогам обучения выдаётся диплом РУДН о профессиональной переподготовке с присвоением квалификации MBA.`,
       bodyEn: `## About the program
 
-MBA “Financial Management. Finance Director” is a classic modular program for CFOs, heads of finance functions and owners who want to run the company through numbers and value. It covers 50 credits and 1,800 academic hours, combining a solid management foundation with an in-depth block on corporate financial management.
+MBA “Financial Management. Finance Director” is a classic modular program for CFOs, heads of finance functions and owners who want to run their company through numbers and value. It covers 50 credits and 1,800 academic hours, combining a solid management foundation with an in-depth block on corporate financial management.
 
 ## What you will learn
 
 - Build the company's financial strategy and manage its value
 - Manage assets and liabilities, liquidity and financial risk
 - Work with investment analysis and project finance
-- Operate the company on financial markets and in an international setting
+- Operate their company on financial markets and in an international setting
 - Develop the management and leadership competencies of a finance leader
 
-## Programme structure
+## Program structure
 
 The program consists of 18 modules grouped into six blocks: “Leadership in business”, “Modern management”, “Business development”, “ESG aspects”, “Economics and finance” and “Financial management”. The studies are complemented by masterclasses and the “Running the Company” business game, and conclude with the preparation and defence of a capstone project.
 
 ## Format and qualification
 
-On campus or online, on a modular schedule. On completion you receive a RUDN professional retraining diploma awarding the MBA qualification.`,
+On campus or online, on a modular schedule. On completion you receive a RUDN diploma awarding the qualification of MBA.`,
       format: 'Очно / онлайн',
       durationRu: '1800 ак. часов',
       durationEn: '1,800 academic hours',

@@ -18,8 +18,8 @@ const en: Dictionary = {
     apply: 'Apply now',
   },
   faculty: {
-    lecturers: 'Programme lecturers',
-    trackers: 'Programme trackers',
+    lecturers: 'Program lecturers',
+    trackers: 'Program trackers',
     experts: 'International experts',
   },
   megaMenu: {
@@ -94,7 +94,7 @@ const en: Dictionary = {
     heroKicker: 'RUDN Business School · MBA',
     heroTitle: 'MBA for entrepreneurs and managers',
     heroSubtitle:
-      'MBA and business acceleration at the level of RUDN, an international university — for leaders and entrepreneurs who grow and earn recognition.',
+      'MBA and business acceleration at RUDN, an internationally renowned university, for leaders and entrepreneurs to grow in knowledge, expand their enterprise, and gain recognition.',
     heroCtaPrimary: 'Explore MBA',
     heroCtaSecondary: 'Apply now',
     quickNavTitle: 'Where to start',
@@ -102,7 +102,7 @@ const en: Dictionary = {
     programsTitle: 'Programs',
     programsSubtitle: 'From a classic MBA to acceleration and entering new markets.',
     forWhomTitle: 'Who our programs are for',
-    facultyTitle: 'Faculty & experts',
+    facultyTitle: 'Faculty & Experts',
     facultySubtitle: 'Practitioners from business, consulting and academia.',
     newsTitle: 'News & insights',
     publicationsTitle: 'Publications',

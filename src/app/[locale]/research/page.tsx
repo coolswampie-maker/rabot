@@ -61,7 +61,7 @@ export default async function ResearchPage({ params }: { params: { locale: Local
       {/* Research directions — compact, each links to its own page */}
       <section className="section">
         <div className="container">
-          <SectionHeading eyebrow={dict.common.field} title={ru ? 'Направления исследований' : 'Research directions'} />
+          <SectionHeading eyebrow={dict.common.field} title={ru ? 'Направления исследований' : 'Research'} />
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {researchDirections.map((d, i) => (
               <Link

@@ -155,7 +155,7 @@ export const acceleratorSteps: Bi[] = [
 export const acceleratorAdvantages: Bi[] = [
   { ru: 'Международная сеть выпускников РУДН', en: 'RUDN’s international alumni network' },
   { ru: 'Менторская и экспертная поддержка от профессионалов', en: 'Mentoring and expert support from professionals' },
-  { ru: 'Диплом о профессиональной переподготовке', en: 'A professional retraining diploma' },
+  { ru: 'Диплом о профессиональной переподготовке', en: 'A professional diploma' },
   { ru: 'Деловые связи на высоком уровне', en: 'High-level business connections' },
   { ru: 'Компетенции и навыки для международного развития, гибкая программа обучения', en: 'Competencies for international development and a flexible curriculum' },
 ];

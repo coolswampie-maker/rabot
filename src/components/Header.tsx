@@ -37,7 +37,7 @@ export default function Header({
         { label: 'Doing Business in Russia', href: lp('/programs/doing-business-in-russia'), desc: ru ? 'Англоязычная программа для иностранцев' : 'English-taught program for international students' },
         { label: dict.nav.admission, href: lp('/admission'), desc: ru ? 'Документы и вступительные эссе' : 'Documents and entrance essays' },
         { label: dict.nav.subsidy, href: lp('/subsidy'), desc: ru ? 'Субсидия до 95% на обучение' : 'Up to 95% training subsidy' },
-        { label: dict.nav.faculty, href: lp('/faculty'), desc: ru ? 'Преподаватели и эксперты' : 'Faculty & experts' },
+        { label: dict.nav.faculty, href: lp('/faculty'), desc: ru ? 'Преподаватели и эксперты' : 'Faculty & Experts' },
       ],
     },
     { key: 'accelerator', label: dict.nav.accelerator, href: lp('/accelerator') },

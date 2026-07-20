@@ -103,7 +103,7 @@ const curriculum: Record<string, CurriculumModule[]> = {
   'global-expansion': [
     {
       title: { ru: 'Новый продукт на новом рынке', en: 'New product in a new market' },
-      desc: { ru: 'Корпоративный трекинг: собрать стратегию нового продукта.', en: 'Corporate tracking: build the new-product strategy.' },
+      desc: { ru: 'Корпоративный трекинг: собрать стратегию нового продукта.', en: 'Corporate tracking: build a new product strategy.' },
       items: [
         { ru: 'Анализ рынка и конкурентный анализ', en: 'Market and competitive analysis' },
         { ru: 'Ценностное предложение', en: 'Value proposition' },
@@ -254,7 +254,7 @@ const curriculum: Record<string, CurriculumModule[]> = {
     },
     {
       title: { ru: 'Современный менеджмент', en: 'Modern management' },
-      desc: { ru: 'Управлять стратегией, коммуникациями и в кросс-культурной среде.', en: 'Manage strategy, communications and in a cross-cultural environment.' },
+      desc: { ru: 'Управлять стратегией, коммуникациями и в кросс-культурной среде.', en: 'Manage strategy and communications in a cross-cultural environment.' },
       items: [
         { ru: 'Стратегический менеджмент', en: 'Strategic management' },
         { ru: 'Коммуникационный менеджмент', en: 'Communications management' },

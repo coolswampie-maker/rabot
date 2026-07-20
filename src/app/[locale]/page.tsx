@@ -136,7 +136,7 @@ export default async function HomePage({ params }: { params: { locale: Locale } 
           <SectionHeading
             eyebrow={dict.brandShort}
             title={ru ? 'С чего начать' : 'Where to start'}
-            subtitle={ru ? 'Три направления школы бизнеса РУДН — выберите своё.' : 'Three directions of RUDN Business School — choose yours.'}
+            subtitle={ru ? 'Три направления школы бизнеса РУДН — выберите своё.' : 'Multiple paths at RUDN Business School — choose yours.'}
             align="center"
           />
           <div className="grid gap-7 md:grid-cols-3">

@@ -52,7 +52,7 @@ export const faq: { q: Bi; a: Bi }[] = [
     },
     a: {
       ru: 'По итогам обучения вы получаете диплом о профессиональной переподготовке с присвоением квалификации MBA от Российского университета дружбы народов.',
-      en: 'On completion you receive a professional retraining diploma awarding the MBA qualification from RUDN University.',
+      en: 'On completion you receive a diploma awarding the qualification of MBA from RUDN University.',
     },
   },
   {
